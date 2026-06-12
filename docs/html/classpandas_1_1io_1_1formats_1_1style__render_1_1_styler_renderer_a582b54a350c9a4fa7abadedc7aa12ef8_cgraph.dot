@@ -1,0 +1,20 @@
+digraph "pandas.io.formats.style_render.StylerRenderer._generate_body_row"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.io.formats.style\l_render.StylerRenderer.\l_generate_body_row",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.io.formats.style\l_render.StylerRenderer.\l_check_trim",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1formats_1_1style__render_1_1_styler_renderer.html#a85e42146d9eed661a5bd258d72527370",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.io.formats.style\l_render._element",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1io_1_1formats_1_1style__render.html#a30e4fefff7b95cf2e26b66e7f9b18fd4",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pandas.io.formats.style\l_render.StylerRenderer.\l_generate_trimmed_row",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1formats_1_1style__render_1_1_styler_renderer.html#a80f18454c9d7a2312e0765fd3e77c049",tooltip=" "];
+  Node4 -> Node2 [id="edge4_Node000004_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node3 [id="edge5_Node000004_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge6_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge7_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pandas.io.formats.style\l_render._is_visible",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1io_1_1formats_1_1style__render.html#a3c3f043ad4a8ff61910daea3f5447929",tooltip=" "];
+}

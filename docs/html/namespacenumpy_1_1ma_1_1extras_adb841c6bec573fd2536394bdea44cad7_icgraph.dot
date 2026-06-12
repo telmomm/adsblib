@@ -1,0 +1,23 @@
+digraph "numpy.ma.extras.median"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy.ma.extras.median",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.ma.tests.test\l_extras.TestMedian.test_2d",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1ma_1_1tests_1_1test__extras_1_1_test_median.html#acee27f09677514821919f11a5219d13a",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.ma.tests.test\l_extras.TestMedian.test\l_2d_waxis",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1ma_1_1tests_1_1test__extras_1_1_test_median.html#a6891a8682c63cedbb8c9fe89725ab4ca",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.ma.tests.test\l_extras.TestMedian.test_3d",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1ma_1_1tests_1_1test__extras_1_1_test_median.html#a0a1bd99017e91348ca3000be294e816c",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="numpy.ma.tests.test\l_extras.TestMedian.test\l_keepdims_out",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1ma_1_1tests_1_1test__extras_1_1_test_median.html#a33f47aede7d9cc7521652237de259945",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="numpy.ma.tests.test\l_extras.TestMedian.test\l_neg_axis",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1ma_1_1tests_1_1test__extras_1_1_test_median.html#a12c29d1d467437cb4904891bd6f45593",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="numpy.ma.tests.test\l_extras.TestMedian.test_out",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1ma_1_1tests_1_1test__extras_1_1_test_median.html#a73c43c14d26c8d069de1d7cf3878cff6",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="numpy.ma.tests.test\l_extras.TestMedian.test\l_out_1d",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1ma_1_1tests_1_1test__extras_1_1_test_median.html#adfd09b14c5723bb6c57226ea7363c9d7",tooltip=" "];
+}

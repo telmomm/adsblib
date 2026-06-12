@@ -1,0 +1,13 @@
+digraph "matplotlib.transforms.Bbox.x0"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="matplotlib.transforms.Bbox.x0",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.transforms.Transform\lNode.invalidate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1transforms_1_1_transform_node.html#aa1164b8947d1245b0bacf6cd59332fc6",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.transforms.Transform\lNode._invalidate_internal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1transforms_1_1_transform_node.html#a40f3c67a714fbf754e9c0b4674a1d75c",tooltip=" "];
+}

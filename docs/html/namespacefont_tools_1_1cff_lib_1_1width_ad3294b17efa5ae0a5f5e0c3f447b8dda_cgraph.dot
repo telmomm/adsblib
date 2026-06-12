@@ -1,0 +1,20 @@
+digraph "fontTools.cffLib.width.main"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="fontTools.cffLib.width.main",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="fontTools.cffLib.width.byteCost",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1cff_lib_1_1width.html#a30243bc47d61d06553ed5d763e2e5a45",tooltip=" "];
+  Node1 -> Node1 [id="edge2_Node000001_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="fontTools.cffLib.width.optimize\lWidths",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1cff_lib_1_1width.html#aba787af260f22af1a606b8a348f417b1",tooltip=" "];
+  Node3 -> Node2 [id="edge4_Node000003_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node4 [id="edge5_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="fontTools.cffLib.width.cumSum",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1cff_lib_1_1width.html#a6d3a39efbec8b64e1ec99bab93d363f1",tooltip=" "];
+  Node1 -> Node5 [id="edge6_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="fontTools.cffLib.width.optimize\lWidthsBruteforce",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1cff_lib_1_1width.html#a8f46ee9878903b2f4029ab2ce9ced0b0",tooltip=" "];
+  Node5 -> Node2 [id="edge7_Node000005_Node000002",color="steelblue1",style="solid",tooltip=" "];
+}

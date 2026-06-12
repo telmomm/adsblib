@@ -1,0 +1,14 @@
+digraph "IPython.core.magic_arguments.MagicArgumentParser.parse_argstring"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="IPython.core.magic\l_arguments.MagicArgumentParser.parse\l_argstring",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._internal.cli.base\l_command.Command.parse_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__internal_1_1cli_1_1base__command_1_1_command.html#ae5d2ab6756b8ba6603587cbb39b9127f",tooltip=" "];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="traitlets.config.loader.\l_KVArgParser.parse_known_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classtraitlets_1_1config_1_1loader_1_1___k_v_arg_parser.html#a007e7ffd1964dfc411541a08a25d5006",tooltip=" "];
+}

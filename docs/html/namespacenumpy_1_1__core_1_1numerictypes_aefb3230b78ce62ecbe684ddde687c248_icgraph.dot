@@ -1,0 +1,11 @@
+digraph "numpy._core.numerictypes._preprocess_dtype"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy._core.numerictypes.\l_preprocess_dtype",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy._core.numerictypes.isdtype",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1__core_1_1numerictypes.html#a9b60e30cc778350981acd4e7424c9ba5",tooltip=" "];
+}

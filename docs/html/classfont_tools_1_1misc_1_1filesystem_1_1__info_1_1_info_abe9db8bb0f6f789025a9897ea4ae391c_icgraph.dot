@@ -1,0 +1,15 @@
+digraph "fontTools.misc.filesystem._info.Info.is_file"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="fontTools.misc.filesystem.\l_info.Info.is_file",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pkg_resources._vendor.importlib\l_resources._adapters.Compatibility\lFiles.ChildPath.is_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpkg__resources_1_1__vendor_1_1importlib__resources_1_1__adapters_1_1_compatibility_files_1_1_child_path.html#af54a811e8ecc791a1cf7db64f4795f46",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="setuptools._vendor.importlib\l_resources._adapters.Compatibility\lFiles.ChildPath.is_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__vendor_1_1importlib__resources_1_1__adapters_1_1_compatibility_files_1_1_child_path.html#af5e5e54c529aadef48e6fd7c6f4de111",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pip._internal.metadata.base.\lBaseDistribution.requested",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__internal_1_1metadata_1_1base_1_1_base_distribution.html#ae62a4f2aa9d5470855f821b023e4df66",tooltip=" "];
+}

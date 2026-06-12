@@ -1,0 +1,22 @@
+digraph "numpy.linalg.tests.test_linalg.TestMultiDot.test_dynamic_programming_optimization_and_out"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="numpy.linalg.tests.test\l_linalg.TestMultiDot.test\l_dynamic_programming_optimization\l_and_out",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.linalg.tests.test\l_linalg.assert_almost_equal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1linalg_1_1tests_1_1test__linalg.html#a1467bd400ed80cc859c64140513876bc",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.linalg._linalg.multi_dot",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1linalg_1_1__linalg.html#a3c00dc81cd1866bbeda9eef5a4fc3c3c",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.linalg._linalg.\l_assert_2d",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1linalg_1_1__linalg.html#a27ea506c5c417c8d3750708d48d3981b",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="numpy.linalg._linalg.\l_multi_dot",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1linalg_1_1__linalg.html#ada7a00262ffee6853e9af4552d2273ff",tooltip=" "];
+  Node5 -> Node5 [id="edge5_Node000005_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node6 [id="edge6_Node000003_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="numpy.linalg._linalg.\l_multi_dot_matrix_chain_order",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1linalg_1_1__linalg.html#a51bd510d0fb4bc386578052752618cde",tooltip=" "];
+  Node3 -> Node7 [id="edge7_Node000003_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="numpy.linalg._linalg.\l_multi_dot_three",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1linalg_1_1__linalg.html#a250af2f0f0722e7b02c1c913e14b307f",tooltip=" "];
+}

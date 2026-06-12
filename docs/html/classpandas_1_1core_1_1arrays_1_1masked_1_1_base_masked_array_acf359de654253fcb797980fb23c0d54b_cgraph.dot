@@ -1,0 +1,25 @@
+digraph "pandas.core.arrays.masked.BaseMaskedArray.sum"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.core.arrays.masked.\lBaseMaskedArray.sum",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.arrays.masked.\lBaseMaskedArray._wrap_min\l_count_reduction_result",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1arrays_1_1masked_1_1_base_masked_array.html#a77d0862ef304589aa15382a30072f711",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.core.arrays.masked.\lBaseMaskedArray._maybe\l_mask_result",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1arrays_1_1masked_1_1_base_masked_array.html#a739488dad7f5215ae33200e314e2eb0f",tooltip=" "];
+  Node3 -> Node3 [id="edge3_Node000003_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pandas.core.arrays.\l_mixins.NDArrayBackedExtension\lArray._wrap_reduction_result",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1arrays_1_1__mixins_1_1_n_d_array_backed_extension_array.html#a5ea5ddd1b8ab9db8e617cf5b27724867",tooltip=" "];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pandas.core.arrays.\l_mixins.NDArrayBackedExtension\lArray._box_func",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1arrays_1_1__mixins_1_1_n_d_array_backed_extension_array.html#af3474698aecc14e24242372bf2ca74ac",tooltip=" "];
+  Node2 -> Node6 [id="edge6_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="pandas.core.arrays.masked.\lBaseMaskedArray._wrap_reduction_result",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1arrays_1_1masked_1_1_base_masked_array.html#a77825300b984c67e56d485537092c93c",tooltip=" "];
+  Node6 -> Node3 [id="edge7_Node000006_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node7 [id="edge8_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pandas.core.arrays.masked.\lBaseMaskedArray.all",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1arrays_1_1masked_1_1_base_masked_array.html#a1f907974c53c378567b95d079ded7aee",tooltip=" "];
+  Node6 -> Node8 [id="edge9_Node000006_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="pandas.core.arrays.masked.\lBaseMaskedArray.any",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1arrays_1_1masked_1_1_base_masked_array.html#a99c251c27abdd0e24950a33095ff2f44",tooltip=" "];
+}

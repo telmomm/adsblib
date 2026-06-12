@@ -1,0 +1,39 @@
+digraph "debugpy.common.messaging.Message.is_event"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="debugpy.common.messaging.\lMessage.is_event",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="debugpy.adapter.clients.\lClient.event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdebugpy_1_1adapter_1_1clients_1_1_client.html#a0744bc44d96e1e4944a27f97a4657795",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="debugpy.adapter.servers.\lConnection.event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdebugpy_1_1adapter_1_1servers_1_1_connection.html#adcdba5146b56732c5c30e8317e66c332",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="debugpy.adapter.servers.\lServer.event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdebugpy_1_1adapter_1_1servers_1_1_server.html#a4eb15f906a7f6e005f585063f1dcc928",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="debugpy.adapter.components.\lComponent.client",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdebugpy_1_1adapter_1_1components_1_1_component.html#a22106baf4cadf37c8b25c4fefb40c6d2",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="winappdbg.event.EventSift.event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwinappdbg_1_1event_1_1_event_sift.html#ae7428020d7ce8cf2938d1ee985481d0b",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="winappdbg.interactive.Console\lDebugger.event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwinappdbg_1_1interactive_1_1_console_debugger.html#ad22964c8af257aad3da86f8e7a09bc3f",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="winappdbg.interactive.Console\lDebugger.print_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwinappdbg_1_1interactive_1_1_console_debugger.html#a0783b0d7d4308c87800adc93a34dbbd7",tooltip=" "];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="winappdbg.interactive.Console\lDebugger.print_event_location",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwinappdbg_1_1interactive_1_1_console_debugger.html#a95f18b126c989f75b946b85b187d385c",tooltip=" "];
+  Node9 -> Node10 [id="edge9_Node000009_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="winappdbg.interactive.Console\lDebugger.print_current_location",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwinappdbg_1_1interactive_1_1_console_debugger.html#a33d6b010aba8f8c6746d030cae4c2f04",tooltip=" "];
+  Node10 -> Node11 [id="edge10_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="winappdbg.interactive.Console\lDebugger.get_process",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwinappdbg_1_1interactive_1_1_console_debugger.html#a366e871b7e32427abcca7d4252b4aefb",tooltip=" "];
+  Node11 -> Node11 [id="edge11_Node000011_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node12 [id="edge12_Node000010_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="winappdbg.interactive.Console\lDebugger.get_thread",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwinappdbg_1_1interactive_1_1_console_debugger.html#a5b31727064429b633b706aa2ccedcf5f",tooltip=" "];
+  Node12 -> Node12 [id="edge13_Node000012_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node13 [id="edge14_Node000007_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="winappdbg.interactive.Console\lDebugger.prompt_user",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwinappdbg_1_1interactive_1_1_console_debugger.html#a415e6c2d9422258e7da67fe20539e1b5",tooltip=" "];
+  Node13 -> Node14 [id="edge15_Node000013_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="IPython.core.debugger.Interruptible\lPdb.cmdloop",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1debugger_1_1_interruptible_pdb.html#a3c3246f799350f537efe9cbb05fa5fd0",tooltip=" "];
+  Node13 -> Node15 [id="edge16_Node000013_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="IPython.terminal.debugger.\lTerminalPdb.cmdloop",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1terminal_1_1debugger_1_1_terminal_pdb.html#ad132058c05caecca1ebd77386467a2e6",tooltip=" "];
+}

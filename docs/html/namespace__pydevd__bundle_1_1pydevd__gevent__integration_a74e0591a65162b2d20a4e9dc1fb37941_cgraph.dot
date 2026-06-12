@@ -1,0 +1,17 @@
+digraph "_pydevd_bundle.pydevd_gevent_integration.greenlet_events"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="_pydevd_bundle.pydevd\l_gevent_integration.greenlet\l_events",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pydevd_bundle.pydevd\l_gevent_integration.\l_get_paused_name",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pydevd__bundle_1_1pydevd__gevent__integration.html#a39c0eb70a77d309a3e11c91b6d5a90c4",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pydevd_tracing.reapply\l_settrace",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepydevd__tracing.html#abf8ce99f9ccc17948a266aca2c7d35c0",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pydevd_tracing.SetTrace",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepydevd__tracing.html#ab24c2b0789b178fa0346a6bafae9ff0b",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pydevd_tracing.set\l_trace_to_threads",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepydevd__tracing.html#a7593d967004617e396df18ddcfa91093",tooltip=" "];
+}

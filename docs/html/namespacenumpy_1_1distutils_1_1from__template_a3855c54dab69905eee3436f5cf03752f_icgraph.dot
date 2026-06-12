@@ -1,0 +1,16 @@
+digraph "numpy.distutils.from_template.parse_structure"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy.distutils.from\l_template.parse_structure",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.distutils.from\l_template.process_str",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1distutils_1_1from__template.html#aaf0ee63ee4177e5046b5e2f11645bb90",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.distutils.from\l_template.main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1distutils_1_1from__template.html#af1ae1f85f96c4626bd4510c3e78f9ad3",tooltip=" "];
+  Node3 -> Node3 [id="edge3_Node000003_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.distutils.from\l_template.process_file",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1distutils_1_1from__template.html#aa5e005f51159703023842478c732ad04",tooltip=" "];
+}

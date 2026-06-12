@@ -1,0 +1,37 @@
+digraph "numpy.f2py.capi_maps.getstrlength"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy.f2py.capi_maps.getstrlength",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.f2py.capi_maps.cb\l_routsign2map",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1capi__maps.html#a4200b6dae8f7c85efe5d832f9031f4c4",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.f2py.capi_maps.common\l_sign2map",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1capi__maps.html#a7cf8deb34604e79e5b29af912394707c",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.f2py.capi_maps.get\l_elsize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1capi__maps.html#aea7f214184aa9f878abcb51a3c90f33a",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="numpy.f2py.capi_maps.cb\l_sign2map",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1capi__maps.html#a7969a06f711607505c96e3e24979d4a8",tooltip=" "];
+  Node4 -> Node3 [id="edge5_Node000004_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node6 [id="edge6_Node000004_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="numpy.f2py.capi_maps.sign2map",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1capi__maps.html#aad2202fb1856c923324494638bfe5604",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="numpy.f2py.capi_maps.getarrdims",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1capi__maps.html#ac694fadcbb8ab57e8a422c008129eb4d",tooltip=" "];
+  Node7 -> Node5 [id="edge8_Node000007_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node3 [id="edge9_Node000007_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node6 [id="edge10_Node000007_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge11_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="numpy.f2py.capi_maps.getpydocsign",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1capi__maps.html#aed5dd771036c597e838788d44324c83e",tooltip=" "];
+  Node8 -> Node2 [id="edge12_Node000008_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node5 [id="edge13_Node000008_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node3 [id="edge14_Node000008_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node8 [id="edge15_Node000008_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node9 [id="edge16_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="numpy.f2py.capi_maps.routsign2map",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1capi__maps.html#a71b26e9e0fe59ac5a27fd3ed116238bb",tooltip=" "];
+  Node8 -> Node6 [id="edge17_Node000008_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node1 [id="edge18_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node9 [id="edge19_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge20_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

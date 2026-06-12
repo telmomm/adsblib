@@ -1,0 +1,15 @@
+digraph "matplotlib.cbook.is_scalar_or_string"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="matplotlib.cbook.is\l_scalar_or_string",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.cbook._combine\l_masks",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1cbook.html#a8e5270a8424dda2fd671b3da53f10943",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.cbook.delete\l_masked_points",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1cbook.html#a0574192dc644b3f7276891b1a963b533",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="matplotlib.cbook.violin\l_stats",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1cbook.html#a1588022950a76db5312b7842da572e01",tooltip=" "];
+}

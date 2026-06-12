@@ -1,0 +1,15 @@
+digraph "pandas.core.arrays.arrow.accessors.StructAccessor.explode"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.core.arrays.arrow.accessors.\lStructAccessor.explode",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.arrays.arrow.accessors.\lArrowAccessor._pa_array",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1arrays_1_1arrow_1_1accessors_1_1_arrow_accessor.html#a8567ed58e2bfb72b3923457baa194c92",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy._core.records.recarray.field",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1__core_1_1records_1_1recarray.html#af8ee5335b7127ee6d9ee0809a1450804",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pandas.core.arrays.arrow.accessors.\lStructAccessor.field",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1arrays_1_1arrow_1_1accessors_1_1_struct_accessor.html#af9020e27950078569f3d96b96fd900a7",tooltip=" "];
+}

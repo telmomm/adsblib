@@ -1,0 +1,22 @@
+digraph "numpy.lib._histograms_impl._ptp"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy.lib._histograms\l_impl._ptp",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.lib._histograms\l_impl._hist_bin_doane",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__histograms__impl.html#a8e355459c7f79c165600edbd721722ec",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.lib._histograms\l_impl._hist_bin_rice",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__histograms__impl.html#ab655fc41559e2a4381142c2f3546891a",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.lib._histograms\l_impl._hist_bin_sqrt",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__histograms__impl.html#a393ede15616e6039d7717ecf2a851cbb",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="numpy.lib._histograms\l_impl._hist_bin_auto",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__histograms__impl.html#af3b6202ba7369b26ba06288d67db7b4c",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="numpy.lib._histograms\l_impl._hist_bin_stone",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__histograms__impl.html#a051087d42f8a529c841deaf425ccf992",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="numpy.lib._histograms\l_impl._hist_bin_sturges",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__histograms__impl.html#a9248938faf5de6ddad36edd82ca62809",tooltip=" "];
+  Node7 -> Node5 [id="edge7_Node000007_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

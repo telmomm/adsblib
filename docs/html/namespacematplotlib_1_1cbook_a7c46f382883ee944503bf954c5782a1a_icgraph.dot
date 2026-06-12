@@ -1,0 +1,21 @@
+digraph "matplotlib.cbook._is_jax_array"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="matplotlib.cbook._is\l_jax_array",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.cbook._unpack\l_to_numpy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1cbook.html#ababb5661eae59d4838cc47c978484452",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.cbook._check_1d",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1cbook.html#a0661f9b28354e95ce2551ac34d0a467b",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="matplotlib.cbook.index_of",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1cbook.html#a3b5d1ad31c90a6479c5938d793401a99",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="matplotlib.cbook._reshape_2D",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1cbook.html#a6662f7f6096aececf309bac8a9245aa3",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="matplotlib.cbook.boxplot\l_stats",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1cbook.html#a52b74e34e2ec3a6424c4b5d4e1fc2325",tooltip=" "];
+  Node5 -> Node7 [id="edge6_Node000005_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="matplotlib.cbook.violin\l_stats",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1cbook.html#a1588022950a76db5312b7842da572e01",tooltip=" "];
+}

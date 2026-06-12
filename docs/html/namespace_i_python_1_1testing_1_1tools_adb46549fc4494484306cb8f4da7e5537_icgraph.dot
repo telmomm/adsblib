@@ -1,0 +1,17 @@
+digraph "IPython.testing.tools.get_ipython_cmd"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="IPython.testing.tools.get\l_ipython_cmd",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPython.testing.tools.help\l_all_output_test",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1testing_1_1tools.html#aac9b2d55743e1ebda056e5369974d2c4",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="IPython.testing.tools.help\l_output_test",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1testing_1_1tools.html#aad6d525aa1cb5893ccd7ecb1c70a06a7",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="IPython.testing.tools.ipexec",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1testing_1_1tools.html#abaa86679f6d8253fc5ec83feeb03ebcb",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="IPython.testing.tools.ipexec\l_validate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1testing_1_1tools.html#a4df8e1116286873e4e82ad151dde216f",tooltip=" "];
+}

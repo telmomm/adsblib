@@ -1,0 +1,18 @@
+digraph "IPython.terminal.magics.TerminalMagics.preclean_input"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="IPython.terminal.magics.\lTerminalMagics.preclean_input",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPython.terminal.magics.\lTerminalMagics.store_or\l_execute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1terminal_1_1magics_1_1_terminal_magics.html#a6669e853f7a8cca74eef303e42aa783f",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="IPython.terminal.magics.\lTerminalMagics.cpaste",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1terminal_1_1magics_1_1_terminal_magics.html#a27cce32a0b134fe47794e2d3f76936f8",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="IPython.terminal.magics.\lTerminalMagics.paste",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1terminal_1_1magics_1_1_terminal_magics.html#ae698b0e31750529b2585e4b41adeade7",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PIL.Image.Image.alpha\l_composite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_i_l_1_1_image_1_1_image.html#a325f74efd8f14bb022489f2bcb06e0ac",tooltip=" "];
+  Node5 -> Node5 [id="edge5_Node000005_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

@@ -1,0 +1,13 @@
+digraph "matplotlib.backend_bases.ToolContainerBase.add_tool"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="matplotlib.backend\l_bases.ToolContainerBase.add_tool",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.backend\l_bases.ToolContainerBase.\l_get_image_filename",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backend__bases_1_1_tool_container_base.html#a4fd1d2f4d63b1650e9b2950509876e98",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.backend\l_bases.ToolContainerBase.add\l_toolitem",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backend__bases_1_1_tool_container_base.html#ad69d4950ad8f62ab5a1f4993214f03f3",tooltip=" "];
+}

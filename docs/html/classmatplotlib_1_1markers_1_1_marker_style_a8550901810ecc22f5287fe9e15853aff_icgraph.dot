@@ -1,0 +1,23 @@
+digraph "matplotlib.markers.MarkerStyle._set_caretdown"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="matplotlib.markers.Marker\lStyle._set_caretdown",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.markers.Marker\lStyle._set_caretdownbase",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1markers_1_1_marker_style.html#aebba53661a348cedf338ed72e40cfd4a",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.markers.Marker\lStyle._set_caretleftbase",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1markers_1_1_marker_style.html#a9ee989cdff162fb8b1b9712b35e912f4",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="matplotlib.markers.Marker\lStyle._set_caretrightbase",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1markers_1_1_marker_style.html#a9303de995ba1b9ae173e41c6830583dc",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="matplotlib.markers.Marker\lStyle._set_caretupbase",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1markers_1_1_marker_style.html#a527ee9283920187539b28e31aea31965",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="matplotlib.markers.Marker\lStyle._set_caretleft",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1markers_1_1_marker_style.html#a5771232756668fc7bb4623d9f675329a",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="matplotlib.markers.Marker\lStyle._set_caretright",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1markers_1_1_marker_style.html#adf208e6f1b931eb2d87864590203edcd",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="matplotlib.markers.Marker\lStyle._set_caretup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1markers_1_1_marker_style.html#a953cd67c218ecb0e9179f3ba3a420352",tooltip=" "];
+}

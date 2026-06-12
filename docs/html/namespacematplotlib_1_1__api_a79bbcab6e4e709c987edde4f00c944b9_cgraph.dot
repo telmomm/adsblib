@@ -1,0 +1,11 @@
+digraph "matplotlib._api.check_in_list"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="matplotlib._api.check\l_in_list",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib._api.list\l_suggestion_error_msg",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1__api.html#af8481d2437541ae6f3d9936770856edf",tooltip=" "];
+}

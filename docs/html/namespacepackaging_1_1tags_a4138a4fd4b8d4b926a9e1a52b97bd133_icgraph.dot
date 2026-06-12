@@ -1,0 +1,21 @@
+digraph "packaging.tags.mac_platforms"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="packaging.tags.mac\l_platforms",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="packaging.tags.platform_tags",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepackaging_1_1tags.html#aa017f8160b48cb037b5ce595c474012c",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="packaging.tags.compatible_tags",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepackaging_1_1tags.html#ab9d6cde7f3f091686327328a72337dc5",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="packaging.tags.sys_tags",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepackaging_1_1tags.html#a46b71f04a612fe09f0b928871fbbf9be",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="packaging.tags.cpython_tags",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepackaging_1_1tags.html#aad40205d6a84cbf6da6791f3f8d68afe",tooltip=" "];
+  Node5 -> Node4 [id="edge5_Node000005_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node6 [id="edge6_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="packaging.tags.generic_tags",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepackaging_1_1tags.html#a4e32525b72a4e26b173a51e5ea93a253",tooltip=" "];
+  Node6 -> Node4 [id="edge7_Node000006_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

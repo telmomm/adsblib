@@ -1,0 +1,11 @@
+digraph "matplotlib.gridspec.GridSpecBase.get_subplot_params"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="matplotlib.gridspec.Grid\lSpecBase.get_subplot_params",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.gridspec.Grid\lSpecBase.get_grid_positions",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1gridspec_1_1_grid_spec_base.html#a2531e40d004e5ca77d37df909584059b",tooltip=" "];
+}

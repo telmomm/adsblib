@@ -1,0 +1,15 @@
+digraph "pandas.io.formats.format._GenericArrayFormatter.get_result"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.io.formats.format.\l_GenericArrayFormatter.get_result",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.io.formats.format.\l_GenericArrayFormatter.\l_format_strings",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1formats_1_1format_1_1___generic_array_formatter.html#a9eedcd040c921bc691d9a4c5507290c1",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.io.formats.format.\l_trim_zeros_single_float",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1io_1_1formats_1_1format.html#aed0b23aa11add4873c4f951b9c6c2c2a",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pandas.io.formats.format.\l_make_fixed_width",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1io_1_1formats_1_1format.html#a0fd85d3b4d6f198a231481e0cc750ada",tooltip=" "];
+}

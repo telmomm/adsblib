@@ -1,0 +1,19 @@
+digraph "matplotlib.testing.decorators._ImageComparisonBase.copy_baseline"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="matplotlib.testing.decorators.\l_ImageComparisonBase.copy\l_baseline",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.testing.decorators.\l_ImageComparisonBase.compare",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1testing_1_1decorators_1_1___image_comparison_base.html#af1cca225fbabfe4712211d86f54bab17",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.tests.io.formats.test\l_eng_formatting.TestEngFormatter.compare_all",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1tests_1_1io_1_1formats_1_1test__eng__formatting_1_1_test_eng_formatter.html#ade01523f3fa9f5a5a1f4a42041e0fb17",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pandas.tests.io.formats.test\l_eng_formatting.TestEngFormatter.test\l_exponents_with_eng_prefix",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1tests_1_1io_1_1formats_1_1test__eng__formatting_1_1_test_eng_formatter.html#a1a1f07d935c5110031619d99d21e5532",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pandas.tests.io.formats.test\l_eng_formatting.TestEngFormatter.test\l_exponents_without_eng_prefix",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1tests_1_1io_1_1formats_1_1test__eng__formatting_1_1_test_eng_formatter.html#a6e8fe87b5df88686a4f137bb7a54b82c",tooltip=" "];
+  Node3 -> Node6 [id="edge5_Node000003_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="pandas.tests.io.formats.test\l_eng_formatting.TestEngFormatter.test\l_rounding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1tests_1_1io_1_1formats_1_1test__eng__formatting_1_1_test_eng_formatter.html#ac319c982fb2e09897206a7b7bcb92373",tooltip=" "];
+}

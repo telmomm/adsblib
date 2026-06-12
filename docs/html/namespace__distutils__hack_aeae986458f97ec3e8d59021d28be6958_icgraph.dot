@@ -1,0 +1,17 @@
+digraph "_distutils_hack.remove_shim"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_distutils_hack.remove_shim",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_distutils_hack.shim.\l__exit__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__distutils__hack_1_1shim.html#a2ec82ef1757fbab2b61d9a9b76720559",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="setuptools.sandbox.hide\l_setuptools",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesetuptools_1_1sandbox.html#a579ab6c2031e94770efe338681e83bd7",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="setuptools.sandbox.setup\l_context",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesetuptools_1_1sandbox.html#a8e87463f0039530f6b3b039c58ec09da",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="setuptools.sandbox.run\l_setup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesetuptools_1_1sandbox.html#a964522b9141f1d217f4c117aae1a409f",tooltip=" "];
+}

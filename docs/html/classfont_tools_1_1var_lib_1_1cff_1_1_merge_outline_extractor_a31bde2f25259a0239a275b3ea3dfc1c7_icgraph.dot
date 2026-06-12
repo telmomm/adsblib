@@ -1,0 +1,13 @@
+digraph "fontTools.varLib.cff.MergeOutlineExtractor._get_hintmask"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="fontTools.varLib.cff.Merge\lOutlineExtractor._get_hintmask",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="fontTools.varLib.cff.Merge\lOutlineExtractor.op_cntrmask",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1var_lib_1_1cff_1_1_merge_outline_extractor.html#a0655438a3ac3cdc6fcbb619be2dffe4f",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="fontTools.varLib.cff.Merge\lOutlineExtractor.op_hintmask",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1var_lib_1_1cff_1_1_merge_outline_extractor.html#a1b46b0c5950ecc34f5357b73c2385754",tooltip=" "];
+}

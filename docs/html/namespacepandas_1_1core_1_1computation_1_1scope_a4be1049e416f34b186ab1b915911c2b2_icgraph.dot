@@ -1,0 +1,13 @@
+digraph "pandas.core.computation.scope._get_pretty_string"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pandas.core.computation.scope.\l_get_pretty_string",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.computation.scope.\lScope.__repr__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1computation_1_1scope_1_1_scope.html#a06d1fd252b2df0eca1f3e8a35bf161eb",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="traitlets.traitlets.\l_SimpleTest.__str__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classtraitlets_1_1traitlets_1_1___simple_test.html#a95bff6711aec691e94cb41f4b7aeeffd",tooltip=" "];
+}

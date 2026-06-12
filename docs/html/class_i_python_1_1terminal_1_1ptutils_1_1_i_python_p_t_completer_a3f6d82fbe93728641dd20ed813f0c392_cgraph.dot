@@ -1,0 +1,17 @@
+digraph "IPython.terminal.ptutils.IPythonPTCompleter._get_completions"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="IPython.terminal.ptutils.\lIPythonPTCompleter._get\l_completions",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPython.terminal.ptutils.\l_adjust_completion_text\l_based_on_context",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1terminal_1_1ptutils.html#a92cdcc03e1b7400fb24b8e9c4fa3e6ab",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="IPython.terminal.ptutils.\l_elide",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1terminal_1_1ptutils.html#a1ad3090923ccff8641fcb75c0d132942",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="IPython.terminal.ptutils.\l_elide_point",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1terminal_1_1ptutils.html#ad1d11981e0785681fc5d71c097360e7a",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="IPython.terminal.ptutils.\l_elide_typed",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1terminal_1_1ptutils.html#a8e63001d9e6af3ea73d268b9f793fff6",tooltip=" "];
+}

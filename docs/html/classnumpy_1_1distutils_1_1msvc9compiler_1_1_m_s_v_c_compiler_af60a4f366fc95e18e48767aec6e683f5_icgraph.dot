@@ -1,0 +1,11 @@
+digraph "numpy.distutils.msvc9compiler.MSVCCompiler.manifest_setup_ldargs"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy.distutils.msvc9compiler.\lMSVCCompiler.manifest_setup_ldargs",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="setuptools._distutils.msvc9compiler.\lMSVCCompiler.link",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__distutils_1_1msvc9compiler_1_1_m_s_v_c_compiler.html#a0c96b6aa97f0cccac88db8bc4220274f",tooltip=" "];
+}

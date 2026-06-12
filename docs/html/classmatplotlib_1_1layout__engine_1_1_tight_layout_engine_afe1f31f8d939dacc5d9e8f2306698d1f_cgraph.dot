@@ -1,0 +1,48 @@
+digraph "matplotlib.layout_engine.TightLayoutEngine.set"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="matplotlib.layout_engine.\lTightLayoutEngine.set",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pydevd_frame_eval.vendored.bytecode.instr.\lInstr.set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydevd__frame__eval_1_1vendored_1_1bytecode_1_1instr_1_1_instr.html#a57c9080436784255c9f4b09ff9209a02",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pydevd_frame_eval.vendored.bytecode.concrete.\lConcreteInstr._set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydevd__frame__eval_1_1vendored_1_1bytecode_1_1concrete_1_1_concrete_instr.html#a3f2bc2759ca76423fe25a024b82d6215",tooltip=" "];
+  Node3 -> Node3 [id="edge3_Node000003_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pydevd_frame_eval.vendored.bytecode.instr.\lInstr._set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydevd__frame__eval_1_1vendored_1_1bytecode_1_1instr_1_1_instr.html#a60dc6ca279fb646a941ecef4fc3acdf6",tooltip=" "];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="_pydevd_frame_eval.vendored.bytecode.concrete.\lConcreteInstr._check_arg",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydevd__frame__eval_1_1vendored_1_1bytecode_1_1concrete_1_1_concrete_instr.html#a973810f2a0f42779a4e402d038e8b0d6",tooltip=" "];
+  Node4 -> Node6 [id="edge6_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="_pydevd_frame_eval.vendored.bytecode.instr.\lInstr._check_arg",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydevd__frame__eval_1_1vendored_1_1bytecode_1_1instr_1_1_instr.html#a75de4143ed42fbe3ad2750a64886715a",tooltip=" "];
+  Node6 -> Node7 [id="edge7_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="_pydevd_frame_eval.vendored.bytecode.instr.\l_check_arg_int",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pydevd__frame__eval_1_1vendored_1_1bytecode_1_1instr.html#aa6f2736e9f4108bb9d47cfc320268ea4",tooltip=" "];
+  Node6 -> Node8 [id="edge8_Node000006_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="_pydevd_frame_eval.vendored.bytecode.instr.\lInstr._has_jump",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydevd__frame__eval_1_1vendored_1_1bytecode_1_1instr_1_1_instr.html#aba00478c2e959275313445b4cc9b8481",tooltip=" "];
+  Node4 -> Node9 [id="edge9_Node000004_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="_pydevd_frame_eval.vendored.bytecode.instr.\l_check_lineno",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pydevd__frame__eval_1_1vendored_1_1bytecode_1_1instr.html#ad5dd9c8a75eb54e41e3fa52b9bad9789",tooltip=" "];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="fontTools.merge.options.\lOptions.set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1merge_1_1options_1_1_options.html#a18cc3268b677740154323c63a3a29563",tooltip=" "];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="fontTools.misc.configTools.\lAbstractConfig.set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1misc_1_1config_tools_1_1_abstract_config.html#ab78e0ad091860afffe70b7a3b5723003",tooltip=" "];
+  Node11 -> Node12 [id="edge12_Node000011_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="fontTools.misc.configTools.\lAbstractConfig._resolve_option",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1misc_1_1config_tools_1_1_abstract_config.html#ad1b9d866d64534ac8a854aeb11c1fdf0",tooltip=" "];
+  Node1 -> Node13 [id="edge13_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="fontTools.misc.xmlReader.\lProgressPrinter.set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1misc_1_1xml_reader_1_1_progress_printer.html#a1196ef7e9836e87c819f2f34b4b14f1a",tooltip=" "];
+  Node1 -> Node14 [id="edge14_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="fontTools.subset.Options.set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1subset_1_1_options.html#a22cbd6388663da0bc46c39442871e9c3",tooltip=" "];
+  Node1 -> Node15 [id="edge15_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="fontTools.ttLib.tables.\l_l_o_c_a.table__l_o_c_a.set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1__l__o__c__a_1_1table____l__o__c__a.html#a2bfa0503000dd1efd0780eae52e5b80c",tooltip=" "];
+  Node1 -> Node16 [id="edge16_Node000001_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="fontTools.ttLib.tables.G\l__l_o_c.table_G__l_o_c.set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1_g____l__o__c_1_1table___g____l__o__c.html#af37ca2253d1cbecd2651e49a39e0ab3a",tooltip=" "];
+  Node1 -> Node17 [id="edge17_Node000001_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="fontTools.ttLib.tables.T\l_S_I__0.table_T_S_I__0.set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1_t___s___i____0_1_1table___t___s___i____0.html#a5caf67a8c620b39a05a5ee9d872525af",tooltip=" "];
+  Node1 -> Node18 [id="edge18_Node000001_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="IPython.core.display\l_trap.DisplayTrap.set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1display__trap_1_1_display_trap.html#a8923ae6029e10b54c0ecf565e25a3a2f",tooltip=" "];
+  Node1 -> Node19 [id="edge19_Node000001_Node000019",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="matplotlib.dates.rrulewrapper.set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1dates_1_1rrulewrapper.html#afa6f556772e4153a068df030f48462fc",tooltip=" "];
+  Node1 -> Node20 [id="edge20_Node000001_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="matplotlib.layout_engine.\lLayoutEngine.set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1layout__engine_1_1_layout_engine.html#aed4b6a98c4b0595c222e16e2e5bf8708",tooltip=" "];
+}

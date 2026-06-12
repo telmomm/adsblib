@@ -1,0 +1,13 @@
+digraph "matplotlib.backend_tools.ZoomPanBase.disable"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="matplotlib.backend\l_tools.ZoomPanBase.disable",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.backend\l_tools.ToolPan._cancel\l_action",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backend__tools_1_1_tool_pan.html#a7930377ad59b4790a9ef865b92081876",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.backend\l_tools.ToolZoom._cancel\l_action",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backend__tools_1_1_tool_zoom.html#a88127eada13e8a4737edfcd3d403926a",tooltip=" "];
+}

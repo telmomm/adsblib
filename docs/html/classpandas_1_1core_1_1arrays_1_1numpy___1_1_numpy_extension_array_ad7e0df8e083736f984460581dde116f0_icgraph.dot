@@ -1,0 +1,17 @@
+digraph "pandas.core.arrays.numpy_.NumpyExtensionArray.sum"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pandas.core.arrays.numpy\l_.NumpyExtensionArray.sum",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PIL.ImageStat.Stat.mean",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_i_l_1_1_image_stat_1_1_stat.html#ae6fb4fde60e6c301c0146dabb159a7f7",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="test_simd._SIMD_ALL.test\l_arithmetic_reduce_sum",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classtest__simd_1_1___s_i_m_d___a_l_l.html#a78a23570eecad7ae59aebfc6c0137f3b",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PIL.ImageStat.Stat.var",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_i_l_1_1_image_stat_1_1_stat.html#ac83667eb03ede9850a8c53d0a8f624a2",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PIL.ImageStat.Stat.stddev",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_i_l_1_1_image_stat_1_1_stat.html#a5ac007760cc82128d19eec4915d55265",tooltip=" "];
+}

@@ -1,0 +1,29 @@
+digraph "numpy.lib._arraypad_impl._slice_at_axis"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy.lib._arraypad\l_impl._slice_at_axis",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.lib._arraypad\l_impl._get_edges",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__arraypad__impl.html#a381eae90262a71f91b5e8adb01514e3a",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.lib._arraypad\l_impl._get_linear_ramps",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__arraypad__impl.html#a8f65e7e3e5430b1ea66e60b20fd2caa4",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.lib._arraypad\l_impl.pad",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__arraypad__impl.html#a2822adb65960bea0b09e0e9f3744c8ae",tooltip="Public functions."];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge5_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge6_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="numpy.lib._arraypad\l_impl._get_stats",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__arraypad__impl.html#ad7eb5b06e5384f0e3e15a900b6f63430",tooltip=" "];
+  Node5 -> Node4 [id="edge7_Node000005_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge8_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="numpy.lib._arraypad\l_impl._set_pad_area",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__arraypad__impl.html#a4960715ad46c5010eaaad609f0527705",tooltip=" "];
+  Node6 -> Node4 [id="edge9_Node000006_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge10_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="numpy.lib._arraypad\l_impl._set_reflect_both",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__arraypad__impl.html#a818d40cbdfeda3c097a45f6a0293c696",tooltip=" "];
+  Node7 -> Node4 [id="edge11_Node000007_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge12_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="numpy.lib._arraypad\l_impl._set_wrap_both",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__arraypad__impl.html#aa3a4a35528e74a9a665ce9f18222d336",tooltip=" "];
+  Node8 -> Node4 [id="edge13_Node000008_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

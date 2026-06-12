@@ -1,0 +1,11 @@
+digraph "axisartist.floating_axes.FloatingAxesBase._gen_axes_patch"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="axisartist.floating\l_axes.FloatingAxesBase.\l_gen_axes_patch",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="axisartist.axislines.Axes.get\l_grid_helper",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classaxisartist_1_1axislines_1_1_axes.html#a3b47e001ee26b6969e61fdef2c8a015d",tooltip=" "];
+}

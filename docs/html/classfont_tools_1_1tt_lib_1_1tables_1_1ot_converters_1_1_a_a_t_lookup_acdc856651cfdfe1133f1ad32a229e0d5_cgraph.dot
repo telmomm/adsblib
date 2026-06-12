@@ -1,0 +1,36 @@
+digraph "fontTools.ttLib.tables.otConverters.AATLookup.writeFormat6"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="fontTools.ttLib.tables.ot\lConverters.AATLookup.writeFormat6",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="fontTools.ttLib.tables.ot\lConverters.AATLookup.write",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1ot_converters_1_1_a_a_t_lookup.html#ace73f49d3979f3e4cef88913fca5b80b",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="fontTools.ttLib.tables.ot\lConverters.AATLookup.buildFormat0",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1ot_converters_1_1_a_a_t_lookup.html#a2399ca10f1d074b69265f1ac7151b0be",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="fontTools.ttLib.tables.ot\lConverters.AATLookup.writeFormat0",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1ot_converters_1_1_a_a_t_lookup.html#a7fdd9bdadbcec080db487eec94d0ef26",tooltip=" "];
+  Node4 -> Node2 [id="edge4_Node000004_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="fontTools.ttLib.tables.ot\lConverters.AATLookup.buildFormat2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1ot_converters_1_1_a_a_t_lookup.html#a49237631413c37991a5447070afc87b7",tooltip=" "];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="fontTools.ttLib.tables.ot\lConverters.AATLookup.writeFormat2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1ot_converters_1_1_a_a_t_lookup.html#a61cc29e8be658a2375e89e2593e34c7f",tooltip=" "];
+  Node6 -> Node2 [id="edge7_Node000006_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node7 [id="edge8_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="fontTools.ttLib.tables.ot\lConverters.AATLookup.writeBinSearch\lHeader",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1ot_converters_1_1_a_a_t_lookup.html#ab4ab3ecf4fd25f5721e72e645035fc4c",tooltip=" "];
+  Node7 -> Node8 [id="edge9_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="fontTools.ttLib.ttFont.get\lSearchRange",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1tt_lib_1_1tt_font.html#a41b0060c8fbc0dfd04425f6fa16dcd3b",tooltip=" "];
+  Node8 -> Node9 [id="edge10_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="fontTools.ttLib.ttFont.max\lPowerOfTwo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1tt_lib_1_1tt_font.html#ae769ece3c291f06f69e18524bdd34625",tooltip=" "];
+  Node2 -> Node10 [id="edge11_Node000002_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="fontTools.ttLib.tables.ot\lConverters.AATLookup.buildFormat6",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1ot_converters_1_1_a_a_t_lookup.html#a25e74ca488f81c24864c50be86ab1bf9",tooltip=" "];
+  Node10 -> Node1 [id="edge12_Node000010_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node11 [id="edge13_Node000002_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="fontTools.ttLib.tables.ot\lConverters.AATLookup.buildFormat8",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1ot_converters_1_1_a_a_t_lookup.html#a790fe3cd6b77f5b54bcf632951a501d2",tooltip=" "];
+  Node11 -> Node12 [id="edge14_Node000011_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="fontTools.ttLib.tables.ot\lConverters.AATLookup.writeFormat8",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1ot_converters_1_1_a_a_t_lookup.html#a3a0679fa4a76eef679aa7a4cbdeccf5b",tooltip=" "];
+  Node12 -> Node2 [id="edge15_Node000012_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge16_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+}

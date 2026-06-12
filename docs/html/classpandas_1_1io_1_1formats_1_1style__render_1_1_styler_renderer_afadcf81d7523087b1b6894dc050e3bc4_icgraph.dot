@@ -1,0 +1,23 @@
+digraph "pandas.io.formats.style_render.StylerRenderer._compute"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pandas.io.formats.style\l_render.StylerRenderer.\l_compute",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.io.formats.style\l_render.StylerRenderer.\l_render",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1formats_1_1style__render_1_1_styler_renderer.html#ad869334e1cc9d84ac3aa1b3958dd08c3",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.rich._inspect.\lInspect.__rich__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1rich_1_1__inspect_1_1_inspect.html#a0b0d4a251462e02e3a981dab1b534825",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pip._vendor.rich.table.Table.\l__rich_console__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1rich_1_1table_1_1_table.html#a2f2edbc2bf733432a76f68de9e1c2e62",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pandas.io.formats.style\l_render.StylerRenderer.\l_render_html",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1formats_1_1style__render_1_1_styler_renderer.html#a0824eb7ea115419e61797a8d0d7f8c10",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="pandas.io.formats.style\l_render.StylerRenderer.\l_render_latex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1formats_1_1style__render_1_1_styler_renderer.html#a3533eed62b9e1fdc3c5df4beabe78220",tooltip=" "];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pandas.io.formats.style\l_render.StylerRenderer.\l_render_string",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1formats_1_1style__render_1_1_styler_renderer.html#aaf4f59dc125ed19490501ffe0fb83c06",tooltip=" "];
+  Node2 -> Node8 [id="edge7_Node000002_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="pandas.io.formats.style\l_render.StylerRenderer.\l_render_typst",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1formats_1_1style__render_1_1_styler_renderer.html#af489b52a982fe18e614f89f6f86ed791",tooltip=" "];
+}

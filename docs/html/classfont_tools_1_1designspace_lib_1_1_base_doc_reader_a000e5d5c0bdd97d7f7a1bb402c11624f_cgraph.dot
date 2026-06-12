@@ -1,0 +1,47 @@
+digraph "fontTools.designspaceLib.BaseDocReader.read"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="fontTools.designspaceLib.\lBaseDocReader.read",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="fontTools.designspaceLib.\lBaseDocReader.readAxes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#a80413bdc926e1916a8abb4dbdcf88b9f",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="fontTools.designspaceLib.\lBaseDocReader.readAxisLabel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#a536332c6622e0e10c734be80fcbbd9ad",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="fontTools.designspaceLib.\lBaseDocReader.readInstances",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#ac7c4d9a3ad730420b1fbae0fe429747f",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="fontTools.designspaceLib.\lBaseDocReader._readSingleInstance\lElement",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#ab18168ce1abf88e202127d5eaf6f5fa9",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="fontTools.designspaceLib.\lBaseDocReader.locationFromElement",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#ae94df4111087f5da378657fd9a596a3c",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="fontTools.designspaceLib.\lBaseDocReader.readLocationElement",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#a98026e4b4c38d3c351cbc31901fe2251",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="fontTools.misc.loggingTools.\lLogMixin.log",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1misc_1_1logging_tools_1_1_log_mixin.html#aaca3bbdcae3c45c0365e97e1c0e25494",tooltip=" "];
+  Node5 -> Node9 [id="edge8_Node000005_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="fontTools.designspaceLib.\lBaseDocReader.readGlyphElement",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#a66942eeaaeb867f0a4cc2e57b7c5dbf0",tooltip=" "];
+  Node9 -> Node6 [id="edge9_Node000009_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node10 [id="edge10_Node000005_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="fontTools.designspaceLib.\lBaseDocReader.readInfoElement",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#a94d40f6830760a3b1b06da8f70012711",tooltip=" "];
+  Node5 -> Node11 [id="edge11_Node000005_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="fontTools.designspaceLib.\lBaseDocReader.readLibElement",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#ae62e4f8569e2f657da779be9246514f7",tooltip=" "];
+  Node1 -> Node12 [id="edge12_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="fontTools.designspaceLib.\lBaseDocReader.readLabels",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#a626540e1b086a7cff93e3189f2b71fae",tooltip=" "];
+  Node12 -> Node6 [id="edge13_Node000012_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node13 [id="edge14_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="fontTools.designspaceLib.\lBaseDocReader.readLib",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#a847a7f1e6eace28b719ec83d430b4c44",tooltip=" "];
+  Node1 -> Node14 [id="edge15_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="fontTools.designspaceLib.\lBaseDocReader.readRules",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#a4344e444c22864fb2c477ffe9259d5f4",tooltip=" "];
+  Node14 -> Node15 [id="edge16_Node000014_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="fontTools.designspaceLib.\lBaseDocReader._readConditionElements",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#a4ab26816f67be703cc3da502d5a25095",tooltip=" "];
+  Node14 -> Node8 [id="edge17_Node000014_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node16 [id="edge18_Node000001_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="fontTools.designspaceLib.\lBaseDocReader.readSources",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#a03689aabd8565efe125ca1ed5c8dd931",tooltip=" "];
+  Node16 -> Node6 [id="edge19_Node000016_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node17 [id="edge20_Node000001_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="fontTools.designspaceLib.\lBaseDocReader.readVariableFonts",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#a9cf389c1e6b023bda3af9d813a50d92d",tooltip=" "];
+  Node17 -> Node18 [id="edge21_Node000017_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="fontTools.designspaceLib.\lBaseDocReader.readAxisSubset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1designspace_lib_1_1_base_doc_reader.html#a7b99398608b8d0e3efe55d2c079792a1",tooltip=" "];
+}

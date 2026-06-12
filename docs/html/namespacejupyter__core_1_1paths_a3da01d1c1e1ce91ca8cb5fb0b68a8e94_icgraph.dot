@@ -1,0 +1,13 @@
+digraph "jupyter_core.paths._win32_restrict_file_to_user_ctypes"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="jupyter_core.paths.\l_win32_restrict_file\l_to_user_ctypes",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="jupyter_core.paths.win32\l_restrict_file_to_user",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejupyter__core_1_1paths.html#a2279656000f03f49022b0704233656a3",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="jupyter_core.paths.secure\l_write",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejupyter__core_1_1paths.html#a14d78440122adb14947582fcee8cab70",tooltip=" "];
+}

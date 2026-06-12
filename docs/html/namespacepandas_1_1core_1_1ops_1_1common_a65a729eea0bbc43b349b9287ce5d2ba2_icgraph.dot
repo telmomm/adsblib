@@ -1,0 +1,11 @@
+digraph "pandas.core.ops.common._unpack_zerodim_and_defer"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pandas.core.ops.common.\l_unpack_zerodim_and_defer",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.ops.common.unpack\l_zerodim_and_defer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1ops_1_1common.html#aebfb42b70987c1e560b3eea708bd1042",tooltip=" "];
+}

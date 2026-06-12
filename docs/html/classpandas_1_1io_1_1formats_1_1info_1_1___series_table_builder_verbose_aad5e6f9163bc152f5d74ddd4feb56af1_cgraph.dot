@@ -1,0 +1,13 @@
+digraph "pandas.io.formats.info._SeriesTableBuilderVerbose._gen_rows_with_counts"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.io.formats.info.\l_SeriesTableBuilderVerbose.\l_gen_rows_with_counts",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.io.formats.info.\l_TableBuilderVerboseMixin.\l_gen_dtypes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1formats_1_1info_1_1___table_builder_verbose_mixin.html#a767cb5b1a1482c17e15292c61b77cae9",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.io.formats.info.\l_TableBuilderVerboseMixin.\l_gen_non_null_counts",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1formats_1_1info_1_1___table_builder_verbose_mixin.html#ad69a0672724496271fa40765399fb1a3",tooltip=" "];
+}

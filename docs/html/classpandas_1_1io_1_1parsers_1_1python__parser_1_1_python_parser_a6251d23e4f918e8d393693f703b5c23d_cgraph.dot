@@ -1,0 +1,28 @@
+digraph "pandas.io.parsers.python_parser.PythonParser._get_lines"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.io.parsers.python\l_parser.PythonParser._get_lines",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.io.parsers.python\l_parser.PythonParser._check\l_comments",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1parsers_1_1python__parser_1_1_python_parser.html#a2ddf20749fde535c4b0e30c1e7442b69",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.io.parsers.python\l_parser.PythonParser._check\l_decimal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1parsers_1_1python__parser_1_1_python_parser.html#a85ed46537272d6e1dd442030e06d8338",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pandas.io.parsers.python\l_parser.PythonParser._search\l_replace_num_columns",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1parsers_1_1python__parser_1_1_python_parser.html#a7f2989c6a5baaa276eac23b991b25519",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pandas.io.parsers.python\l_parser.PythonParser.num",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1parsers_1_1python__parser_1_1_python_parser.html#a53065a610093040f8fd154ff3f9e8ce9",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="pandas.io.parsers.python\l_parser.PythonParser._check\l_thousands",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1parsers_1_1python__parser_1_1_python_parser.html#a0c3425b20b1612a99c90b4343df161db",tooltip=" "];
+  Node6 -> Node4 [id="edge6_Node000006_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pandas.io.parsers.python\l_parser.PythonParser._next\l_iter_line",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1parsers_1_1python__parser_1_1_python_parser.html#ad3bc0f950cfc8a75a8e26806eecc0654",tooltip=" "];
+  Node7 -> Node8 [id="edge8_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="pandas.io.parsers.python\l_parser.PythonParser._alert\l_malformed",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1parsers_1_1python__parser_1_1_python_parser.html#a332b93ea5e2f809d9154b171089f460c",tooltip=" "];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="pandas.io.parsers.python\l_parser.PythonParser._remove\l_empty_lines",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1parsers_1_1python__parser_1_1_python_parser.html#ab956703e8dd49dd988943f7045bdf46c",tooltip=" "];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="pandas.io.parsers.python\l_parser.PythonParser._remove\l_skipped_rows",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1parsers_1_1python__parser_1_1_python_parser.html#a164519f0f7944f2d8866a6803330c2c9",tooltip=" "];
+}

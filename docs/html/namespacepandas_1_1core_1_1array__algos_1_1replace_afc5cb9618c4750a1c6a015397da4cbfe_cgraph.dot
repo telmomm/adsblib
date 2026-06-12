@@ -1,0 +1,11 @@
+digraph "pandas.core.array_algos.replace.compare_or_regex_search"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.core.array_algos.replace.compare\l_or_regex_search",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.array_algos.replace.should\l_use_regex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1array__algos_1_1replace.html#a374c3ef60a1e0d13b2c9afecb6ae33d2",tooltip=" "];
+}

@@ -1,0 +1,15 @@
+digraph "numpy.lib.tests.test_io.LoadTxtBase.check_compressed"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy.lib.tests.test\l_io.LoadTxtBase.check\l_compressed",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.lib.tests.test\l_io.LoadTxtBase.test\l_compressed_bz2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1lib_1_1tests_1_1test__io_1_1_load_txt_base.html#aca707714087d94730a3a25a951d5a6cd",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.lib.tests.test\l_io.LoadTxtBase.test\l_compressed_gzip",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1lib_1_1tests_1_1test__io_1_1_load_txt_base.html#aa208366c9b31202c0798ceee6c9d16eb",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.lib.tests.test\l_io.LoadTxtBase.test\l_compressed_lzma",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1lib_1_1tests_1_1test__io_1_1_load_txt_base.html#a82712a6008d3c3cfc238b216d7a17488",tooltip=" "];
+}

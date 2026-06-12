@@ -1,0 +1,24 @@
+digraph "jedi.api.errors.SyntaxError.line"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="jedi.api.errors.SyntaxError.line",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PIL.ImageDraw.ImageDraw.line",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_i_l_1_1_image_draw_1_1_image_draw.html#a7fb52a15998a1f6bcd98953b12916a66",tooltip=" "];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node3 [id="edge3_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.pyparsing.exceptions.\lParseBaseException.mark_input_line",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1pyparsing_1_1exceptions_1_1_parse_base_exception.html#a29a304058ba0b8613114663ebffb3434",tooltip=" "];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pkg_resources._vendor.pyparsing.exceptions.\lParseBaseException.mark_input_line",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpkg__resources_1_1__vendor_1_1pyparsing_1_1exceptions_1_1_parse_base_exception.html#a982109a43d14eb31cc56cb0bc77e08c6",tooltip=" "];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pyparsing.exceptions.Parse\lBaseException.mark_input_line",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpyparsing_1_1exceptions_1_1_parse_base_exception.html#a415eaee53295f5af768229c79c596577",tooltip=" "];
+  Node2 -> Node6 [id="edge6_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="setuptools._vendor.pyparsing.exceptions.\lParseBaseException.mark_input_line",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__vendor_1_1pyparsing_1_1exceptions_1_1_parse_base_exception.html#aeb91f27e309b0b29088fb9dd22c07e58",tooltip=" "];
+  Node1 -> Node3 [id="edge7_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge8_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge9_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge10_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

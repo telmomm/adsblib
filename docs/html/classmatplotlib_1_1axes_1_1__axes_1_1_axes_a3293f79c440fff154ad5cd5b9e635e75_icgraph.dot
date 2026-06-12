@@ -1,0 +1,15 @@
+digraph "matplotlib.axes._axes.Axes._quiver_units"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="matplotlib.axes._axes.Axes.\l_quiver_units",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.axes._axes.Axes.barbs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1axes_1_1__axes_1_1_axes.html#a1d36471a0a0c042d44a56120f500e8fc",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.axes._axes.Axes.quiver",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1axes_1_1__axes_1_1_axes.html#ac02b60ea3bf76e812edca9b8d49b31b2",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="mplot3d.axes3d.Axes3D.errorbar",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmplot3d_1_1axes3d_1_1_axes3_d.html#a0e7c84f54b363c8f404818883b4adf1f",tooltip=" "];
+}

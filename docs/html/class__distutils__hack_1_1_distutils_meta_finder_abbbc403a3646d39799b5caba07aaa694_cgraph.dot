@@ -1,0 +1,15 @@
+digraph "_distutils_hack.DistutilsMetaFinder.spec_for_pip"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="_distutils_hack.Distutils\lMetaFinder.spec_for_pip",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_distutils_hack.clear\l_distutils",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__distutils__hack.html#aa87d1c41de168c9789d3367a96159748",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_distutils_hack.Distutils\lMetaFinder.pip_imported\l_during_build",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__distutils__hack_1_1_distutils_meta_finder.html#aca9f7ba070232514fbd043ef0d1dce1c",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_distutils_hack.Distutils\lMetaFinder.frame_file_is_setup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__distutils__hack_1_1_distutils_meta_finder.html#a6967e67c99e64ffc25783e69c432bd19",tooltip=" "];
+}

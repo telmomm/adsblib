@@ -1,0 +1,16 @@
+digraph "fontTools.misc.xmlWriter.XMLWriter.writecdata"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="fontTools.misc.xmlWriter.\lXMLWriter.writecdata",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="fontTools.misc.xmlWriter.\lXMLWriter._writeraw",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1misc_1_1xml_writer_1_1_x_m_l_writer.html#ae10e66afcbf2b874e1c0954be70b1687",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="fontTools.misc.xmlWriter.\lXMLWriter.write",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1misc_1_1xml_writer_1_1_x_m_l_writer.html#a69262e47b0adf33ac1f250e10533b653",tooltip=" "];
+  Node3 -> Node2 [id="edge3_Node000003_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node4 [id="edge4_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="fontTools.misc.xmlWriter.escape",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1misc_1_1xml_writer.html#a9616a63db668f67afcdb9e6044684d5a",tooltip=" "];
+}

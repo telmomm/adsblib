@@ -1,0 +1,15 @@
+digraph "numpy.tests.test_configtool.TestNumpyConfig.check_numpyconfig"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy.tests.test_configtool.\lTestNumpyConfig.check_numpyconfig",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.tests.test_configtool.\lTestNumpyConfig.test_configtool_cflags",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1tests_1_1test__configtool_1_1_test_numpy_config.html#a0b48e0f967b1e1d269ee914bceef20cc",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.tests.test_configtool.\lTestNumpyConfig.test_configtool\l_pkgconfigdir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1tests_1_1test__configtool_1_1_test_numpy_config.html#aae828fc73d4602e9c1100ea69fa8076c",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.tests.test_configtool.\lTestNumpyConfig.test_configtool\l_version",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1tests_1_1test__configtool_1_1_test_numpy_config.html#a730fd96147acfa7d6c71f7a7894c7064",tooltip=" "];
+}

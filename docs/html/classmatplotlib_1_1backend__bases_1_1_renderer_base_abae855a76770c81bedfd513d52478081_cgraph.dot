@@ -1,0 +1,19 @@
+digraph "matplotlib.backend_bases.RendererBase.draw_quad_mesh"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="matplotlib.backend\l_bases.RendererBase.draw\l_quad_mesh",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.backend\l_bases.RendererBase.draw\l_path_collection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backend__bases_1_1_renderer_base.html#a51ca6d485a4c82fd433658aa530b4c06",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.backend\l_bases.RendererBase.\l_iter_collection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backend__bases_1_1_renderer_base.html#af3508e3ba5138f4f65b3a7ce723d33a2",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="matplotlib.backend\l_bases.RendererBase.new_gc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backend__bases_1_1_renderer_base.html#a2e126c3f377d4c8636c2b92b28d1fab8",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="matplotlib.backend\l_bases.RendererBase.\l_iter_collection_raw_paths",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backend__bases_1_1_renderer_base.html#a17c473534904023236d40ef772cc239a",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="matplotlib.backend\l_bases.RendererBase.draw_path",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backend__bases_1_1_renderer_base.html#abaa72ab0fa075b939ec117cc10c5bd58",tooltip=" "];
+}

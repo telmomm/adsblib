@@ -1,0 +1,12 @@
+digraph "pandas.core.indexes.datetimelike.DatetimeTimedeltaMixin.delete"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pandas.core.indexes.datetimelike.\lDatetimeTimedeltaMixin.delete",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node1 [id="edge1_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node2 [id="edge2_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="prompt_toolkit.buffer.Buffer.join\l_next_line",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classprompt__toolkit_1_1buffer_1_1_buffer.html#ab03a8a99c2795c54aaac75a49855e2a4",tooltip=" "];
+}

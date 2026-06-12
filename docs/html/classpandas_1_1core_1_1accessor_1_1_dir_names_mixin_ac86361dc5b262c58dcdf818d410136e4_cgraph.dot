@@ -1,0 +1,14 @@
+digraph "pandas.core.accessor.DirNamesMixin.__dir__"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.core.accessor.Dir\lNamesMixin.__dir__",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node1 [id="edge1_Node000001_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node2 [id="edge2_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.accessor.Dir\lNamesMixin._dir_additions",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1accessor_1_1_dir_names_mixin.html#a8183d13494a720c8d4cc996826fd7323",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.core.accessor.Dir\lNamesMixin._dir_deletions",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1accessor_1_1_dir_names_mixin.html#a3151f76f1b53042e9d13da3d3ef3cb92",tooltip=" "];
+}

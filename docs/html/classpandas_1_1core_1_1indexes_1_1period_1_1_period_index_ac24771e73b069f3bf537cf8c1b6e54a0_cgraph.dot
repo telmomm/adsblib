@@ -1,0 +1,12 @@
+digraph "pandas.core.indexes.period.PeriodIndex._maybe_cast_slice_bound"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.core.indexes.period.\lPeriodIndex._maybe_cast\l_slice_bound",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.indexes.period.\lPeriodIndex._cast_partial\l_indexing_scalar",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexes_1_1period_1_1_period_index.html#a8a6a93f1687bba569cb21e38c104506b",tooltip=" "];
+  Node1 -> Node1 [id="edge2_Node000001_Node000001",color="steelblue1",style="solid",tooltip=" "];
+}

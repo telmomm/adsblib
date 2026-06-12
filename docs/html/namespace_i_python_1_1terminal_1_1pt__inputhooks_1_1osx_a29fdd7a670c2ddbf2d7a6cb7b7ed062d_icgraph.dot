@@ -1,0 +1,20 @@
+digraph "IPython.terminal.pt_inputhooks.osx.n"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="IPython.terminal.pt\l_inputhooks.osx.n",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPython.terminal.pt\l_inputhooks.osx._input\l_callback",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1terminal_1_1pt__inputhooks_1_1osx.html#ae4cc4b80103116f67d0fa2fa4e6f775f",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="IPython.terminal.pt\l_inputhooks.osx._NSApp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1terminal_1_1pt__inputhooks_1_1osx.html#ac61aab5585db5f2b72fc9de08f49d660",tooltip=" "];
+  Node3 -> Node2 [id="edge3_Node000003_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node4 [id="edge4_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="IPython.terminal.pt\l_inputhooks.osx.inputhook",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1terminal_1_1pt__inputhooks_1_1osx.html#a7652ca8678b8215ab97b369f7a5c904d",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="IPython.terminal.pt\l_inputhooks.osx._wake",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1terminal_1_1pt__inputhooks_1_1osx.html#a5c5982da5a5355c3bc855264ec73af8a",tooltip=" "];
+  Node5 -> Node2 [id="edge6_Node000005_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge7_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

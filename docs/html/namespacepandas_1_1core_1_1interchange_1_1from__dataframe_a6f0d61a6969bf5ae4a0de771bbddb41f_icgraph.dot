@@ -1,0 +1,17 @@
+digraph "pandas.core.interchange.from_dataframe.parse_datetime_format_str"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pandas.core.interchange.from\l_dataframe.parse_datetime\l_format_str",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.interchange.from\l_dataframe.datetime_column\l_to_ndarray",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1interchange_1_1from__dataframe.html#a6ae483e5a9986ffcc7f3ce4c014c99b2",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.core.interchange.from\l_dataframe.protocol_df_chunk\l_to_pandas",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1interchange_1_1from__dataframe.html#ae76769d380372bb2f2fe9c80a8ac7863",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pandas.core.interchange.from\l_dataframe._from_dataframe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1interchange_1_1from__dataframe.html#a20b68a26b1ac36c64debf3c90f418942",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pandas.core.interchange.from\l_dataframe.from_dataframe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1interchange_1_1from__dataframe.html#acab72559ff934689532c03a70cd3684d",tooltip=" "];
+}

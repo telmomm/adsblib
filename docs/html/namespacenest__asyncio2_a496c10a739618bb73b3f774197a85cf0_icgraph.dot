@@ -1,0 +1,13 @@
+digraph "nest_asyncio2._patch_loop"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="nest_asyncio2._patch_loop",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="nest_asyncio2._patch\l_policy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenest__asyncio2.html#a4eb8430a904c937879827dd18dd5f486",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="nest_asyncio2.run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenest__asyncio2.html#a5cb8687ef4fe55494b6a297ee79bfe62",tooltip=" "];
+}

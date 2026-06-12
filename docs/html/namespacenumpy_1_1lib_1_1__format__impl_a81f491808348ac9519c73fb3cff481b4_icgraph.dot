@@ -1,0 +1,24 @@
+digraph "numpy.lib._format_impl.magic"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy.lib._format_impl.magic",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.lib._format_impl.\l_wrap_header",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__format__impl.html#aaab586ff0f7e1e7ac1bd95bf86eab5e9",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.lib._format_impl.\l_wrap_header_guess_version",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__format__impl.html#a91d85d65c8005c31e814e6e9c03d63db",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.lib._format_impl.\l_write_array_header",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__format__impl.html#a22b6f600bc55012ea587f72980acd4a8",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="numpy.lib._format_impl.open\l_memmap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__format__impl.html#a6f7fbb4f3dac8d410e5ac8bfac636613",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="numpy.lib._format_impl.write\l_array",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__format__impl.html#aa591005a84857fe7f3670c2fa62b1a6f",tooltip=" "];
+  Node4 -> Node7 [id="edge6_Node000004_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="numpy.lib._format_impl.write\l_array_header_1_0",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__format__impl.html#a2d38eaa1ad10c4679089f5fdd21a63f2",tooltip=" "];
+  Node4 -> Node8 [id="edge7_Node000004_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="numpy.lib._format_impl.write\l_array_header_2_0",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1lib_1_1__format__impl.html#a93129f56887935436c4997cb67260549",tooltip=" "];
+  Node2 -> Node4 [id="edge8_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

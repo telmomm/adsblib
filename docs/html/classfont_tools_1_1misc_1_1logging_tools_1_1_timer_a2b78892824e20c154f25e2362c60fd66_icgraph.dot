@@ -1,0 +1,30 @@
+digraph "fontTools.misc.loggingTools.Timer.time"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="fontTools.misc.loggingTools.\lTimer.time",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="tornado.ioloop.IOLoop.add\l_timeout",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classtornado_1_1ioloop_1_1_i_o_loop.html#a83f5d362b9285a89abf226331c9e3e2e",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="tornado.ioloop.IOLoop.call_at",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classtornado_1_1ioloop_1_1_i_o_loop.html#af55370e1cdc9d89af349801b1f1f2d14",tooltip=" "];
+  Node3 -> Node2 [id="edge3_Node000003_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node4 [id="edge4_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="tornado.ioloop.IOLoop.call\l_later",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classtornado_1_1ioloop_1_1_i_o_loop.html#a0b6605be6a829fe459b4f83a6c280335",tooltip=" "];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="tornado.platform.asyncio.\lBaseAsyncIOLoop.call_at",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classtornado_1_1platform_1_1asyncio_1_1_base_async_i_o_loop.html#aeaf94025102bbb6cd93e6e95114a23c4",tooltip=" "];
+  Node2 -> Node6 [id="edge6_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="tornado.ioloop.IOLoop.run_sync",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classtornado_1_1ioloop_1_1_i_o_loop.html#a1536bb41d2e4c2a2568a9c845279ee26",tooltip=" "];
+  Node1 -> Node5 [id="edge7_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge8_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge9_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge10_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="IPython.core.magics.execution.\lExecutionMagics.time",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1magics_1_1execution_1_1_execution_magics.html#ad12c566ec097a02844d4870587ebc970",tooltip=" "];
+  Node7 -> Node2 [id="edge11_Node000007_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node5 [id="edge12_Node000007_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node4 [id="edge13_Node000007_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node6 [id="edge14_Node000007_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node7 [id="edge15_Node000007_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

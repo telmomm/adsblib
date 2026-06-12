@@ -1,0 +1,55 @@
+digraph "fontTools.ufoLib.validators.identifierValidator"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="fontTools.ufoLib.validators.identifier\lValidator",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="fontTools.ufoLib.glifLib.\l_buildOutlineComponentFormat2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1glif_lib.html#a73ae1527855b518088938a2ea27818e3",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="fontTools.ufoLib.glifLib.build\lOutlineFormat2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1glif_lib.html#ae902f838a017aeb4914f87c868b96362",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="fontTools.ufoLib.glifLib.\l_readGlyphFromTreeFormat2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1glif_lib.html#ac88cb07d3dd2db84374f29171e89b778",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="fontTools.ufoLib.glifLib.\l_buildOutlineContourFormat2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1glif_lib.html#a82cbcd94a538dc740bb0af3bd3cc71ba",tooltip=" "];
+  Node5 -> Node3 [id="edge5_Node000005_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="fontTools.ufoLib.glifLib.\l_buildOutlinePointsFormat2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1glif_lib.html#a758aafc853ae3bd7ba80188965f5af54",tooltip=" "];
+  Node6 -> Node5 [id="edge7_Node000006_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge8_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="fontTools.ufoLib.glifLib.\lGLIFPointPen.addComponent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1ufo_lib_1_1glif_lib_1_1_g_l_i_f_point_pen.html#a21c1118770d3958cb1fc87d93d708f53",tooltip=" "];
+  Node1 -> Node8 [id="edge9_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="fontTools.ufoLib.glifLib.\lGLIFPointPen.addPoint",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1ufo_lib_1_1glif_lib_1_1_g_l_i_f_point_pen.html#adcc4cac7ef890ed3188a826ff9e9607e",tooltip=" "];
+  Node1 -> Node9 [id="edge10_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="fontTools.ufoLib.validators.anchor\lValidator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1validators.html#ad9b8504fb56cde702318d5eea8ad84bf",tooltip=" "];
+  Node9 -> Node10 [id="edge11_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="fontTools.ufoLib.validators.anchors\lValidator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1validators.html#a6a8f6c6dd8f599cb5167f4f08e606533",tooltip=" "];
+  Node10 -> Node4 [id="edge12_Node000010_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node11 [id="edge13_Node000010_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="fontTools.ufoLib.glifLib.\l_writeAnchors",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1glif_lib.html#ad724cbe2bc57212996860616f7e29417",tooltip=" "];
+  Node11 -> Node12 [id="edge14_Node000011_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="fontTools.ufoLib.glifLib.\l_writeGlyphToBytes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1glif_lib.html#a42e6145f99fcdf2b98342a25fdb49790",tooltip=" "];
+  Node12 -> Node13 [id="edge15_Node000012_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="fontTools.ufoLib.glifLib.\lGlyphSet.writeGlyph",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1ufo_lib_1_1glif_lib_1_1_glyph_set.html#a9df7471337124f0716d369cf8a99d528",tooltip=" "];
+  Node12 -> Node14 [id="edge16_Node000012_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="fontTools.ufoLib.glifLib.write\lGlyphToString",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1glif_lib.html#a0cca7cdbb8933b0cd08d44ca0b19d6f3",tooltip=" "];
+  Node10 -> Node15 [id="edge17_Node000010_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="fontTools.ufoLib.glifLib.\l_writeAnchorsFormat1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1glif_lib.html#a826b72234c1f2a3f84993afe4316c096",tooltip=" "];
+  Node15 -> Node12 [id="edge18_Node000015_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node16 [id="edge19_Node000010_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="fontTools.ufoLib.glifLib.build\lOutlineFormat1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1glif_lib.html#a0821d8635326eb8f6e4c253ccb9b49b8",tooltip=" "];
+  Node16 -> Node17 [id="edge20_Node000016_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="fontTools.ufoLib.glifLib.\l_readGlyphFromTreeFormat1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1glif_lib.html#ae12942ed3a6c3e17f34aed4ae0728f41",tooltip=" "];
+  Node1 -> Node18 [id="edge21_Node000001_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="fontTools.ufoLib.glifLib.\lGLIFPointPen.beginPath",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1ufo_lib_1_1glif_lib_1_1_g_l_i_f_point_pen.html#a38d4be75d774a79e683c9b2c758296e7",tooltip=" "];
+  Node1 -> Node19 [id="edge22_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="fontTools.ufoLib.validators.guideline\lValidator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1validators.html#ab3a3c11d7d72aba9793c835b3d35ca11",tooltip=" "];
+  Node19 -> Node20 [id="edge23_Node000019_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="fontTools.ufoLib.validators.guidelines\lValidator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1validators.html#aeb6d97014b5328097752c1a8a6156d35",tooltip=" "];
+  Node20 -> Node4 [id="edge24_Node000020_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 -> Node21 [id="edge25_Node000020_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="fontTools.ufoLib.glifLib.\l_writeGuidelines",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1ufo_lib_1_1glif_lib.html#a75b5dc4ef2609e6d55ed217c45852685",tooltip=" "];
+  Node21 -> Node12 [id="edge26_Node000021_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

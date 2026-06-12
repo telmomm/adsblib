@@ -1,0 +1,22 @@
+digraph "mplot3d.axis3d.Axis.get_rotate_label"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="mplot3d.axis3d.Axis.get\l_rotate_label",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="mplot3d.axis3d.Axis.\l_draw_labels",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmplot3d_1_1axis3d_1_1_axis.html#a7d1067a7c2ae70aa0a8dff73322bcd07",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="mplot3d.axis3d.Axis.draw",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmplot3d_1_1axis3d_1_1_axis.html#aa6696154cb73020d15903c26fa460d7e",tooltip=" "];
+  Node3 -> Node2 [id="edge3_Node000003_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node4 [id="edge4_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="mplot3d.axis3d.Axis.\l_draw_offset_text",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmplot3d_1_1axis3d_1_1_axis.html#a5cabddac33f30ca81c5f71737643403a",tooltip=" "];
+  Node4 -> Node3 [id="edge5_Node000004_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node3 [id="edge6_Node000003_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node5 [id="edge7_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="mplot3d.axis3d.Axis.draw_grid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmplot3d_1_1axis3d_1_1_axis.html#a4ef9c42dae76be94cebb52d4339953d5",tooltip=" "];
+  Node3 -> Node6 [id="edge8_Node000003_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="mplot3d.axis3d.Axis.draw_pane",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmplot3d_1_1axis3d_1_1_axis.html#a04e744f6096589fb102012e5a7aa1db8",tooltip=" "];
+}

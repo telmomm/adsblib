@@ -1,0 +1,11 @@
+digraph "dateutil.zoneinfo.gettz"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="dateutil.zoneinfo.gettz",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="dateutil.zoneinfo.getzoneinfofile\l_stream",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedateutil_1_1zoneinfo.html#a90ea7ffa5f279a1c5e1dd7e9bd6559a5",tooltip=" "];
+}

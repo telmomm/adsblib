@@ -1,0 +1,54 @@
+digraph "matplotlib.collections.Collection.get_transforms"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="matplotlib.collections.Collection.get\l_transforms",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.collections.Collection.get\l_datalim",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1collections_1_1_collection.html#addfdd8cb9e1a49c743f51d50648050e2",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.collections.Collection.get\l_window_extent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1collections_1_1_collection.html#a2f6d6e4f930bf40d90cd614a2592407e",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="matplotlib.text.Text.\l_char_index_at",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1text_1_1_text.html#a8a69ac19859e0047e7c120103d9bd449",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="matplotlib.table.Cell.\l_set_text_position",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1table_1_1_cell.html#af29fec8f4758f4634105e6a06df67a77",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="matplotlib.table.Cell.draw",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1table_1_1_cell.html#ac5666048b8441630372b7808bcf561e9",tooltip=" "];
+  Node3 -> Node7 [id="edge6_Node000003_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="matplotlib.image.BboxImage.contains",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1image_1_1_bbox_image.html#a1937437c91f6c9ca6efa152f3ce92ead",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="packaging.specifiers.Specifier.\l__contains__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpackaging_1_1specifiers_1_1_specifier.html#adc6d0f14bb1eff89499eea42047f3ba1",tooltip=" "];
+  Node7 -> Node9 [id="edge8_Node000007_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="packaging.specifiers.Specifier\lSet.__contains__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpackaging_1_1specifiers_1_1_specifier_set.html#afe431232e3df02a4ebec8ed882319eb4",tooltip=" "];
+  Node7 -> Node10 [id="edge9_Node000007_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="pip._vendor.packaging.specifiers.\l_IndividualSpecifier.__contains__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1packaging_1_1specifiers_1_1___individual_specifier.html#a838b430af2f5ab5d2241a7c0bdd0e99e",tooltip=" "];
+  Node7 -> Node11 [id="edge10_Node000007_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="pip._vendor.packaging.specifiers.\lSpecifierSet.__contains__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1packaging_1_1specifiers_1_1_specifier_set.html#a6129bfedcd20834661d4883f7fbaed86",tooltip=" "];
+  Node7 -> Node12 [id="edge11_Node000007_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="pkg_resources._vendor.packaging.specifiers.\l_IndividualSpecifier.__contains__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpkg__resources_1_1__vendor_1_1packaging_1_1specifiers_1_1___individual_specifier.html#a2370a23a1faa6987b992d9e69069aa6b",tooltip=" "];
+  Node7 -> Node13 [id="edge12_Node000007_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="pkg_resources._vendor.packaging.specifiers.\lSpecifierSet.__contains__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpkg__resources_1_1__vendor_1_1packaging_1_1specifiers_1_1_specifier_set.html#aad5022ca5dea895ec350e338ba308529",tooltip=" "];
+  Node7 -> Node14 [id="edge13_Node000007_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="setuptools._vendor.packaging.specifiers.\l_IndividualSpecifier.__contains__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__vendor_1_1packaging_1_1specifiers_1_1___individual_specifier.html#aff90cdb7b48e1e261461d10f6bbe8c5e",tooltip=" "];
+  Node7 -> Node15 [id="edge14_Node000007_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="setuptools._vendor.packaging.specifiers.\lSpecifierSet.__contains__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__vendor_1_1packaging_1_1specifiers_1_1_specifier_set.html#a44a6f0f6a924c5c4fb150fff13c089c6",tooltip=" "];
+  Node7 -> Node7 [id="edge15_Node000007_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node16 [id="edge16_Node000007_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="pip._vendor.packaging.specifiers.\l_IndividualSpecifier.filter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1packaging_1_1specifiers_1_1___individual_specifier.html#a6203976cfa5ddd6a1f47f8dfe0669fd7",tooltip=" "];
+  Node7 -> Node17 [id="edge17_Node000007_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="pkg_resources._vendor.packaging.specifiers.\l_IndividualSpecifier.filter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpkg__resources_1_1__vendor_1_1packaging_1_1specifiers_1_1___individual_specifier.html#ad284c0e05b23f4b6838266492c00fc3e",tooltip=" "];
+  Node7 -> Node18 [id="edge18_Node000007_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="setuptools._vendor.packaging.specifiers.\l_IndividualSpecifier.filter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__vendor_1_1packaging_1_1specifiers_1_1___individual_specifier.html#a7f35b396bffe2a5276887eda17fd660b",tooltip=" "];
+  Node3 -> Node19 [id="edge19_Node000003_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="matplotlib.offsetbox.Anchored\lOffsetbox.draw",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1offsetbox_1_1_anchored_offsetbox.html#af112eab4b676e8ab31a6ec430ef8d2bd",tooltip=" "];
+  Node19 -> Node19 [id="edge20_Node000019_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node20 [id="edge21_Node000003_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="matplotlib.offsetbox.Padded\lBox.draw_frame",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1offsetbox_1_1_padded_box.html#ae3fda585357277c12cb0bbf91be003c1",tooltip=" "];
+  Node20 -> Node21 [id="edge22_Node000020_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="matplotlib.offsetbox.Padded\lBox.draw",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1offsetbox_1_1_padded_box.html#a572a786fd4648a4494b31d01b9d64e2d",tooltip=" "];
+  Node21 -> Node20 [id="edge23_Node000021_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node22 [id="edge24_Node000003_Node000022",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="matplotlib.image.BboxImage.make\l_image",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1image_1_1_bbox_image.html#aa0635c332e5b9d8ef68e6cb02d82dadd",tooltip=" "];
+}

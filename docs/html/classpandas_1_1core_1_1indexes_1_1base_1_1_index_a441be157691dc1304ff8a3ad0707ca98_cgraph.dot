@@ -1,0 +1,13 @@
+digraph "pandas.core.indexes.base.Index._maybe_cast_slice_bound"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.core.indexes.base.\lIndex._maybe_cast_slice_bound",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.indexes.base.\lIndex._maybe_cast_indexer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexes_1_1base_1_1_index.html#a6f7c3fa8c471eb3be9df110a687e8bea",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.core.indexes.base.\lIndex._raise_invalid_indexer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexes_1_1base_1_1_index.html#a909cdfced1c77967e2bf018e4f534225",tooltip=" "];
+}

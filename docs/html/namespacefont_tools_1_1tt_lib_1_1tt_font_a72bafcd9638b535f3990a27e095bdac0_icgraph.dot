@@ -1,0 +1,25 @@
+digraph "fontTools.ttLib.ttFont.tagToIdentifier"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="fontTools.ttLib.ttFont.tag\lToIdentifier",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="fontTools.ttLib.ttFont.get\lTableClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1tt_lib_1_1tt_font.html#a2f44e594615f5b1caec31d2597080ef1",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="fontTools.ttLib.ttFont.get\lTableModule",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1tt_lib_1_1tt_font.html#af227550175fc55677afaa68d9ab44ef9",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="fontTools.ttLib.woff2.WOFF2\lGlyfTable._decodeComponents",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1woff2_1_1_w_o_f_f2_glyf_table.html#a3338837448134ee696c0a794f9e1f47b",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="fontTools.ttLib.woff2.WOFF2\lGlyfTable._decodeGlyph",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1woff2_1_1_w_o_f_f2_glyf_table.html#a4407402892f99e178d8fe22f8f242f53",tooltip=" "];
+  Node3 -> Node5 [id="edge5_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node2 [id="edge6_Node000003_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge7_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="fontTools.ttLib.ttFont.register\lCustomTableClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1tt_lib_1_1tt_font.html#a4958ee7d11d6c37b95115641eac066af",tooltip=" "];
+  Node1 -> Node7 [id="edge8_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="fontTools.ttLib.ttFont.tag\lToXML",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1tt_lib_1_1tt_font.html#a6dea702b0f4db057edab13f554ce9a01",tooltip=" "];
+  Node7 -> Node8 [id="edge9_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="fontTools.ttLib.ttFont.TTFont.\l_tableToXML",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tt_font_1_1_t_t_font.html#a9f8c3ee93cbf51f2e759786711711329",tooltip=" "];
+}

@@ -1,0 +1,11 @@
+<map id="is_valid_latitude" name="is_valid_latitude">
+<area shape="rect" id="Node000001" title=" " alt="" coords="434,56,548,82"/>
+<area shape="rect" id="Node000002" href="$libadsb_8c.html#a54f9b07ea38822f37369fdb596c7e194" title=" " alt="" coords="209,5,381,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="423,54,347,34,348,29,424,49"/>
+<area shape="rect" id="Node000003" href="$libadsb_8c.html#ac05b8b204c3828742627d377538b776e" title=" " alt="" coords="5,56,156,82"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="418,72,156,72,156,66,418,66"/>
+<area shape="rect" id="Node000004" href="$libadsb_8c.html#ab289368291419b95af04b84a18994242" title=" " alt="" coords="204,107,386,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="424,89,348,109,347,104,423,84"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="223,38,139,58,137,53,222,33"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="222,105,137,85,139,80,223,100"/>
+</map>

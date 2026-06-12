@@ -1,0 +1,15 @@
+digraph "pandas.io.common._BytesTarFile.write_to_buffer"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.io.common._BytesTar\lFile.write_to_buffer",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pydevd_bundle.pydevd\l_io.IOBuf.getvalue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydevd__bundle_1_1pydevd__io_1_1_i_o_buf.html#a1151e9eb5bde90665520fee688e98479",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.msgpack.fallback.\lStringIO.getvalue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1msgpack_1_1fallback_1_1_string_i_o.html#a43148efe7fa4142ab9a4dd09693b631d",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pandas.io.common._BytesTar\lFile.infer_filename",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1common_1_1___bytes_tar_file.html#ad509fbc7002fb429e86d4d229ec2a856",tooltip=" "];
+}

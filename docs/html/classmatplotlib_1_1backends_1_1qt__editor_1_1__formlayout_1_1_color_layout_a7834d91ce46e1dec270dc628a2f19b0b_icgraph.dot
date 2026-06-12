@@ -1,0 +1,21 @@
+digraph "matplotlib.backends.qt_editor._formlayout.ColorLayout.text"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="matplotlib.backends.qt\l_editor._formlayout.ColorLayout.text",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.figure.Figure\lBase._suplabels",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1figure_1_1_figure_base.html#a38bb7d3afb395735b573d6ee615df838",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.figure.Figure\lBase.suptitle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1figure_1_1_figure_base.html#a6584f9a280817f7fb2dcc0e4b3d23fc3",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="matplotlib.figure.Figure\lBase.supxlabel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1figure_1_1_figure_base.html#a929b55d31830df40d78dcca2154f7716",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="matplotlib.figure.Figure\lBase.supylabel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1figure_1_1_figure_base.html#a33a5015296081e96b1efa720cca2658c",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="wcwidth.text_sizing.Text\lSizing.display_width",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwcwidth_1_1text__sizing_1_1_text_sizing.html#a1c82f01d725c3c943da965510f5e1170",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PIL.ImageDraw.ImageDraw.multiline_text",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_i_l_1_1_image_draw_1_1_image_draw.html#a840f4dc470ba9afbbb4cbbfbf200a49c",tooltip=" "];
+}

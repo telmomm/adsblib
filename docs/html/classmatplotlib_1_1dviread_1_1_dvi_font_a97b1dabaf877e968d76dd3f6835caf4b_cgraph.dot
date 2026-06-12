@@ -1,0 +1,23 @@
+digraph "matplotlib.dviread.DviFont._index_dvi_to_freetype"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="matplotlib.dviread.DviFont.\l_index_dvi_to_freetype",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.dviread.\l_parse_enc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1dviread.html#a8b49ae59a99fabd0d76af8e8f709d055",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.dviread.find\l_tex_file",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1dviread.html#a9c9a86abfad17941d667418e4f74290a",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="jupyter_client.manager.Kernel\lManager.resolve_path",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__client_1_1manager_1_1_kernel_manager.html#a59077ce2d98eaf8c1dd50997d2317469",tooltip=" "];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="jupyter_client.provisioning.local\l_provisioner.LocalProvisioner.resolve_path",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__client_1_1provisioning_1_1local__provisioner_1_1_local_provisioner.html#a5467ecdc215d42a78dbf9403a8be1889",tooltip=" "];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="jupyter_client.provisioning.provisioner\l_base.KernelProvisionerBase.resolve_path",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__client_1_1provisioning_1_1provisioner__base_1_1_kernel_provisioner_base.html#a4e8dd1ac327aa32cc0199dd504f32951",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="matplotlib.dviread.DviFont.resolve_path",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1dviread_1_1_dvi_font.html#a0478b25fd1a961d927ab4b25ee4e8763",tooltip=" "];
+  Node7 -> Node3 [id="edge8_Node000007_Node000003",color="steelblue1",style="solid",tooltip=" "];
+}

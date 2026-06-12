@@ -1,0 +1,15 @@
+digraph "jedi.inference.arguments.unpack_arglist"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="jedi.inference.arguments.unpack\l_arglist",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="jedi.inference.arguments.\lTreeArguments._as_tree\l_tuple_objects",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjedi_1_1inference_1_1arguments_1_1_tree_arguments.html#ade7aed60dd6195bb3f0ec287b3b9fedc",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="jedi.inference.arguments.\lTreeArguments.iter_calling\l_names_with_star",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjedi_1_1inference_1_1arguments_1_1_tree_arguments.html#a8d1fa0daa31e6bf29fe3c9588e3b940b",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="jedi.inference.arguments.\lTreeArguments.unpack",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjedi_1_1inference_1_1arguments_1_1_tree_arguments.html#aa6510ee297c852e7f3563ffe475efb26",tooltip=" "];
+}

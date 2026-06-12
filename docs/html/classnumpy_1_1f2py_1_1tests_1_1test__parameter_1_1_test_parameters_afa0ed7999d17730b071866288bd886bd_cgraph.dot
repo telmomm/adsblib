@@ -1,0 +1,11 @@
+digraph "numpy.f2py.tests.test_parameter.TestParameters.test_constant_integer_long"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="numpy.f2py.tests.test\l_parameter.TestParameters.test\l_constant_integer_long",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="foo_long",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$constant__integer_8f90.html#a70c66785847dddcbad62c9f95c5c5a03",tooltip=" "];
+}

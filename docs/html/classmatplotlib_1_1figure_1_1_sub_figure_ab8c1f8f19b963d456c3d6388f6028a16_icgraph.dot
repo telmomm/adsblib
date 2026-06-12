@@ -1,0 +1,13 @@
+digraph "matplotlib.figure.SubFigure.canvas"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="matplotlib.figure.SubFigure.canvas",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.backends.backend\l_gtk3.NavigationToolbar2GTK3.save_figure",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backends_1_1backend__gtk3_1_1_navigation_toolbar2_g_t_k3.html#a9a1db1f12d2561053481daefc67df8a6",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.backends.backend\l_gtk4.NavigationToolbar2GTK4.save_figure",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backends_1_1backend__gtk4_1_1_navigation_toolbar2_g_t_k4.html#af27ac129b0381d8a36ad0cc38208ffa4",tooltip=" "];
+}

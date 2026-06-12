@@ -1,0 +1,21 @@
+digraph "pandas.core.indexing.is_nested_tuple"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pandas.core.indexing.is\l_nested_tuple",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.indexing.\l_LocIndexer._convert\l_to_indexer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___loc_indexer.html#a785134a7a8af0b9d6648d3d14ef51dbb",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.core.indexing.\l_LocIndexer._getitem_axis",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___loc_indexer.html#aa33729b9072f121c8dfd6b95abf11784",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pandas.core.indexing.\l_LocationIndexer._is\l_nested_tuple_indexer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___location_indexer.html#a295ccf8ea8d429847cf444dd999979ec",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pandas.core.indexing.\l_LocationIndexer._getitem\l_lowerdim",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___location_indexer.html#ae00ab5cad68aa0adf7d66812da09d8bc",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="pandas.core.indexing.\l_iLocIndexer._getitem_tuple",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1__i_loc_indexer.html#a95d285f468a90f750cb07756ddf848c5",tooltip=" "];
+  Node5 -> Node7 [id="edge6_Node000005_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pandas.core.indexing.\l_LocIndexer._getitem_tuple",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___loc_indexer.html#ad9c7c4fcfd2002885a4d6e69e1fbc6d8",tooltip=" "];
+}

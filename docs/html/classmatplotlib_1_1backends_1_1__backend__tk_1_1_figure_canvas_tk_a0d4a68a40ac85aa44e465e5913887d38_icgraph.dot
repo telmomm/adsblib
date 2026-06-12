@@ -1,0 +1,21 @@
+digraph "matplotlib.backends._backend_tk.FigureCanvasTk._event_mpl_coords"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="matplotlib.backends.\l_backend_tk.FigureCanvasTk.\l_event_mpl_coords",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.backends.\l_backend_tk.FigureCanvasTk.button\l_press_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backends_1_1__backend__tk_1_1_figure_canvas_tk.html#a6e52398d6ec5ed3991071dd363e47a13",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.backends.\l_backend_tk.FigureCanvasTk.button\l_release_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backends_1_1__backend__tk_1_1_figure_canvas_tk.html#abd2ac381b8e3c4477b28799ce86d8474",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="matplotlib.backends.\l_backend_tk.FigureCanvasTk.enter\l_notify_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backends_1_1__backend__tk_1_1_figure_canvas_tk.html#a2d5cd7a095a44afc4d53a1a58f392111",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="matplotlib.backends.\l_backend_tk.FigureCanvasTk.leave\l_notify_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backends_1_1__backend__tk_1_1_figure_canvas_tk.html#ae5b994f4a7877bd56af99af825a80155",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="matplotlib.backends.\l_backend_tk.FigureCanvasTk.motion\l_notify_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backends_1_1__backend__tk_1_1_figure_canvas_tk.html#aceaeeb6512a02aa0c530ac35055c5970",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="matplotlib.backends.\l_backend_tk.FigureCanvasTk.scroll_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backends_1_1__backend__tk_1_1_figure_canvas_tk.html#abf60dc421e7b9c7290156151dbb30006",tooltip=" "];
+}

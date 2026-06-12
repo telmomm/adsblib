@@ -1,0 +1,13 @@
+digraph "pandas.core.computation.expr.BaseExprVisitor._maybe_evaluate_binop"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pandas.core.computation.expr.\lBaseExprVisitor._maybe_evaluate_binop",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.computation.expr.\lBaseExprVisitor.visit_BinOp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1computation_1_1expr_1_1_base_expr_visitor.html#a49ee17747dbed0925808956b1713fab5",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.core.computation.expr.\lBaseExprVisitor.visit_BoolOp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1computation_1_1expr_1_1_base_expr_visitor.html#a4070195b25e204f6dc258c8d4a881c8a",tooltip=" "];
+}

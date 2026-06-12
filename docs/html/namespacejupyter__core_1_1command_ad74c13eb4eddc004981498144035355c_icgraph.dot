@@ -1,0 +1,16 @@
+digraph "jupyter_core.command.list_subcommands"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="jupyter_core.command.list\l_subcommands",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="jupyter_core.command.Jupyter\lParser.epilog",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__core_1_1command_1_1_jupyter_parser.html#a5c0fc3e4bdcb7674c53ae3d484b88df0",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="jupyter_core.command.jupyter\l_parser",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejupyter__core_1_1command.html#a0bfd8f9206b2fbd2929a8cceecd6880d",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="jupyter_core.command.main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejupyter__core_1_1command.html#a9851ee9bc57a77a30bf9938eba362691",tooltip=" "];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

@@ -1,0 +1,24 @@
+digraph "IPython.extensions.deduperreload.deduperreload_patching.DeduperReloaderPatchingMixin.try_write_readonly_attr"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="IPython.extensions.deduperreload.deduperreload\l_patching.DeduperReloaderPatchingMixin.try\l_write_readonly_attr",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPython.extensions.deduperreload.deduperreload\l_patching.DeduperReloaderPatchingMixin.try\l_patch_readonly_attr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1extensions_1_1deduperreload_1_1deduperreload__patching_1_1_deduper_reloader_patching_mixin.html#ab087b234c6561cea171e361ba125c9cf",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="IPython.extensions.deduperreload.deduperreload\l_patching.DeduperReloaderPatchingMixin.patch_function",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1extensions_1_1deduperreload_1_1deduperreload__patching_1_1_deduper_reloader_patching_mixin.html#a72f6d55aecbfd6cb865b3bad82f2dddc",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="IPython.extensions.deduperreload.deduperreload.\lDeduperReloader._patch_namespace_inner",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1extensions_1_1deduperreload_1_1deduperreload_1_1_deduper_reloader.html#a1da7a4a002c07c5957043f8cee44ba70",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="IPython.extensions.deduperreload.deduperreload.\lDeduperReloader._patch_namespace",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1extensions_1_1deduperreload_1_1deduperreload_1_1_deduper_reloader.html#a1716275c5a7f471a97504e9af3119083",tooltip=" "];
+  Node5 -> Node4 [id="edge5_Node000005_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="IPython.extensions.deduperreload.deduperreload.\lDeduperReloader.maybe_reload_module",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1extensions_1_1deduperreload_1_1deduperreload_1_1_deduper_reloader.html#a556b2937e3c478136bf4e1f6325e2269",tooltip=" "];
+  Node2 -> Node7 [id="edge7_Node000002_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="IPython.extensions.deduperreload.deduperreload\l_patching.DeduperReloaderPatchingMixin.try\l_patch_attr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1extensions_1_1deduperreload_1_1deduperreload__patching_1_1_deduper_reloader_patching_mixin.html#a9852e184f35cadb86de4c886d68f6b8d",tooltip=" "];
+  Node7 -> Node4 [id="edge8_Node000007_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node3 [id="edge9_Node000007_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

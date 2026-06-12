@@ -1,0 +1,23 @@
+digraph "ipykernel.inprocess.client.InProcessKernelClient.iopub_channel"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="ipykernel.inprocess.client.\lInProcessKernelClient.iopub\l_channel",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="jupyter_client.client.Kernel\lClient._async_execute_interactive",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__client_1_1client_1_1_kernel_client.html#ab46457d6517f8f69e5a89acd1707e9df",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="jupyter_client.client.Kernel\lClient._async_get_iopub_msg",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__client_1_1client_1_1_kernel_client.html#a7073cfd5bd13527c2fa2a4b318ae112f",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="jupyter_client.client.Kernel\lClient.channels_running",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__client_1_1client_1_1_kernel_client.html#acf4d363c10f92f5809a2f47fc76841fa",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="ipykernel.inprocess.client.\lInProcessKernelClient.get\l_iopub_msg",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classipykernel_1_1inprocess_1_1client_1_1_in_process_kernel_client.html#a72adecfa8c6de99286dca6a2350d1864",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="jupyter_client.client.Kernel\lClient.start_channels",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__client_1_1client_1_1_kernel_client.html#a7f38180750ecdf1c03f5053af0f3c19f",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="jupyter_client.client.Kernel\lClient.stop_channels",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__client_1_1client_1_1_kernel_client.html#a425be158f07e82614748012502146ad2",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="ipykernel.inprocess.blocking.\lBlockingInProcessKernelClient.wait\l_for_ready",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classipykernel_1_1inprocess_1_1blocking_1_1_blocking_in_process_kernel_client.html#a0ab2006cc8e0f7bd013f6c5c5e99b378",tooltip=" "];
+}

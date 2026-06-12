@@ -1,0 +1,22 @@
+digraph "fontTools.varLib.merger._merge_GlyphOrders"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="fontTools.varLib.merger.\l_merge_GlyphOrders",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="fontTools.varLib.merger.\l_Lookup_PairPosFormat1\l_subtables_flatten",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1merger.html#abe7bd8082e8e0e3a492fa35940f53aa8",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="fontTools.varLib.merger.\l_Lookup_PairPos_subtables\l_canonicalize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1merger.html#a87004e74e918447fa7491e0bcaf0a5ea",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="fontTools.varLib.merger.\l_Lookup_PairPosFormat2\l_subtables_flatten",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1merger.html#adbc9b43328801e3ef2ae3a25d0b2987c",tooltip=" "];
+  Node4 -> Node3 [id="edge4_Node000004_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="fontTools.varLib.merger.\l_Lookup_SinglePos_subtables\l_flatten",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1merger.html#accfd63cc786f321451f78a0143968bff",tooltip=" "];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="fontTools.varLib.merger.\l_PairPosFormat1_merge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1merger.html#ae49b2f2ddd2bc702270455d873546564",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="fontTools.varLib.merger.\l_PairPosFormat2_merge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1merger.html#af017a06c159c7442cf6fbbed338e2410",tooltip=" "];
+}

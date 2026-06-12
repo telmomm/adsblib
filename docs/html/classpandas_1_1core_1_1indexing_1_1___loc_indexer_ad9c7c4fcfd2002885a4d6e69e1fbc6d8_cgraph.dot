@@ -1,0 +1,43 @@
+digraph "pandas.core.indexing._LocIndexer._getitem_tuple"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.core.indexing.\l_LocIndexer._getitem_tuple",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.indexing.\l_LocationIndexer._expand\l_ellipsis",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___location_indexer.html#a0e4c65c105268a27d97535cee14cdc89",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.core.indexing.\l_LocationIndexer._getitem\l_lowerdim",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___location_indexer.html#ae00ab5cad68aa0adf7d66812da09d8bc",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pandas.core.indexing.\l_LocationIndexer._getitem_axis",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___location_indexer.html#a0108393227fb660423baa0e87244d1af",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pandas.core.indexing.\l_LocationIndexer._getitem\l_nested_tuple",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___location_indexer.html#ab03cc2f47bfc5d57bbffc48f69b6a541",tooltip=" "];
+  Node5 -> Node4 [id="edge5_Node000005_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="pandas.core.indexing.check\l_dict_or_set_indexers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1indexing.html#a9cc0246b0e4c4238f86b72bd10a64cc2",tooltip=" "];
+  Node3 -> Node7 [id="edge7_Node000003_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pandas.core.indexing.\l_LocationIndexer._is\l_nested_tuple_indexer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___location_indexer.html#a295ccf8ea8d429847cf444dd999979ec",tooltip=" "];
+  Node7 -> Node8 [id="edge8_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="pandas.core.indexing.is\l_nested_tuple",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1indexing.html#a8ca63a7863af571f12731136d8ffde80",tooltip=" "];
+  Node3 -> Node9 [id="edge9_Node000003_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="pandas.core.indexing.\l_LocationIndexer._validate\l_key_length",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___location_indexer.html#a341b642a241976b767a76656fa370061",tooltip=" "];
+  Node3 -> Node10 [id="edge10_Node000003_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="pandas.core.indexing.is\l_label_like",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1indexing.html#a1de4798e30c3c0715db187e197e5361e",tooltip=" "];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="pandas.core.indexing.\l_LocationIndexer._getitem\l_tuple_same_dim",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___location_indexer.html#a4ac99e92755a7530b65a47b12b7e2063",tooltip=" "];
+  Node11 -> Node4 [id="edge12_Node000011_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node12 [id="edge13_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="pandas.core.indexing.\l_LocIndexer._multi_take",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___loc_indexer.html#a3eb95430e0c99acf5f2f020d1b2466b4",tooltip=" "];
+  Node12 -> Node13 [id="edge14_Node000012_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="pandas.core.indexing.\l_LocIndexer._get_listlike\l_indexer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___loc_indexer.html#a47124342a25b52984052ef675dc39bca",tooltip=" "];
+  Node1 -> Node14 [id="edge15_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="pandas.core.indexing.\l_LocIndexer._multi_take\l_opportunity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___loc_indexer.html#a3797e7eb5f4b387691f8a605a2987a87",tooltip=" "];
+  Node1 -> Node15 [id="edge16_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="pandas.core.indexing.\l_LocationIndexer._validate\l_tuple_indexer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___location_indexer.html#a49d737474a8362ca5d894d7c3cecbd1a",tooltip=" "];
+  Node15 -> Node2 [id="edge17_Node000015_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node15 -> Node16 [id="edge18_Node000015_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="pandas.core.indexing.\l_LocationIndexer._validate_key",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___location_indexer.html#a8557b2c0620f50d5e3b9fde35bab328a",tooltip=" "];
+  Node15 -> Node9 [id="edge19_Node000015_Node000009",color="steelblue1",style="solid",tooltip=" "];
+}

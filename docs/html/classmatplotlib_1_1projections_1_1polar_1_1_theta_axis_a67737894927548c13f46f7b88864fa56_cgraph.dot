@@ -1,0 +1,26 @@
+digraph "matplotlib.projections.polar.ThetaAxis._set_scale"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="matplotlib.projections.polar.\lThetaAxis._set_scale",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node1 [id="edge1_Node000001_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node2 [id="edge2_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.projections.polar.\lThetaAxis._wrap_locator_formatter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1projections_1_1polar_1_1_theta_axis.html#ae9f5d731fa82254dc380d0e5a00847e6",tooltip=" "];
+  Node2 -> Node3 [id="edge3_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.axis.Axis.get\l_major_locator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1axis_1_1_axis.html#a788444dd3098eff5812fd3c0f6952f71",tooltip=" "];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="matplotlib.axis.Axis.set\l_major_formatter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1axis_1_1_axis.html#aac4448d104d682849d8d7dceb5e6ba06",tooltip=" "];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="IPython.terminal.interactiveshell.\lTerminalInteractiveShell._set\l_formatter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1terminal_1_1interactiveshell_1_1_terminal_interactive_shell.html#ac951ae5fc89aaf87c601caf23dc7b1aa",tooltip=" "];
+  Node4 -> Node6 [id="edge6_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="matplotlib.axis.Axis.\l_set_formatter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1axis_1_1_axis.html#ac03c674610b57ff9cd95064ae6b67ea6",tooltip=" "];
+  Node2 -> Node7 [id="edge7_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="matplotlib.axis.Axis.set\l_major_locator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1axis_1_1_axis.html#a954f2f7752782d08a2796eeb5f72b074",tooltip=" "];
+  Node2 -> Node8 [id="edge8_Node000002_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="matplotlib.projections.polar.\lRadialAxis.set_major_locator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1projections_1_1polar_1_1_radial_axis.html#aad5a2edf95522571b0e304ed8037acbb",tooltip=" "];
+  Node8 -> Node8 [id="edge9_Node000008_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge10_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+}

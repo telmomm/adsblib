@@ -1,0 +1,23 @@
+digraph "numpy.testing._private.extbuild.build_and_import_extension"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="numpy.testing._private.extbuild.build\l_and_import_extension",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.testing._private.extbuild.\l_make_methods",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1testing_1_1__private_1_1extbuild.html#a128b90868182971c8a193a06f222c355",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.testing._private.extbuild.\l_make_source",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1testing_1_1__private_1_1extbuild.html#ab9363f78ffa8b036352d1584b6cf3465",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.testing._private.extbuild.compile\l_extension_module",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1testing_1_1__private_1_1extbuild.html#a8721bdde1297b7b56198354ff9ccbfe1",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="numpy.testing._private.extbuild.\l_c_compile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1testing_1_1__private_1_1extbuild.html#ac6f14137f9b84adbfa3c2848aa980b85",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="numpy.testing._private.extbuild.build",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1testing_1_1__private_1_1extbuild.html#abd4fdefc6e10d3df504684bc6ac9adbe",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="numpy.testing._private.extbuild.get\l_so_suffix",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1testing_1_1__private_1_1extbuild.html#a268aec8ab59100b0cf0c1c9bbb639918",tooltip=" "];
+  Node4 -> Node8 [id="edge7_Node000004_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="numpy.testing._private.extbuild.\l_convert_str_to_file",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1testing_1_1__private_1_1extbuild.html#a8541e290ba456142185bbfd10f226105",tooltip=" "];
+}

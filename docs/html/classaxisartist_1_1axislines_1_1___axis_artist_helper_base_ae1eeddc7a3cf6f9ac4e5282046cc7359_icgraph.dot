@@ -1,0 +1,13 @@
+digraph "axisartist.axislines._AxisArtistHelperBase.update_lim"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="axisartist.axislines.\l_AxisArtistHelperBase.update_lim",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="axisartist.floating\l_axes.FixedAxisArtistHelper.get_line",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classaxisartist_1_1floating__axes_1_1_fixed_axis_artist_helper.html#afb8039116be57707772cc3e4ff7cd762",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="axisartist.grid_helper\l_curvelinear.FloatingAxisArtist\lHelper.get_line",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classaxisartist_1_1grid__helper__curvelinear_1_1_floating_axis_artist_helper.html#ac1bee1d4e3c9f2b60dd1eeca5389f399",tooltip=" "];
+}

@@ -1,0 +1,45 @@
+digraph "numpy.polynomial.tests.test_classes.Poly"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy.polynomial.tests.test\l_classes.Poly",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.polynomial.tests.test\l_classes.test_add",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#aa2e426b8e415b4267b77bcc265b89d2f",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.polynomial.tests.test\l_classes.test_call_with_list",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#ad013a89bb617ae0fb224df5517532a35",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.polynomial.tests.test\l_classes.test_cutdeg",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#a84372e345b14052573be5d1bb93b22f4",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="numpy.polynomial.tests.test\l_classes.test_deriv",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#a2ef9a057bd14f36cb20371a86aa916cc",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="numpy.polynomial.tests.test\l_classes.test_divmod",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#a0f7c2ec1d3fd148bd50025af88da42a2",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="numpy.polynomial.tests.test\l_classes.test_equal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#a249861bf7335b9f6179e4fb344b0addb",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="numpy.polynomial.tests.test\l_classes.test_floordiv",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#ae997b0fe90268dbcdb4a7fba3bbda8de",tooltip=" "];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="numpy.polynomial.tests.test\l_classes.test_linspace",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#a91efae6a7331bcdb4df70f0d2a343a83",tooltip=" "];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="numpy.polynomial.tests.test\l_classes.test_mapparms",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#ab408ca072ffe4d33469390bf974ce280",tooltip=" "];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="numpy.polynomial.tests.test\l_classes.test_mod",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#a242f573ceb123f58f57f9d5ed50bad6d",tooltip=" "];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="numpy.polynomial.tests.test\l_classes.test_mul",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#accaab57f957023903580dd80c1c2a607",tooltip=" "];
+  Node1 -> Node13 [id="edge12_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="numpy.polynomial.tests.test\l_classes.test_not_equal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#a72320b2cef28f972d6c385223bab74a0",tooltip=" "];
+  Node1 -> Node14 [id="edge13_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="numpy.polynomial.tests.test\l_classes.test_pow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#afaee651220dc206b4e863d446f3aa087",tooltip=" "];
+  Node1 -> Node15 [id="edge14_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="numpy.polynomial.tests.test\l_classes.test_sub",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#af0db170aeb44b012fb5f6f9c4279d218",tooltip=" "];
+  Node1 -> Node16 [id="edge15_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="numpy.polynomial.tests.test\l_classes.test_trim",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#acbc2fdc464e1016c96dc9b3232b4aa6e",tooltip=" "];
+  Node1 -> Node17 [id="edge16_Node000001_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="numpy.polynomial.tests.test\l_classes.test_truediv",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#ae56cc6b4d8338c6279bf43cd9681de42",tooltip=" "];
+  Node1 -> Node18 [id="edge17_Node000001_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="numpy.polynomial.tests.test\l_classes.test_truncate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#a93ff6356a81733881da45083f2b5f368",tooltip=" "];
+  Node1 -> Node19 [id="edge18_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="numpy.polynomial.tests.test\l_classes.test_ufunc_override",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1polynomial_1_1tests_1_1test__classes.html#ac04d8aebe0ec0e4b6cc853077ef62749",tooltip=" "];
+}

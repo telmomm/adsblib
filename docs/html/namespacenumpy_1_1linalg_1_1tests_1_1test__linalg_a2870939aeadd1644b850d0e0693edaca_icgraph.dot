@@ -1,0 +1,15 @@
+digraph "numpy.linalg.tests.test_linalg.identity_like_generalized"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy.linalg.tests.test\l_linalg.identity_like\l_generalized",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.linalg.tests.test\l_linalg.InvCases.do",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1linalg_1_1tests_1_1test__linalg_1_1_inv_cases.html#ad46552cc9e43076ba53337ea6eb6e10e",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.linalg.tests.test\l_linalg.TestMatrixPower.test\l_power_is_minus_one",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1linalg_1_1tests_1_1test__linalg_1_1_test_matrix_power.html#ace10c729809e557e10ead2819860e7cb",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.linalg.tests.test\l_linalg.TestMatrixPower.test\l_power_is_zero",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1linalg_1_1tests_1_1test__linalg_1_1_test_matrix_power.html#a4cc95f64d09b125247c4b9ff30c5bc14",tooltip=" "];
+}

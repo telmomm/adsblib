@@ -1,0 +1,13 @@
+digraph "numpy.ma.extras.apply_along_axis"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy.ma.extras.apply\l_along_axis",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.ma.tests.test\l_extras.TestApplyAlongAxis.test_3d",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1ma_1_1tests_1_1test__extras_1_1_test_apply_along_axis.html#a8073f1c0ced8ba994ff5be1f9a0d8e87",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.ma.tests.test\l_extras.TestApplyAlongAxis.test\l_3d_kwargs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1ma_1_1tests_1_1test__extras_1_1_test_apply_along_axis.html#a48e4eaed09129383bd55bb669c46ecd3",tooltip=" "];
+}

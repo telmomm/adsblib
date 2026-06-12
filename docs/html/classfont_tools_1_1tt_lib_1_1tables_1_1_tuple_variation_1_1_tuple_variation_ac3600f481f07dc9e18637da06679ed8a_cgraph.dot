@@ -1,0 +1,13 @@
+digraph "fontTools.ttLib.tables.TupleVariation.TupleVariation.compileDeltas"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="fontTools.ttLib.tables.Tuple\lVariation.TupleVariation.compile\lDeltas",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="fontTools.ttLib.tables.Tuple\lVariation.TupleVariation.compile\lDeltaValues_",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1_tuple_variation_1_1_tuple_variation.html#a44ba842c0e3e10952dfa19062f4ea358",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="fontTools.ttLib.tables.Tuple\lVariation.TupleVariation.getCoordWidth",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1tt_lib_1_1tables_1_1_tuple_variation_1_1_tuple_variation.html#a9f91a2b306e363a931214ac031b82432",tooltip=" "];
+}

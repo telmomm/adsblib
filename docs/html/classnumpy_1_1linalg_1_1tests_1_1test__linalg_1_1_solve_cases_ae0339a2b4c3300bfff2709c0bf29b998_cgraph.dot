@@ -1,0 +1,15 @@
+digraph "numpy.linalg.tests.test_linalg.SolveCases.do"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="numpy.linalg.tests.test\l_linalg.SolveCases.do",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.linalg.tests.test\l_linalg.assert_almost_equal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1linalg_1_1tests_1_1test__linalg.html#a1467bd400ed80cc859c64140513876bc",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.linalg.tests.test\l_linalg.consistent_subclass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1linalg_1_1tests_1_1test__linalg.html#afb96454a35b82d25c91640c9f33d6272",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.linalg._linalg.matmul",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1linalg_1_1__linalg.html#a1a926c11db8fae0aaa7a6c024b46d8b8",tooltip=" "];
+}

@@ -1,0 +1,15 @@
+digraph "IPython.core.page.get_pager_start"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="IPython.core.page.get\l_pager_start",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPython.core.page.page_file",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1core_1_1page.html#a8976f3bf15e9965b494f87a817c5906c",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="IPython.core.page.pager_page",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1core_1_1page.html#aee2e5ceecdb54cf6058a73748556fafe",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="IPython.core.page.page",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1core_1_1page.html#adc0f711216ae5bba29f4adea222ccd4c",tooltip=" "];
+}

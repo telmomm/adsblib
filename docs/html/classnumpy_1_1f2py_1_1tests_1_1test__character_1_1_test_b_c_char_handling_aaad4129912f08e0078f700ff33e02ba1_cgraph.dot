@@ -1,0 +1,11 @@
+digraph "numpy.f2py.tests.test_character.TestBCCharHandling.test_gh25286"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="numpy.f2py.tests.test\l_character.TestBCCharHandling.test\l_gh25286",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="charint",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$gh25286_8f90.html#a4e6976b8ae2e4f1e6ec4042566544015",tooltip=" "];
+}

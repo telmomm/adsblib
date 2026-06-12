@@ -1,0 +1,34 @@
+digraph "numpy.fft._pocketfft._raw_fft"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="numpy.fft._pocketfft.\l_raw_fft",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.fft._pocketfft.fft",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1fft_1_1__pocketfft.html#a636d0ca7295ef85df01c24b31670129f",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.fft._pocketfft.ifft",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1fft_1_1__pocketfft.html#a8b413234e65b9285853dfe84234a8bdc",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.fft._pocketfft.irfftn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1fft_1_1__pocketfft.html#a86a9b3ac8e40a91393232130829e8e60",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="numpy.fft._pocketfft.irfft2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1fft_1_1__pocketfft.html#a50a4ae7429c4b50cda1acfd80ae629f8",tooltip=" "];
+  Node3 -> Node6 [id="edge5_Node000003_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="numpy.fft.tests.test\l_pocketfft.TestFFT1D.test\l_fft_out_argument",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1fft_1_1tests_1_1test__pocketfft_1_1_test_f_f_t1_d.html#aaacf9b1c7c795e93e8a0f909a88ea6fe",tooltip=" "];
+  Node3 -> Node7 [id="edge6_Node000003_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="numpy.fft.tests.test\l_pocketfft.TestFFT1D.test\l_fftn_out_argument",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1fft_1_1tests_1_1test__pocketfft_1_1_test_f_f_t1_d.html#afc4bce88e9f5dd99bccb0156927ea8d0",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="numpy.fft._pocketfft.irfft",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1fft_1_1__pocketfft.html#a4e8c81366fed1b08e6088e06c7499351",tooltip=" "];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="numpy.fft._pocketfft.hfft",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1fft_1_1__pocketfft.html#a4d382b49c645886642a09fb78e35cd56",tooltip=" "];
+  Node8 -> Node4 [id="edge9_Node000008_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="numpy.fft._pocketfft.rfft",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1fft_1_1__pocketfft.html#a2981da19855cdc6a74ae2a8a1782e4b2",tooltip=" "];
+  Node10 -> Node11 [id="edge11_Node000010_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="numpy.fft._pocketfft.ihfft",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1fft_1_1__pocketfft.html#a86ac74b929b3a30394d392592a787491",tooltip=" "];
+  Node10 -> Node12 [id="edge12_Node000010_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="numpy.fft._pocketfft.rfftn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1fft_1_1__pocketfft.html#a64cf15c01bc9323277d4b389ee1fe2a7",tooltip=" "];
+  Node12 -> Node13 [id="edge13_Node000012_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="numpy.fft._pocketfft.rfft2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1fft_1_1__pocketfft.html#afa6f6845db00c5e4e3f0e59c771ef0d4",tooltip=" "];
+}

@@ -1,0 +1,21 @@
+digraph "pandas.core.apply.reconstruct_and_relabel_result"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.core.apply.reconstruct\l_and_relabel_result",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.apply.reconstruct_func",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1apply.html#a0ec8f522a35a9a55f9563b54c736520e",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="func",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$callback_2foo_8f.html#a565fe2cc583df102f120752b0011c330",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pandas.core.apply.is\l_multi_agg_with_relabel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1apply.html#ab72420b66d3d3a68d5785d5238a269aa",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pandas.core.apply.normalize\l_keyword_aggregation",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1apply.html#a4d8f1922059737b3275f1e1a48056fdf",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="pandas.core.apply.\l_make_unique_kwarg_list",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1apply.html#ad562c053905e8fc7d7073d851e8f308a",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pandas.core.apply.relabel\l_result",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepandas_1_1core_1_1apply.html#a572f9f92d9ffff4667bc4bb2f0708cff",tooltip=" "];
+}

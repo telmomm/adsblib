@@ -1,0 +1,15 @@
+digraph "SuspendThreads"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SuspendThreads",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="DoAttach",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$windows_2attach_8cpp.html#acf1eeaf5a255314bdf075bbcf586be46",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="AttachAndRunPythonCode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$windows_2attach_8cpp.html#a537151117e1679a52ea6656c21f33705",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="RunCodeInMemoryInAttachedDll",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$run__code__in__memory_8hpp.html#af237cbb626ba62efe7b8aa589eeb4b2d",tooltip=" "];
+}

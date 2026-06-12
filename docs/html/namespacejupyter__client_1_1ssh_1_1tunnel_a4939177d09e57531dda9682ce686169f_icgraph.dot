@@ -1,0 +1,15 @@
+digraph "jupyter_client.ssh.tunnel._split_server"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="jupyter_client.ssh.tunnel.\l_split_server",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="jupyter_client.ssh.tunnel.\l_paramiko_tunnel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejupyter__client_1_1ssh_1_1tunnel.html#a9e17b9255cfdfe50b5282ca05751e641",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="jupyter_client.ssh.tunnel.\l_try_passwordless_paramiko",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejupyter__client_1_1ssh_1_1tunnel.html#aa7e99ba1e1de7764ca3bc6af7025785e",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="jupyter_client.ssh.tunnel.paramiko\l_tunnel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejupyter__client_1_1ssh_1_1tunnel.html#a74101114e9e01816c454717a60e57e48",tooltip=" "];
+}

@@ -1,0 +1,15 @@
+digraph "matplotlib.backends.backend_ps._get_bbox_header"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="matplotlib.backends.backend\l_ps._get_bbox_header",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.backends.backend\l_ps.pstoeps",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1backends_1_1backend__ps.html#af4749888ddb5c2f395d7dc4c91d8140d",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.backends.backend\l_ps.gs_distill",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1backends_1_1backend__ps.html#a7e37128445bc02b4940c94ee9b15041e",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="matplotlib.backends.backend\l_ps.xpdf_distill",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1backends_1_1backend__ps.html#ad5636bc7f224d43458781721d9253952",tooltip=" "];
+}

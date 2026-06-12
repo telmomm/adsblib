@@ -1,0 +1,13 @@
+digraph "matplotlib.offsetbox.DraggableOffsetBox.get_loc_in_canvas"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="matplotlib.offsetbox.Draggable\lOffsetBox.get_loc_in_canvas",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.legend.Draggable\lLegend.finalize_offset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1legend_1_1_draggable_legend.html#a50c526cb5a64282aa8829742057f450a",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.offsetbox.Draggable\lBase.on_release",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1offsetbox_1_1_draggable_base.html#ad63d4a15c9cd6717d9cdbeb11ec7a3d8",tooltip=" "];
+}

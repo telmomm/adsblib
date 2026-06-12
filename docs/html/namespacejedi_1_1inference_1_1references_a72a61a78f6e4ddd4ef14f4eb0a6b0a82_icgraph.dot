@@ -1,0 +1,11 @@
+digraph "jedi.inference.references._find_defining_names"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="jedi.inference.references.\l_find_defining_names",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="jedi.inference.references.find\l_references",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#aa7ca562cd236e52047da8c0f6d26a6e6",tooltip=" "];
+}

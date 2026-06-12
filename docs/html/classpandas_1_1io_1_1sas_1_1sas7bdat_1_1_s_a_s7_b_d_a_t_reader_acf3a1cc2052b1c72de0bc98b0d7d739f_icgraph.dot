@@ -1,0 +1,13 @@
+digraph "pandas.io.sas.sas7bdat.SAS7BDATReader._convert_header_text"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pandas.io.sas.sas7bdat.SAS7\lBDATReader._convert_header_text",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.io.sas.sas7bdat.SAS7\lBDATReader._process_columnname\l_subheader",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1sas_1_1sas7bdat_1_1_s_a_s7_b_d_a_t_reader.html#a6ad3c6586876121c939bb57fc6afaafe",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.io.sas.sas7bdat.SAS7\lBDATReader._process_format\l_subheader",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1io_1_1sas_1_1sas7bdat_1_1_s_a_s7_b_d_a_t_reader.html#a3128b71c0cf9b11bdeecfe3fb7e85f96",tooltip=" "];
+}

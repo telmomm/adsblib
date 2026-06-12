@@ -1,0 +1,45 @@
+digraph "matplotlib.tests.test_cbook.Test_callback_registry.test_callback_disconnect_func_wrong"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="matplotlib.tests.test\l_cbook.Test_callback\l_registry.test_callback\l_disconnect_func_wrong",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPython.terminal.shortcuts.auto\l_suggest.NavigableAutoSuggestFromHistory.connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1terminal_1_1shortcuts_1_1auto__suggest_1_1_navigable_auto_suggest_from_history.html#a135ec3d0d9bf8800031f42e7d492b16b",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.cbook.Callback\lRegistry.connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1cbook_1_1_callback_registry.html#a63eb7a6c717cb656127bb3f174626e32",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="matplotlib.cbook.Callback\lRegistry._remove_proxy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1cbook_1_1_callback_registry.html#aef2cd3a1bb4fd2a04f49588f13da8c0e",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="matplotlib.cbook._weak\l_or_strong_ref",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib_1_1cbook.html#a3e39620ff7f937326c451e7a49a51177",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="matplotlib.patches.Connection\lStyle.Angle.connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1patches_1_1_connection_style_1_1_angle.html#a5eb10f5565cf5a20a52ab6f512a3651b",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="matplotlib.patches.Connection\lStyle.Angle3.connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1patches_1_1_connection_style_1_1_angle3.html#a047f1b448118d4c034897bdac99294c7",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="matplotlib.patches.Connection\lStyle.Arc.connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1patches_1_1_connection_style_1_1_arc.html#aeb70ec3b52e42239a93486ab6bf72faf",tooltip=" "];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="matplotlib.patches.Connection\lStyle.Arc3.connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1patches_1_1_connection_style_1_1_arc3.html#a6ce3e46a12b415afa1b26348be2a9611",tooltip=" "];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="matplotlib.patches.Connection\lStyle.Bar.connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1patches_1_1_connection_style_1_1_bar.html#a6cf475487f140113e4bffb9549edcae7",tooltip=" "];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="matplotlib.tests.test\l_cbook.Test_callback\l_registry.connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1tests_1_1test__cbook_1_1_test__callback__registry.html#aa69c727e398ff1a3c9da6adabd6375f1",tooltip=" "];
+  Node11 -> Node11 [id="edge11_Node000011_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node12 [id="edge12_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="pydevd.Dispatcher.connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpydevd_1_1_dispatcher.html#a3dbeee7cb79ba50efd7771f741b07ed7",tooltip=" "];
+  Node1 -> Node13 [id="edge13_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="pydevd.PyDB.connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpydevd_1_1_py_d_b.html#a9b4a06ce96b1d24e42a2701e5c85c3fd",tooltip=" "];
+  Node13 -> Node14 [id="edge14_Node000013_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="pydevd.PyDB.initialize\l_network",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpydevd_1_1_py_d_b.html#a8e97af61b6af266ce2b3c9954473c8f4",tooltip=" "];
+  Node1 -> Node15 [id="edge15_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="winappdbg.sql._SQLitePatch.connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwinappdbg_1_1sql_1_1___s_q_lite_patch.html#a4333f86c54e84e47f6d3af1232d99288",tooltip=" "];
+  Node1 -> Node16 [id="edge16_Node000001_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="matplotlib.tests.test\l_cbook.Test_callback\l_registry.disconnect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1tests_1_1test__cbook_1_1_test__callback__registry.html#a0664c27bd4a356fe40101983366a1efe",tooltip=" "];
+  Node16 -> Node16 [id="edge17_Node000016_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node17 [id="edge18_Node000001_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="matplotlib.tests.test\l_cbook.Test_callback\l_registry.is_empty",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1tests_1_1test__cbook_1_1_test__callback__registry.html#a304c5d7c35458c48988f3d1056dbc1e5",tooltip=" "];
+  Node1 -> Node18 [id="edge19_Node000001_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="matplotlib.tests.test\l_cbook.Test_callback\l_registry.is_not_empty",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1tests_1_1test__cbook_1_1_test__callback__registry.html#a6146c763b1355c22b4e3b474433fe5e6",tooltip=" "];
+}

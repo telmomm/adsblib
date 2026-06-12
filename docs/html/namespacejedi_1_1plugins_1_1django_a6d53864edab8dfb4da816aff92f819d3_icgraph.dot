@@ -1,0 +1,13 @@
+digraph "jedi.plugins.django.is_django_model_base"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="jedi.plugins.django.is\l_django_model_base",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="jedi.plugins.django.get\l_metaclass_filters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1plugins_1_1django.html#a788acd25b797db9d5e11e100320f0815",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="jedi.plugins.django.get\l_metaclass_signatures",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1plugins_1_1django.html#a3bcc8d5db7a7fefce2faa1b44eb38cbb",tooltip=" "];
+}

@@ -1,0 +1,27 @@
+digraph "fontTools.varLib.instancer.names.updateNameTable"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="fontTools.varLib.instancer.names.update\lNameTable",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="fontTools.varLib.instancer.names.\l_sortAxisValues",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1instancer_1_1names.html#abbdf0135f0617ebd1d097241dc98ad24",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="fontTools.varLib.instancer.names.\l_updateNameRecords",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1instancer_1_1names.html#a89e7e72c5ccddd171bfd172621b21f9c",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="fontTools.varLib.instancer.names.\l_isRibbi",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1instancer_1_1names.html#ab84fbfa230231182b4f2ad6e09e9a2ab",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="fontTools.varLib.instancer.names.\l_updateNameTableStyleRecords",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1instancer_1_1names.html#a6a3cb82e4976fb002b06b67c050e2712",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="fontTools.varLib.instancer.names.\l_updatePSNameRecord",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1instancer_1_1names.html#ab82899959ebae5631adaf49d9bd34d46",tooltip=" "];
+  Node5 -> Node7 [id="edge6_Node000005_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="fontTools.varLib.instancer.names.\l_updateUniqueIdNameRecord",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1instancer_1_1names.html#a806636746a149e138f9cfd6c21c03d26",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="fontTools.varLib.instancer.names.\l_fontVersion",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1instancer_1_1names.html#a62575ba47623f668b5a27a49b36252af",tooltip=" "];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="fontTools.varLib.instancer.axis\lValuesFromAxisLimits",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1instancer.html#af37f6012301d09d79c8edd5159deb88b",tooltip=" "];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="fontTools.varLib.instancer.names.check\lAxisValuesExist",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1var_lib_1_1instancer_1_1names.html#acd5acb1173e6f5d351037f4ff1d31e5e",tooltip=" "];
+}

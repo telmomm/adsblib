@@ -1,0 +1,32 @@
+digraph "_pydev_bundle.pydev_console_utils.BaseInterpreterInterface.get_namespace"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_pydev_bundle.pydev\l_console_utils.BaseInterpreter\lInterface.get_namespace",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pydev_bundle.pydev\l_console_utils.BaseInterpreter\lInterface.__resolve_reference__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydev__bundle_1_1pydev__console__utils_1_1_base_interpreter_interface.html#a835a918b57f0aa36054c8f792ee0350d",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pydev_bundle.pydev\l_console_utils.BaseInterpreter\lInterface.getDescription",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydev__bundle_1_1pydev__console__utils_1_1_base_interpreter_interface.html#a422b87fef10bd17ed4127a9c003429ae",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pydev_bundle.pydev\l_console_utils.BaseInterpreter\lInterface.changeVariable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydev__bundle_1_1pydev__console__utils_1_1_base_interpreter_interface.html#a453193e9be37c11e4efacc53a92d59fd",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="_pydev_bundle.pydev\l_console_utils.BaseInterpreter\lInterface.connectToDebugger",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydev__bundle_1_1pydev__console__utils_1_1_base_interpreter_interface.html#acb77056dfa83b56c200011f1a6d9d064",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="_pydev_bundle.pydev\l_console_utils.BaseInterpreter\lInterface.evaluate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydev__bundle_1_1pydev__console__utils_1_1_base_interpreter_interface.html#a9ff55fb7aa69496e68d0905c4d07e681",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pip._vendor.distlib.markers.\lEvaluator.evaluate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1distlib_1_1markers_1_1_evaluator.html#a5f881ae0829f2bf822e535cd01bfe85c",tooltip=" "];
+  Node7 -> Node7 [id="edge7_Node000007_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="_pydev_bundle.pydev\l_console_utils.BaseInterpreter\lInterface.getArray",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydev__bundle_1_1pydev__console__utils_1_1_base_interpreter_interface.html#a250e43d56593941e60259a184efac051",tooltip=" "];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="_pydev_bundle.pydev\l_console_utils.BaseInterpreter\lInterface.getFrame",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydev__bundle_1_1pydev__console__utils_1_1_base_interpreter_interface.html#acc8d2007dc5e18231e11161cc3831d89",tooltip=" "];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="_pydev_bundle.pydev\l_console_utils.BaseInterpreter\lInterface.getVariable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydev__bundle_1_1pydev__console__utils_1_1_base_interpreter_interface.html#ad5ebfa2ac99706e9774cd681b81a4691",tooltip=" "];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="_pydev_bundle.pydev\l_console_utils.BaseInterpreter\lInterface.loadFullValue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydev__bundle_1_1pydev__console__utils_1_1_base_interpreter_interface.html#a6052239e76b137c6d17b923cad90d8a0",tooltip=" "];
+  Node1 -> Node12 [id="edge12_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="_pydevd_bundle.pydevd\l_console.DebugConsole.runcode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pydevd__bundle_1_1pydevd__console_1_1_debug_console.html#ab7ba1b5b2c2820430cba553ce4a6cf5a",tooltip=" "];
+}

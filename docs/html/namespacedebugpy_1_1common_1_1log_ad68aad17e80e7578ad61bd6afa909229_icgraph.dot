@@ -1,0 +1,24 @@
+digraph "debugpy.common.log.write"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="debugpy.common.log.write",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="debugpy.common.log.write\l_format",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedebugpy_1_1common_1_1log.html#a992cbfb305d0d322be2e28a9aa0a6650",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="debugpy.common.log.\l_exception",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedebugpy_1_1common_1_1log.html#ab28cb40b2d05d12d7b7c17a5da69c8e5",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="debugpy.common.log.reraise\l_exception",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedebugpy_1_1common_1_1log.html#a6d44952cbc1f5dc61e90bda8c75eb19b",tooltip=" "];
+  Node4 -> Node2 [id="edge4_Node000004_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node5 [id="edge5_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="debugpy.common.log.swallow\l_exception",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedebugpy_1_1common_1_1log.html#af0ba425cd386039b190e891f3172aff6",tooltip=" "];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="debugpy.common.log.get\l_environment_description",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedebugpy_1_1common_1_1log.html#ab919dc92dd0b5c6281e1bcc6771eba31",tooltip=" "];
+  Node6 -> Node7 [id="edge7_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="debugpy.common.log.describe\l_environment",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedebugpy_1_1common_1_1log.html#af4d17a33bbbd26a1b1f33e533a22b3f8",tooltip=" "];
+  Node2 -> Node8 [id="edge8_Node000002_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="debugpy.common.log.error",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedebugpy_1_1common_1_1log.html#a4f0eef4027872ed36a02f699d1be010e",tooltip=" "];
+}

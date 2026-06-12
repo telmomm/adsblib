@@ -1,0 +1,13 @@
+digraph "comm.base_comm.BaseComm.open"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="comm.base_comm.BaseComm.open",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="comm.base_comm.BaseComm.publish_msg",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcomm_1_1base__comm_1_1_base_comm.html#a3960881e1db9e86a9d5bab032e7f8251",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="comm.DummyComm.publish_msg",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcomm_1_1_dummy_comm.html#a23f558556da7dc89c006b070ef94bb6c",tooltip=" "];
+}

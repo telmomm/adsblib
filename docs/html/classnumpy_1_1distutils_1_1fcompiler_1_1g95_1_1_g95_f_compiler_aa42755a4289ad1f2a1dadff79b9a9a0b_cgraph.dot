@@ -1,0 +1,13 @@
+digraph "numpy.distutils.fcompiler.g95.G95FCompiler.get_flags_debug"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="numpy.distutils.fcompiler.g95.\lG95FCompiler.get_flags_debug",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.distutils.customized\l_fcompiler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1distutils.html#a60ba9c4b3d22e641c3dc561e9e1667bd",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.distutils.fcompiler.\lFCompiler.get_version",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classnumpy_1_1distutils_1_1fcompiler_1_1_f_compiler.html#a1134c8a40929600fe76e16779f78dfd3",tooltip=" "];
+}

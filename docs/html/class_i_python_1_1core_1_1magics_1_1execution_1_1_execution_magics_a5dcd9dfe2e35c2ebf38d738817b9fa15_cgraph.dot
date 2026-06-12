@@ -1,0 +1,21 @@
+digraph "IPython.core.magics.execution.ExecutionMagics._run_with_timing"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="IPython.core.magics.execution.\lExecutionMagics._run_with_timing",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPython.core.magics.execution.\lExecutionMagics.run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1magics_1_1execution_1_1_execution_magics.html#ae7684a3c812624b634d13cb8b3aa2c0a",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="IPython.core.magics.execution.\lExecutionMagics._run_with\l_debugger",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1magics_1_1execution_1_1_execution_magics.html#a491ee3708e916cbc81973fff22563b95",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="IPython.core.magics.execution.\lExecutionMagics._run_with\l_profiler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1magics_1_1execution_1_1_execution_magics.html#a91b0636461a98029d7bda743a0576f1e",tooltip=" "];
+  Node2 -> Node1 [id="edge4_Node000002_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="IPython.core.magics.execution.parse\l_breakpoint",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1core_1_1magics_1_1execution.html#a508bb2d5ee7d44d4ab5ed2c35013afd7",tooltip=" "];
+  Node2 -> Node6 [id="edge6_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="IPython.core.magic.Magics.parse\l_options",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1magic_1_1_magics.html#a468cfa114034b9ded68a5aa2951f9706",tooltip=" "];
+  Node2 -> Node2 [id="edge7_Node000002_Node000002",color="steelblue1",style="solid",tooltip=" "];
+}

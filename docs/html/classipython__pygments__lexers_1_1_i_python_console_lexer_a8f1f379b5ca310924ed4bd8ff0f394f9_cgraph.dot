@@ -1,0 +1,56 @@
+digraph "ipython_pygments_lexers.IPythonConsoleLexer.buffered_tokens"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="ipython_pygments_lexers.\lIPythonConsoleLexer.buffered\l_tokens",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ipython_pygments_lexers.\lIPythonConsoleLexer.get\l_tokens_unprocessed",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classipython__pygments__lexers_1_1_i_python_console_lexer.html#a63e079a0444a163f9688fc4d0a72ce54",tooltip=" "];
+  Node2 -> Node1 [id="edge2_Node000002_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node3 [id="edge3_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="ipython_pygments_lexers.\lIPythonConsoleLexer.get_mci",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classipython__pygments__lexers_1_1_i_python_console_lexer.html#a8467c36ad38205dd9c3efdd4e6ef3c92",tooltip=" "];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="fontTools.misc.loggingTools.\lTimer.reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1misc_1_1logging_tools_1_1_timer.html#a1cb52a01eb0df6ffcbb031a5f5cd6e17",tooltip=" "];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="fontTools.misc.psCharStrings.\lSimpleT2Decompiler.reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1misc_1_1ps_char_strings_1_1_simple_t2_decompiler.html#a2e143924aa47695880d63a452035e89d",tooltip=" "];
+  Node2 -> Node6 [id="edge6_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="fontTools.misc.psCharStrings.\lT1OutlineExtractor.reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1misc_1_1ps_char_strings_1_1_t1_outline_extractor.html#aeb0a6cb70b00632cd59d4de14351f20b",tooltip=" "];
+  Node2 -> Node7 [id="edge7_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="fontTools.misc.psCharStrings.\lT2OutlineExtractor.reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1misc_1_1ps_char_strings_1_1_t2_outline_extractor.html#a547b3a71a0f02e3a85b5e3e5edd02ed6",tooltip=" "];
+  Node2 -> Node8 [id="edge8_Node000002_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="fontTools.misc.psCharStrings.\lT2WidthExtractor.reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classfont_tools_1_1misc_1_1ps_char_strings_1_1_t2_width_extractor.html#a42b89bf9bad360f27683a5fd1ba564b6",tooltip=" "];
+  Node2 -> Node9 [id="edge9_Node000002_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="IPython.core.history.History\lManager.reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1history_1_1_history_manager.html#aff8cf8f94a8a660dc4e495cba9095ad9",tooltip=" "];
+  Node9 -> Node10 [id="edge10_Node000009_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="IPython.core.history.History\lManager.end_session",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1history_1_1_history_manager.html#ac2d26a03cf83ccf0b5fd9b943b4f3836",tooltip=" "];
+  Node10 -> Node11 [id="edge11_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="IPython.core.history.History\lAccessor.writeout_cache",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1history_1_1_history_accessor.html#a4eb16c76dd1369a988c0697cc39d15f4",tooltip=" "];
+  Node9 -> Node12 [id="edge12_Node000009_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="IPython.core.history.History\lManager.new_session",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1history_1_1_history_manager.html#a21859b7f7a28d247c2c0288f8d793ead",tooltip=" "];
+  Node2 -> Node13 [id="edge13_Node000002_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="IPython.core.interactiveshell.\lInteractiveShell.reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1interactiveshell_1_1_interactive_shell.html#a0787db2f66b2f5504a8b61b670752712",tooltip=" "];
+  Node13 -> Node14 [id="edge14_Node000013_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="IPython.core.interactiveshell.\lInteractiveShell.clear_main\l_mod_cache",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1interactiveshell_1_1_interactive_shell.html#a7c9e2849acf2b3d5137e53348952b764",tooltip=" "];
+  Node13 -> Node15 [id="edge15_Node000013_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="IPython.core.interactiveshell.\lInteractiveShell.init_user_ns",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1interactiveshell_1_1_interactive_shell.html#a5d6b347f1105bc675d4be58c6c282f4e",tooltip=" "];
+  Node15 -> Node16 [id="edge16_Node000015_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="IPython.core.interactiveshell.\lInteractiveShell.get_ipython",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1interactiveshell_1_1_interactive_shell.html#aebd4cd9d1c0b66532aae90c04cb25e14",tooltip=" "];
+  Node13 -> Node13 [id="edge17_Node000013_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node17 [id="edge18_Node000002_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="IPython.core.magics.namespace.\lNamespaceMagics.reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1magics_1_1namespace_1_1_namespace_magics.html#a9c16037540f4ab81b5caa0fc491d699b",tooltip=" "];
+  Node17 -> Node18 [id="edge19_Node000017_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="IPython.core.magic.Magics.parse\l_options",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1magic_1_1_magics.html#a468cfa114034b9ded68a5aa2951f9706",tooltip=" "];
+  Node17 -> Node17 [id="edge20_Node000017_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 -> Node19 [id="edge21_Node000017_Node000019",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="IPython.core.magics.namespace.\lNamespaceMagics.who_ls",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1magics_1_1namespace_1_1_namespace_magics.html#a9a9bdaf13df7ae91bd2e239eba8e5a9b",tooltip=" "];
+  Node2 -> Node20 [id="edge22_Node000002_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="IPython.lib.demo.Demo.reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1lib_1_1demo_1_1_demo.html#acc7d17d224b86edd6d2c695b306fe7a4",tooltip=" "];
+  Node2 -> Node21 [id="edge23_Node000002_Node000021",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="ipython_pygments_lexers.\lIPythonConsoleLexer.reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classipython__pygments__lexers_1_1_i_python_console_lexer.html#add9be9f22fe9383214d61e6679f615b1",tooltip=" "];
+  Node2 -> Node22 [id="edge24_Node000002_Node000022",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="winappdbg.textio.Color.reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwinappdbg_1_1textio_1_1_color.html#abd640e26366a6488d04a7b84731d013d",tooltip=" "];
+  Node22 -> Node23 [id="edge25_Node000022_Node000023",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="winappdbg.textio.Color.\l_set_text_attributes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwinappdbg_1_1textio_1_1_color.html#ab98b97c49ad66f75767ef189cf767f2e",tooltip=" "];
+}

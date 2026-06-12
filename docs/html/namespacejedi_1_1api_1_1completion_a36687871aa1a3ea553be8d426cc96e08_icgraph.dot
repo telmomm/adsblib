@@ -1,0 +1,18 @@
+digraph "jedi.api.completion.complete_trailer"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="jedi.api.completion.complete\l_trailer",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="jedi.api.completion.\l_complete_getattr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1api_1_1completion.html#a8f83c81b2f93470a6796a66ab550b25c",tooltip=" "];
+  Node2 -> Node1 [id="edge2_Node000002_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="jedi.api.completion.Completion.\l_complete_trailer_for_values",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjedi_1_1api_1_1completion_1_1_completion.html#a289e64f43fbcba6d22be9373ff10608c",tooltip=" "];
+  Node3 -> Node4 [id="edge4_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="jedi.api.completion.Completion.\l_complete_trailer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjedi_1_1api_1_1completion_1_1_completion.html#a73b8ea4ce1305b53c91f90da03521f78",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="jedi.api.completion.search\l_in_module",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1api_1_1completion.html#aa909b97a7b86d11cdbf9cf6f1f0bb95c",tooltip=" "];
+}

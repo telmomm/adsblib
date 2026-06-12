@@ -1,0 +1,14 @@
+digraph "fontTools.otlLib.maxContextCalc.maxCtxContextualSubtable"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="fontTools.otlLib.maxContext\lCalc.maxCtxContextualSubtable",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="fontTools.otlLib.maxContext\lCalc.maxCtxSubtable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1otl_lib_1_1max_context_calc.html#af6fbf51ab263aa972dd5df0c026119d2",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="fontTools.otlLib.maxContext\lCalc.maxCtxFont",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacefont_tools_1_1otl_lib_1_1max_context_calc.html#a7881f6f3f11da01ae0b4ed65e57127f7",tooltip=" "];
+  Node2 -> Node2 [id="edge3_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

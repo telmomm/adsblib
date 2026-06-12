@@ -1,0 +1,15 @@
+digraph "mplot3d.proj3d._apply_scale_transforms"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="mplot3d.proj3d._apply\l_scale_transforms",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="mplot3d.proj3d._scale\l_proj_transform",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacemplot3d_1_1proj3d.html#ae5d386d0f9d3a51cd0a07d61f69e5db1",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="mplot3d.proj3d._scale\l_proj_transform_clip",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacemplot3d_1_1proj3d.html#a6550d0ca432ff8b82410d359aaa973db",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="mplot3d.proj3d._scale\l_proj_transform_vectors",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacemplot3d_1_1proj3d.html#a75da485cc903da040778e8e01f6c8a12",tooltip=" "];
+}

@@ -1,0 +1,14 @@
+digraph "jupyter_client.jsonutil.extract_dates"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="jupyter_client.jsonutil.extract\l_dates",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node1 [id="edge1_Node000001_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node2 [id="edge2_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="jupyter_client.jsonutil.parse_date",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejupyter__client_1_1jsonutil.html#a94b82c6019bfbfaed2be2641da6ecbfe",tooltip=" "];
+  Node2 -> Node3 [id="edge3_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="jupyter_client.jsonutil.\l_ensure_tzinfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejupyter__client_1_1jsonutil.html#ac387ed0b509b04bf6cf14de839cfb8b1",tooltip=" "];
+}

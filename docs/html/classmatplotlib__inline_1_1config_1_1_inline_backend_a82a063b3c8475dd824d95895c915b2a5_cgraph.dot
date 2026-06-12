@@ -1,0 +1,13 @@
+digraph "matplotlib_inline.config.InlineBackend._figure_formats_changed"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="matplotlib_inline.config.\lInlineBackend._figure_formats\l_changed",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib_inline.config.\lInlineBackend._update_figure\l_formatters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib__inline_1_1config_1_1_inline_backend.html#abce1c0c0874bd2cce3658a271548c713",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib_inline.config.pil\l_available",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacematplotlib__inline_1_1config.html#ab09903a2fb0b45d80d69102fad0f9147",tooltip=" "];
+}

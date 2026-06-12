@@ -1,0 +1,41 @@
+digraph "jedi.inference.references.find_references"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="jedi.inference.references.find\l_references",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="jedi.inference.references.\l_dictionarize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#adcea4fb337cd634895fb06a3b8f5b4ee",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="jedi.inference.references.\l_find_defining_names",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#a72a61a78f6e4ddd4ef14f4eb0a6b0a82",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="jedi.inference.references.\l_add_names_in_same_context",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#a0c67e2126ed074fcef0f05472918c6be",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="jedi.inference.references.\l_find_global_variables",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#a8b0987ece3bbf170936249137ff2a554",tooltip=" "];
+  Node5 -> Node4 [id="edge5_Node000005_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node6 [id="edge6_Node000003_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="jedi.inference.references.\l_find_names",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#ae2b24e7c8617ad66a3baf22841eb0e74",tooltip=" "];
+  Node6 -> Node7 [id="edge7_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="jedi.inference.references.\l_resolve_names",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#aa811409d402ac89be8a741a6bcfe3c34",tooltip=" "];
+  Node7 -> Node7 [id="edge8_Node000007_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node7 [id="edge9_Node000003_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge10_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge11_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="jedi.inference.references.get\l_module_contexts_containing_name",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#a3b2262e36a5a3b6b4887fa87afc8b35e",tooltip=" "];
+  Node8 -> Node9 [id="edge12_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="jedi.inference.references.\l_find_project_modules",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#a3f2a171a80fe64164495fe8a0d7a17b2",tooltip=" "];
+  Node9 -> Node10 [id="edge13_Node000009_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="jedi.inference.references.recurse\l_find_python_files",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#a930b008cb08a1d3717fcebe331123d79",tooltip=" "];
+  Node10 -> Node11 [id="edge14_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="jedi.inference.references.recurse\l_find_python_folders_and_files",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#a592ffad6f0aa705f0da3a7921eb0ebce",tooltip=" "];
+  Node11 -> Node12 [id="edge15_Node000011_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="jedi.inference.references.expand\l_relative_ignore_paths",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#abcf84b791ea8ccce97c95516f7a4773a",tooltip=" "];
+  Node11 -> Node13 [id="edge16_Node000011_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="jedi.inference.references.gitignored\l_paths",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#a5808dc90aa89c3ab8fe61bbf0a90b412",tooltip=" "];
+  Node8 -> Node14 [id="edge17_Node000008_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="jedi.inference.references.search\l_in_file_ios",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#a2f94a25de42186c4549aa4c9e6ec53de",tooltip=" "];
+  Node14 -> Node15 [id="edge18_Node000014_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="jedi.inference.references.\l_check_fs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacejedi_1_1inference_1_1references.html#a1a3c46e4620f94acab52f384b77f9e93",tooltip=" "];
+}

@@ -1,0 +1,50 @@
+digraph "matplotlib.dviread.Dvi._read_arg"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="matplotlib.dviread.Dvi.\l_read_arg",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.dviread.Dvi.\l_define_native_font",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1dviread_1_1_dvi.html#ac4ea223d87c33b9f64c1b221a78f9d32",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="matplotlib.dviread.Vf._read",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1dviread_1_1_vf.html#a08a2a25593a341ac1371f66aceea0e7d",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PIL.GimpPaletteFile.Gimp\lPaletteFile.__init__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_i_l_1_1_gimp_palette_file_1_1_gimp_palette_file.html#aa584505f351a727be66ae27c4bbe976c",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="typing_extensions.deprecated.\l__call__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classtyping__extensions_1_1deprecated.html#a4e28eae0cfe09f063663d8cf17635743",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="setuptools._vendor.ordered\l_set.OrderedSet.__setstate__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__vendor_1_1ordered__set_1_1_ordered_set.html#aa7f7de9d987829525d06db565fe1b4a1",tooltip=" "];
+  Node4 -> Node7 [id="edge6_Node000004_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pygments.lexers.robotframework.\l_Table.end_row",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpygments_1_1lexers_1_1robotframework_1_1___table.html#a24329605ba1f95d13979fb17ee5def91",tooltip=" "];
+  Node4 -> Node8 [id="edge7_Node000004_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="pygments.lexers.robotframework.\lSettingTable.end_row",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpygments_1_1lexers_1_1robotframework_1_1_setting_table.html#a7ae5b7ecf9409bf33f18d7f04dafbb1a",tooltip=" "];
+  Node3 -> Node9 [id="edge8_Node000003_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="pip._vendor.msgpack.fallback.\lUnpacker._read_header",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1msgpack_1_1fallback_1_1_unpacker.html#a9983485463995894f2ba6a7bf3eb49c9",tooltip=" "];
+  Node9 -> Node10 [id="edge9_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="pip._vendor.msgpack.fallback.\lUnpacker._unpack",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1msgpack_1_1fallback_1_1_unpacker.html#a20d0447ab36e0a1b70b40e023dac6a32",tooltip=" "];
+  Node10 -> Node11 [id="edge10_Node000010_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="pip._vendor.msgpack.fallback.\lUnpacker.__next__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1msgpack_1_1fallback_1_1_unpacker.html#a429f142098b718047efce50e70f62524",tooltip=" "];
+  Node10 -> Node10 [id="edge11_Node000010_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node12 [id="edge12_Node000010_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="pip._vendor.msgpack.fallback.\lUnpacker.read_array_header",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1msgpack_1_1fallback_1_1_unpacker.html#a53ee2dbd2228dc85dcef503f4abfe24c",tooltip=" "];
+  Node10 -> Node13 [id="edge13_Node000010_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="pip._vendor.msgpack.fallback.\lUnpacker.read_map_header",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1msgpack_1_1fallback_1_1_unpacker.html#aa1b18353b4d5d3dbb97ac12aba58c669",tooltip=" "];
+  Node10 -> Node14 [id="edge14_Node000010_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="pip._vendor.msgpack.fallback.\lUnpacker.skip",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1msgpack_1_1fallback_1_1_unpacker.html#a24594b4b126ebb3e852c2038b62edb63",tooltip=" "];
+  Node10 -> Node15 [id="edge15_Node000010_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="pip._vendor.msgpack.fallback.\lUnpacker.unpack",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1msgpack_1_1fallback_1_1_unpacker.html#ac2f95a1d24bcea70c1bd3f9e0b04e37d",tooltip=" "];
+  Node3 -> Node16 [id="edge16_Node000003_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="PIL.GimpPaletteFile.Gimp\lPaletteFile.frombytes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_i_l_1_1_gimp_palette_file_1_1_gimp_palette_file.html#a0dc392799c5a0392e5f67255dae321f2",tooltip=" "];
+  Node16 -> Node17 [id="edge17_Node000016_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="PIL.Image.Image.__setstate__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_p_i_l_1_1_image_1_1_image.html#a2d9715a98bc776114dda3615385432cc",tooltip=" "];
+  Node3 -> Node18 [id="edge18_Node000003_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="packaging._elffile.ELFFile.interpreter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpackaging_1_1__elffile_1_1_e_l_f_file.html#aec5e2c79b24fdeb525ca36259131c22f",tooltip=" "];
+  Node3 -> Node19 [id="edge19_Node000003_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="pip._vendor.msgpack.fallback.\lUnpacker.read_bytes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1msgpack_1_1fallback_1_1_unpacker.html#ae290d9acf22a3a7d432f45eaea37ed26",tooltip=" "];
+  Node1 -> Node20 [id="edge20_Node000001_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="matplotlib.dviread.Dvi.\l_set_glyphs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1dviread_1_1_dvi.html#ae9986040e4b6df0e269eb962b766ec73",tooltip=" "];
+  Node1 -> Node21 [id="edge21_Node000001_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="matplotlib.dviread.Dvi.\l_set_text_and_glyphs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1dviread_1_1_dvi.html#a7b3b0bcdc6ca3fce45e96f3973eaf8f4",tooltip=" "];
+}

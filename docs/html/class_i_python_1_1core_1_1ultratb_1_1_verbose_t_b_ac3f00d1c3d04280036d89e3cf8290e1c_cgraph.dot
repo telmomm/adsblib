@@ -1,0 +1,41 @@
+digraph "IPython.core.ultratb.VerboseTB.structured_traceback"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="IPython.core.ultratb.Verbose\lTB.structured_traceback",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPython.core.doctb.DocTB.format\l_exception_as_a_whole",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1doctb_1_1_doc_t_b.html#a9f4f2e0bb32dc79be4b27656d0b4798a",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="IPython.core.doctb.DocTB.format\l_exception",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1doctb_1_1_doc_t_b.html#a183536933616c855f6bbdab672c0df05",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="IPython.core.doctb.DocTB.format\l_record",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1doctb_1_1_doc_t_b.html#a99f54d17b41d6ab29585df12c120c37e",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="IPython.core.doctb.\l_format_traceback_lines",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace_i_python_1_1core_1_1doctb.html#a5c14090b6c2d54c2a6ed97298e0957e0",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="IPython.core.doctb.DocTB.get\l_records",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1doctb_1_1_doc_t_b.html#a35ba4a532601f8f96ffd71a013d4dbe9",tooltip=" "];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="IPython.core.doctb.DocTB.prepare\l_header",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1doctb_1_1_doc_t_b.html#aa2474771a6e8eee5ec3684682171de3f",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="IPython.core.ultratb.Verbose\lTB.format_exception_as_a_whole",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1ultratb_1_1_verbose_t_b.html#a707cf0728766a14b6066f1d91bf91e96",tooltip=" "];
+  Node8 -> Node3 [id="edge8_Node000008_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node9 [id="edge9_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="IPython.core.ultratb.Verbose\lTB.format_exception",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1ultratb_1_1_verbose_t_b.html#a388a0c323b715fce33265ab7d777ecc9",tooltip=" "];
+  Node8 -> Node4 [id="edge10_Node000008_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node10 [id="edge11_Node000008_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="IPython.core.ultratb.Verbose\lTB.format_record",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1ultratb_1_1_verbose_t_b.html#aea11e9cdfafab3bb71a38f5603809e2c",tooltip=" "];
+  Node8 -> Node6 [id="edge12_Node000008_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node11 [id="edge13_Node000008_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="IPython.core.ultratb.Verbose\lTB.get_records",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1ultratb_1_1_verbose_t_b.html#a172f9538f48538ff6d546a34883fd723",tooltip=" "];
+  Node8 -> Node7 [id="edge14_Node000008_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node12 [id="edge15_Node000008_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="IPython.core.ultratb.Verbose\lTB.prepare_header",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1ultratb_1_1_verbose_t_b.html#a01725889d3c4a5e9d14e6247d946547e",tooltip=" "];
+  Node1 -> Node13 [id="edge16_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="IPython.core.tbtools.TBTools.get\l_parts_of_chained_exception",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1tbtools_1_1_t_b_tools.html#af5c6edc99bafb96005867647e02bcf7b",tooltip=" "];
+  Node13 -> Node14 [id="edge17_Node000013_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="IPython.core.tbtools.TBTools.\l_get_chained_exception",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1tbtools_1_1_t_b_tools.html#ac4a53713cf9da939ef7df5846f5069d2",tooltip=" "];
+  Node1 -> Node15 [id="edge18_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="IPython.core.tbtools.TBTools.prepare\l_chained_exception_message",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1tbtools_1_1_t_b_tools.html#aef703af5470355a03c182b5d947898e7",tooltip=" "];
+}

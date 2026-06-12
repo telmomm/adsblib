@@ -1,0 +1,28 @@
+digraph "numpy.f2py.auxfuncs.islogicalfunction"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="numpy.f2py.auxfuncs.islogicalfunction",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="numpy.f2py.auxfuncs.isfunction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1auxfuncs.html#a6737e56328607917f60771df6ec770af",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="numpy.f2py.auxfuncs.islogical",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1auxfuncs.html#a4563152eabfa15eea28108dc778d3feb",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="numpy.f2py.auxfuncs.isscalar",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1auxfuncs.html#a0b320e713e9c17b8cbbd4ccff7e0628a",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="numpy.f2py.auxfuncs.isarray",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1auxfuncs.html#aea711e43e3eb4580159d2fd03a42f5b9",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="numpy.f2py.auxfuncs.isexternal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1auxfuncs.html#aa435d18aae1a5eaa294823f291f9d3b0",tooltip=" "];
+  Node4 -> Node6 [id="edge6_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node7 [id="edge7_Node000004_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="numpy.f2py.auxfuncs.isstring",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1auxfuncs.html#ae1770c4bd8f9076f88a292bd58f1319e",tooltip=" "];
+  Node7 -> Node5 [id="edge8_Node000007_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node8 [id="edge9_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="numpy.f2py.auxfuncs.isstring\l_or_stringarray",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1auxfuncs.html#a06b36689a5b0c15140c11880a081895f",tooltip=" "];
+  Node8 -> Node9 [id="edge10_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="numpy.f2py.auxfuncs.\l_ischaracter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacenumpy_1_1f2py_1_1auxfuncs.html#a0722bd69b1c1acd494a1639213c076ed",tooltip=" "];
+  Node9 -> Node6 [id="edge11_Node000009_Node000006",color="steelblue1",style="solid",tooltip=" "];
+}

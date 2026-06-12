@@ -1,0 +1,13 @@
+digraph "pandas.core.apply.FrameApply.generate_numba_apply_func"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pandas.core.apply.FrameApply.generate\l_numba_apply_func",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.apply.FrameColumn\lApply.apply_with_numba",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1apply_1_1_frame_column_apply.html#aa6650f7a54ae88da90c3bd602cafd881",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.core.apply.FrameRow\lApply.apply_with_numba",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1apply_1_1_frame_row_apply.html#a8e6944df79e8504dc46cc6bb7867cea3",tooltip=" "];
+}

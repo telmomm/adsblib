@@ -1,0 +1,23 @@
+digraph "IPython.core.extensions.ExtensionManager.reload_extension"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="IPython.core.extensions.\lExtensionManager.reload\l_extension",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPython.core.extensions.\lExtensionManager._call\l_load_ipython_extension",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1extensions_1_1_extension_manager.html#ae31b4324673095a5205d621e1f20fe3e",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="add",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$incfile_8f90.html#a92ab7d03918266357e25bb26f73a446b",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="IPython.core.extensions.\lExtensionManager.load\l_extension",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1extensions_1_1_extension_manager.html#a558837c0291716b284639fabd869e704",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="IPython.core.extensions.\lExtensionManager._load\l_extension",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1extensions_1_1_extension_manager.html#a6aa2e4713521290d2317bb5f94022120",tooltip=" "];
+  Node5 -> Node2 [id="edge5_Node000005_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node3 [id="edge6_Node000005_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge7_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="IPython.core.extensions.\lExtensionManager.unload\l_extension",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1extensions_1_1_extension_manager.html#a1730ceefc419d5aa3324d81b5412b390",tooltip=" "];
+  Node6 -> Node7 [id="edge8_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="IPython.core.extensions.\lExtensionManager._call\l_unload_ipython_extension",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1core_1_1extensions_1_1_extension_manager.html#ab630cfe12d7613599066f4405630ae3b",tooltip=" "];
+}

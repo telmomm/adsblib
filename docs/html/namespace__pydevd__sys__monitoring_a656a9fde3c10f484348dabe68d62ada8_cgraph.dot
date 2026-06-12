@@ -1,0 +1,22 @@
+digraph "_pydevd_sys_monitoring._enable_step_tracing"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="_pydevd_sys_monitoring.\l_enable_step_tracing",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pydevd_sys_monitoring.\l_enable_line_tracing",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pydevd__sys__monitoring.html#a4446cfe455b6240cfb068f0c440e78ff",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pydevd_sys_monitoring.\l_ensure_monitoring",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pydevd__sys__monitoring.html#a6feea29e981ad260edeaa6461c6081e7",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pydevd_sys_monitoring.restart\l_events",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pydevd__sys__monitoring.html#ae8ef457aacd3034bac70fdef3c378f09",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="_pydevd_sys_monitoring.update\l_monitor_events",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pydevd__sys__monitoring.html#a27ce62ff21dfcb769cbeb2caf651e93f",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="_pydevd_sys_monitoring.\l_enable_return_tracing",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pydevd__sys__monitoring.html#a442b9a66446c5d9112771e5fe6b72829",tooltip=" "];
+  Node6 -> Node3 [id="edge6_Node000006_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="_pydevd_sys_monitoring.\l_is_same_frame",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pydevd__sys__monitoring.html#aeba7b93765e11af54e93c5597676395d",tooltip=" "];
+}

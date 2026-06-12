@@ -1,0 +1,15 @@
+digraph "jupyter_client.client.KernelClient.hb_channel"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="jupyter_client.client.Kernel\lClient.hb_channel",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="jupyter_client.client.Kernel\lClient.channels_running",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__client_1_1client_1_1_kernel_client.html#acf4d363c10f92f5809a2f47fc76841fa",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="jupyter_client.client.Kernel\lClient.start_channels",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__client_1_1client_1_1_kernel_client.html#a7f38180750ecdf1c03f5053af0f3c19f",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="jupyter_client.client.Kernel\lClient.stop_channels",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__client_1_1client_1_1_kernel_client.html#a425be158f07e82614748012502146ad2",tooltip=" "];
+}

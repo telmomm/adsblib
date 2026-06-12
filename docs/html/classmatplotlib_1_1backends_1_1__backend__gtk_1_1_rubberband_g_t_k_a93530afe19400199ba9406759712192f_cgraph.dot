@@ -1,0 +1,11 @@
+digraph "matplotlib.backends._backend_gtk.RubberbandGTK.remove_rubberband"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="matplotlib.backends.\l_backend_gtk.RubberbandGTK.remove\l_rubberband",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="matplotlib.backend\l_tools.ToolBase._make\l_classic_style_pseudo\l_toolbar",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classmatplotlib_1_1backend__tools_1_1_tool_base.html#a1f9b606b95bd427eff8b11a1358805c9",tooltip=" "];
+}

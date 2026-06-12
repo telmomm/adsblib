@@ -1,0 +1,23 @@
+digraph "pandas.tests.computation.test_eval.TestOperations.test_4d_ndarray_fails"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.tests.computation.test\l_eval.TestOperations.test\l_4d_ndarray_fails",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.frame.DataFrame.eval",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1frame_1_1_data_frame.html#ac83451abfc01e1f68a40d78cec27a944",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pandas.core.generic.NDFrame.\l_get_cleaned_column_resolvers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1generic_1_1_n_d_frame.html#adfb466d9378751bbed9aa682b8951177",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pandas.core.generic.NDFrame.\l_get_index_resolvers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1generic_1_1_n_d_frame.html#a1645fd8e8af24c536a638b31c0e8149e",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pandas.core.generic.NDFrame.\l_get_axis_resolvers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1generic_1_1_n_d_frame.html#a6bc7c62f9879ec74e969831a2fd9478e",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="pandas.core.frame.DataFrame.eval",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1frame_1_1_data_frame.html#ab6b1011557e6a2cb1173836ba7bfdf9f",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pandas.core.frame.DataFrame.eval",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1frame_1_1_data_frame.html#a425ee6b6ba0acc24afe38473562526ae",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="pandas.tests.computation.test\l_eval.TestOperations.eval",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1tests_1_1computation_1_1test__eval_1_1_test_operations.html#a660d625ef64fcc83d378d519b76425e1",tooltip=" "];
+}

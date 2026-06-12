@@ -1,0 +1,15 @@
+digraph "jupyter_client.kernelapp.KernelApp.start"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="jupyter_client.kernelapp.\lKernelApp.start",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ipykernel.kernelapp.IPKernel\lApp.log_connection_info",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classipykernel_1_1kernelapp_1_1_i_p_kernel_app.html#ab5613796ecc5302653e57beaf8f7514d",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="jupyter_client.kernelapp.\lKernelApp.log_connection_info",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__client_1_1kernelapp_1_1_kernel_app.html#a542b278f9c7f70bc7b784b1225502470",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="jupyter_client.kernelapp.\lKernelApp.setup_signals",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classjupyter__client_1_1kernelapp_1_1_kernel_app.html#ac5536949a922454bec1d375193a7d1fc",tooltip=" "];
+}

@@ -1,0 +1,11 @@
+digraph "IPython.extensions.autoreload.ModuleReloader.mark_module_reloadable"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="IPython.extensions.autoreload.\lModuleReloader.mark_module\l_reloadable",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IPython.extensions.autoreload.\lModuleReloader.aimport_module",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_i_python_1_1extensions_1_1autoreload_1_1_module_reloader.html#a458ef6472ba33366c21edba1c7df6417",tooltip=" "];
+}

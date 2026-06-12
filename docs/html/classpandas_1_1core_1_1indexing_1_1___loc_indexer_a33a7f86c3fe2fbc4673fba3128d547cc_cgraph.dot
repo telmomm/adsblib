@@ -1,0 +1,11 @@
+digraph "pandas.core.indexing._LocIndexer._handle_lowerdim_multi_index_axis0"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pandas.core.indexing.\l_LocIndexer._handle_lowerdim\l_multi_index_axis0",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pandas.core.indexing.\l_LocIndexer._get_label",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpandas_1_1core_1_1indexing_1_1___loc_indexer.html#a2fca476c15c6966308adc42a2d1e251e",tooltip=" "];
+}
