@@ -1,0 +1,89 @@
+name: Bug report
+description: Report incorrect encoding output, a crash, or a build problem in adsblib.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill in as much detail as you can —
+        for encoding issues, a minimal reproduction (inputs + expected vs. actual frame) is the
+        most useful thing you can provide.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear and concise description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Minimal reproduction
+      description: >
+        Input values (e.g. ICAO, callsign, lat/lon, altitude, speed) and the code path used
+        (which `adsb_encode_*` function). Paste a small code snippet if possible.
+      render: c
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen (expected frame/hex output, return code, etc.)?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened? Include the actual output, return code, or crash/error message.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: adsblib version / commit
+      placeholder: e.g. v0.1.0 or commit hash
+    validations:
+      required: true
+
+  - type: input
+    id: compiler
+    attributes:
+      label: Compiler and flags
+      placeholder: e.g. cc (Apple clang 15.0.0), -std=c99 -Wall -Wextra -Werror
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Linux
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation notebook output (optional)
+      description: If applicable, relevant output from `encoder_validation.ipynb` comparing against pyModeS.
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Anything else that might help (logs, related issues, etc.).
+    validations:
+      required: false

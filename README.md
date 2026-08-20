@@ -88,6 +88,11 @@ The `encoder_validation.ipynb` notebook includes tests for:
 
 This project tracks changes in `CHANGELOG.md`, following Keep a Changelog.
 
+## Contributing
+
+Contributions are welcome. See `CONTRIBUTING.md` for build instructions, validation
+workflow, and pull request guidelines. Please also review the `CODE_OF_CONDUCT.md`.
+
 ## License
 
 This project is released under the MIT License.
