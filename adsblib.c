@@ -6,6 +6,20 @@
 #include <string.h>
 
 /* ============================================================
+ * Library Version
+ * ============================================================ */
+
+#define ADSBLIB_STR(x)   ADSBLIB_STR_(x)
+#define ADSBLIB_STR_(x)  #x
+
+const char *adsb_version_string(void)
+{
+    return ADSBLIB_STR(ADSBLIB_VERSION_MAJOR) "."
+           ADSBLIB_STR(ADSBLIB_VERSION_MINOR) "."
+           ADSBLIB_STR(ADSBLIB_VERSION_PATCH);
+}
+
+/* ============================================================
  * Internal Constants
  * ============================================================ */
 

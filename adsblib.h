@@ -9,6 +9,19 @@ extern "C" {
 #endif
 
 /* ============================================================
+ * Library Version
+ * ============================================================ */
+
+#define ADSBLIB_VERSION_MAJOR  0
+#define ADSBLIB_VERSION_MINOR  1
+#define ADSBLIB_VERSION_PATCH  0
+
+/**
+ * Get the library version as a "MAJOR.MINOR.PATCH" string.
+ */
+const char *adsb_version_string(void);
+
+/* ============================================================
  * General Definitions
  * ============================================================ */
 

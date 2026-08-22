@@ -127,6 +127,7 @@ allocates memory.
 | `adsb_cpr_encode_latitude` / `adsb_cpr_encode_longitude` | Low-level CPR encoding |
 | `adsb_cpr_nl` | CPR NL(lat) longitude zone helper |
 | `adsb_frame_to_hex` / `adsb_frame_clear` | Frame formatting/utility helpers |
+| `adsb_version_string` | Returns the library version as `"MAJOR.MINOR.PATCH"` |
 
 See [`adsblib.h`](adsblib.h) or the [generated docs](https://telmomm.github.io/adsblib/)
 for the full signatures, and [Basic usage](#basic-usage) below for an
