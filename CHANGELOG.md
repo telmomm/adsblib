@@ -7,6 +7,17 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 ## [Unreleased]
 
+### Added
+- `developer-docs/`: mission/vision/scope, architecture (current and
+  target module layout), a capability roadmap (`ROADMAP.md`) covering
+  full DF17 message-type coverage, RF/IQ signal synthesis, and scenario
+  generation, and architecture decision records (ADRs) for the project's
+  core design constraints.
+
+### Changed
+- Moved `adsblib_roadmap_JOSS.md` to `developer-docs/JOSS_ROADMAP.md` to
+  live alongside the rest of the developer documentation.
+
 ## [0.1.0] - 2026-08-22
 
 ### Added

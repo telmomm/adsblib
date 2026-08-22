@@ -58,6 +58,7 @@ pyModeS's decoder (see [Validation](#validation)).
 | [`validation/encoder_validation.ipynb`](validation/encoder_validation.ipynb) | Validation notebook (CRC, callsign, CPR, altitude, velocity, stress tests) |
 | [`validation/requirements.txt`](validation/requirements.txt) | Python dependencies for the validation notebook |
 | [`Doxyfile`](Doxyfile) | Doxygen configuration used to build the API docs |
+| [`developer-docs/`](developer-docs/) | Mission/scope, architecture, capability roadmap, and design decisions |
 
 ## Documentation
 
@@ -186,7 +187,18 @@ pip install -r validation/requirements.txt
 jupyter notebook validation/encoder_validation.ipynb
 ```
 
-Unit tests with CI are planned — see the project roadmap for status.
+Unit tests with CI are planned — see
+[`developer-docs/JOSS_ROADMAP.md`](developer-docs/JOSS_ROADMAP.md) for
+status.
+
+## Roadmap and design
+
+adsblib's target capabilities go beyond frame encoding — see
+[`developer-docs/`](developer-docs/) for the mission/scope,
+[`developer-docs/ARCHITECTURE.md`](developer-docs/ARCHITECTURE.md), the
+[capability roadmap](developer-docs/ROADMAP.md), and the
+[architecture decision records](developer-docs/decisions/) behind
+adsblib's design constraints.
 
 ## Versioning and changelog
 

@@ -3,7 +3,9 @@ message: "If you use adsblib in your research or project, please cite it as belo
 title: "adsblib: A portable C99 library for encoding ADS-B Out DF17 messages"
 type: software
 authors:
-  - name: "adsblib contributors"
+  - family-names: "Miguel-Medina"
+    given-names: "Telmo"
+    orcid: "https://orcid.org/0009-0004-0654-6650"
 repository-code: "https://github.com/telmomm/adsblib"
 url: "https://telmomm.github.io/adsblib/"
 license: MIT
