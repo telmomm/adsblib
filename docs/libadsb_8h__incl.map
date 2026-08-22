@@ -1,7 +1,0 @@
-<map id="libadsb.h" name="libadsb.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="48,5,121,31"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,70,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,33,56,67,51,64,74,30"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="94,79,168,105"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="94,30,117,64,112,67,90,33"/>
-</map>

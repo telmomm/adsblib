@@ -10,12 +10,15 @@
 
 ## Fase 0 (semana 1-2): Fundamentos del repo
 
-- [ ] Definir un **Statement of Need** claro en el README: qué problema resuelve adsblib, para quién (aviónica experimental, validación offline, investigación en sistemas de vigilancia ADS-B), y qué la diferencia de alternativas existentes (dump1090, pyModeS, etc. — como *encoder*, no *decoder*).
-- [ ] Añadir sección "Comparación con software similar" — JOSS pregunta explícitamente si existen alternativas y por qué la tuya aporta algo distinto.
+- [x] Definir un **Statement of Need** claro en el README: qué problema resuelve adsblib, para quién (aviónica experimental, validación offline, investigación en sistemas de vigilancia ADS-B), y qué la diferencia de alternativas existentes (dump1090, pyModeS, etc. — como *encoder*, no *decoder*).
+- [x] Añadir sección "Comparación con software similar" — JOSS pregunta explícitamente si existen alternativas y por qué la tuya aporta algo distinto.
 - [x] Crear `CONTRIBUTING.md` (cómo compilar, cómo correr tests, guía de estilo de código, cómo reportar issues).
 - [x] Crear `CODE_OF_CONDUCT.md` (opcional pero recomendado).
 - [x] Revisar que `CHANGELOG.md` siga estrictamente Keep a Changelog desde el primer release real.
 - [x] Configurar **GitHub Issues** y una plantilla básica de bug report / feature request.
+- [x] Crear `SECURITY.md` con el alcance de uso previsto y el proceso de reporte de vulnerabilidades.
+- [x] Crear `CITATION.cff` para citación académica.
+- [x] Automatizar la generación de la documentación Doxygen vía GitHub Actions y publicarla en GitHub Pages en cada push a `main`, en lugar de commitear `docs/` (evita commitear artefactos generados y elimina el riesgo de contaminar `docs/` con una build local incorrecta).
 
 ## Fase 1 (mes 1-2): Suite de tests + CI
 

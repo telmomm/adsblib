@@ -1,8 +1,0 @@
-<map id="is_valid_altitude" name="is_valid_altitude">
-<area shape="rect" id="Node000001" title=" " alt="" coords="399,5,513,31"/>
-<area shape="rect" id="Node000002" href="$libadsb_8c.html#ac05b8b204c3828742627d377538b776e" title=" " alt="" coords="5,5,156,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="384,21,156,21,156,16,384,16"/>
-<area shape="rect" id="Node000003" href="$libadsb_8c.html#a72e38569fd69572200bb53b0824b3b9c" title=" " alt="" coords="204,31,351,56"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="384,31,351,36,351,30,383,26"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="188,35,155,30,156,25,188,29"/>
-</map>
