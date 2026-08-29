@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cc -std=c99 -Wall -Wextra -Werror -dynamiclib -o /tmp/adsblib.dylib adsblib.c -lm)",
+      "Bash(/Users/telmomm/anaconda3/bin/python3 /private/tmp/claude-501/-Users-telmomm-Desktop-adsblib/d20d4950-bd4a-4791-a291-8f71674127a3/scratchpad/check_m1.py)",
+      "Bash(/Users/telmomm/anaconda3/bin/python3 /private/tmp/claude-501/-Users-telmomm-Desktop-adsblib/d20d4950-bd4a-4791-a291-8f71674127a3/scratchpad/edit_notebook.py)",
+      "Bash(cc -std=c99 -Wall -Wextra -Werror -dynamiclib -o validation/adsblib.dylib adsblib.c -lm)",
+      "Bash(/Users/telmomm/anaconda3/bin/python3 -m pip install -q nbclient nbformat ipykernel)",
+      "Bash(rm -f validation/adsblib.dylib /tmp/adsblib.dylib /tmp/adsblib_test.o)",
+      "Bash(grep -n \"dylib\\\\|\\\\.so$\\\\|\\\\.so \" .gitignore)"
+    ]
+  }
+}

@@ -44,7 +44,8 @@ pyModeS's decoder (see [Validation](#validation)).
 
 - Aircraft Identification encoding (Type Codes 1–4)
 - Airborne Position encoding with even/odd CPR
-- Airborne Velocity encoding (Type Code 19)
+- Surface Position encoding (Type Code 8) with movement/ground-track fields
+- Airborne Velocity encoding (Type Code 19), subsonic and supersonic
 - Mode-S CRC24 calculation and verification
 - Public C API with **no dynamic memory allocation**
 - Validation workflow compatible with pyModeS
@@ -124,7 +125,8 @@ allocates memory.
 | --- | --- |
 | `adsb_encode_identification` | Encode a DF17 Aircraft Identification message |
 | `adsb_encode_position` | Encode a DF17 Airborne Position message (even/odd CPR) |
-| `adsb_encode_velocity` | Encode a DF17 Airborne Velocity message |
+| `adsb_encode_surface_position` | Encode a DF17 Surface Position message (movement + ground track) |
+| `adsb_encode_velocity` | Encode a DF17 Airborne Velocity message (subsonic or supersonic) |
 | `adsb_crc24` | Compute Mode-S CRC24 over the first 88 bits of a frame |
 | `adsb_apply_crc` | Insert CRC parity into a frame |
 | `adsb_verify_crc` | Verify a frame's CRC |
@@ -179,8 +181,10 @@ notebook covers:
 - Callsign round-tripping
 - CPR (absolute error and compliance rate)
 - Altitude
-- Velocity (absolute and relative error)
+- Velocity (absolute and relative error), subsonic
 - Stress tests
+- Surface position (movement field + ground track)
+- Velocity, supersonic subtype
 
 ```bash
 pip install -r validation/requirements.txt

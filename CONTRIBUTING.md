@@ -34,19 +34,55 @@ ls -lh adsblib.dylib adsblib.so
 
 ## Validation
 
-Encoder correctness is currently validated through `encoder_validation.ipynb`, which
-cross-checks adsblib's output against [pyModeS](https://github.com/junzis/pyModeS) (CRC,
-callsign, CPR, altitude, velocity, and stress tests).
+Encoder correctness is validated through
+[`validation/encoder_validation.ipynb`](validation/encoder_validation.ipynb), which
+cross-checks adsblib's output against [pyModeS](https://github.com/junzis/pyModeS) — CRC,
+callsign, CPR, altitude, velocity (subsonic and supersonic), surface position, and stress
+tests.
 
-Requirements: Python 3 and `pyModeS`.
+The notebook loads adsblib through `ctypes`, so **you must build the shared library before
+running it**, and it must be built *into the `validation/` directory* (the notebook looks for
+`adsblib.dylib`/`adsblib.so` next to itself, not at the repo root):
 
 ```bash
-pip install pyModeS
-jupyter notebook encoder_validation.ipynb
+# macOS
+cc -std=c99 -Wall -Wextra -Werror -dynamiclib -o validation/adsblib.dylib adsblib.c -lm
+
+# Linux
+cc -std=c99 -Wall -Wextra -Werror -fPIC -shared -o validation/adsblib.so adsblib.c -lm
+
+python3 -m venv validation/.venv
+source validation/.venv/bin/activate   # Windows: validation\.venv\Scripts\activate
+pip install -r validation/requirements.txt
+jupyter notebook validation/encoder_validation.ipynb
 ```
 
+Then run all cells (Run All / Restart & Run All). Notes:
+
+- **Recompile and restart the kernel after changing `adsblib.c`/`.h`.** `ctypes.CDLL` loads
+  the shared library once per process; re-running "Run All" without restarting the kernel can
+  silently keep testing the previous build. Use *Kernel → Restart & Run All*, not just
+  *Run All*, whenever the library changed.
+- The built `.dylib`/`.so` in `validation/` is a local artifact (already covered by
+  `.gitignore`) — don't commit it.
+- If you'd rather run it headlessly instead of opening Jupyter (e.g. to sanity-check from a
+  terminal or a script), `nbclient` executes the notebook end-to-end and writes the outputs
+  back into the `.ipynb`:
+
+  ```bash
+  pip install nbclient nbformat ipykernel
+  python3 -c "
+  import nbformat
+  from nbclient import NotebookClient
+  nb = nbformat.read('validation/encoder_validation.ipynb', as_version=4)
+  NotebookClient(nb, timeout=180, kernel_name='python3').execute()
+  nbformat.write(nb, 'validation/encoder_validation.ipynb')
+  "
+  ```
+
 If you add or change encoding behavior, extend the notebook with cases that cover it,
-including edge cases and invalid inputs, not just the happy path.
+including edge cases and invalid inputs, not just the happy path — see `TEST 7`/`TEST 8` for
+the current examples of adding a new message type's cross-check.
 
 ## Code style
 

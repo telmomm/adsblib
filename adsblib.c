@@ -75,6 +75,40 @@ static bool is_valid_vertical_rate(int32_t vr_fpm)
     return (vr_fpm >= -32640) && (vr_fpm <= 32640);
 }
 
+/*
+ * Encode a ground speed (kt) into the 7-bit surface-position movement
+ * field. The field is non-linear: 6 bins of increasing step size, plus
+ * code 1 for "stopped" and code 124 for the open-ended "175 kt or more".
+ * Table per ICAO Annex 10 / DO-260B (movement field encoding).
+ */
+static uint32_t encode_movement(double speed_kt)
+{
+    static const uint32_t bin_lb_code[6] = { 2U, 9U, 13U, 39U, 94U, 109U };
+    static const double bin_lb_kt[6]     = { 0.125, 1.0, 2.0, 15.0, 70.0, 100.0 };
+    static const double bin_step_kt[6]   = { 0.125, 0.25, 0.5, 1.0, 2.0, 5.0 };
+    int i;
+
+    if (speed_kt < 0.125)
+    {
+        return 1U;  /* Aircraft stopped */
+    }
+
+    if (speed_kt >= 175.0)
+    {
+        return 124U;  /* 175 kt or more (open-ended) */
+    }
+
+    for (i = 5; i >= 0; --i)
+    {
+        if (speed_kt >= bin_lb_kt[i])
+        {
+            return bin_lb_code[i] + (uint32_t)floor((speed_kt - bin_lb_kt[i]) / bin_step_kt[i]);
+        }
+    }
+
+    return 1U;  /* Unreachable: speed_kt >= 0.125 is handled by the loop above. */
+}
+
 static double pos_mod(double value, double modulus)
 {
     double r;
@@ -533,11 +567,82 @@ enc_status_t adsb_encode_position(const adsb_position_t *msg, uint8_t frame[ADSB
     return ENC_OK;
 }
 
+enc_status_t adsb_encode_surface_position(const adsb_surface_position_t *msg, uint8_t frame[ADSB_FRAME_BYTES])
+{
+    uint32_t cpr_lat;
+    uint32_t cpr_lon;
+    uint32_t movement;
+    uint32_t track_code;
+
+    if ((msg == NULL) || (frame == NULL))
+    {
+        return ENC_INVALID_ARGUMENT;
+    }
+
+    if (!is_valid_icao(msg->icao))
+    {
+        return ENC_INVALID_ICAO;
+    }
+    if (!is_valid_latitude(msg->latitude_deg))
+    {
+        return ENC_INVALID_LATITUDE;
+    }
+    if (!is_valid_longitude(msg->longitude_deg))
+    {
+        return ENC_INVALID_LONGITUDE;
+    }
+    if (!is_valid_speed(msg->ground_speed_kt))
+    {
+        return ENC_INVALID_SPEED;
+    }
+    if (!is_valid_track(msg->ground_track_deg))
+    {
+        return ENC_INVALID_TRACK;
+    }
+    if ((msg->cpr_format != CPR_EVEN) && (msg->cpr_format != CPR_ODD))
+    {
+        return ENC_INVALID_ARGUMENT;
+    }
+
+    movement = encode_movement(msg->ground_speed_kt);
+    track_code = ((uint32_t)lround(msg->ground_track_deg / (360.0 / 128.0))) & 0x7FU;
+
+    cpr_lat = adsb_cpr_encode_latitude(msg->latitude_deg, msg->cpr_format);
+    cpr_lon = adsb_cpr_encode_longitude(msg->latitude_deg, msg->longitude_deg, msg->cpr_format);
+
+    adsb_frame_clear(frame);
+
+    frame_set_bits(frame, 0U, 5U, ADSB_DF17);
+    frame_set_bits(frame, 5U, 3U, ADSB_CA);
+    frame_set_bits(frame, 8U, 24U, msg->icao & ADSB_ICAO_MAX);
+
+    /*
+     * Type code 8: surface position, navigation accuracy unknown. NIC
+     * selection isn't exposed on the public API yet, mirroring
+     * adsb_encode_position, which similarly fixes TC 11 rather than
+     * exposing NIC.
+     */
+    frame_set_bits(frame, 32U, 5U, 8U);
+    frame_set_bits(frame, 37U, 7U, movement & 0x7FU);
+    frame_set_bits(frame, 44U, 1U, 1U);            /* Ground track status: valid */
+    frame_set_bits(frame, 45U, 7U, track_code);
+    frame_set_bits(frame, 52U, 1U, 0U);            /* UTC sync time flag */
+    frame_set_bits(frame, 53U, 1U, (uint32_t)msg->cpr_format & 0x01U);
+    frame_set_bits(frame, 54U, 17U, cpr_lat & 0x1FFFFU);
+    frame_set_bits(frame, 71U, 17U, cpr_lon & 0x1FFFFU);
+
+    adsb_apply_crc(frame);
+
+    return ENC_OK;
+}
+
 enc_status_t adsb_encode_velocity(const adsb_velocity_t *msg, uint8_t frame[ADSB_FRAME_BYTES])
 {
     double track_rad;
     double v_east;
     double v_north;
+    double resolution_kt;
+    uint32_t subtype;
     int32_t ew_speed;
     int32_t ns_speed;
     uint32_t ew_dir;
@@ -574,8 +679,26 @@ enc_status_t adsb_encode_velocity(const adsb_velocity_t *msg, uint8_t frame[ADSB
     v_east = msg->ground_speed_kt * sin(track_rad);
     v_north = msg->ground_speed_kt * cos(track_rad);
 
+    /*
+     * Subtype 1 (subsonic, 1 kt/LSB) covers components up to 1022 kt.
+     * Subtype 2 (supersonic, 4 kt/LSB) covers components up to 4088 kt
+     * and is selected automatically when subtype 1's range is exceeded.
+     */
     ew_speed = (int32_t)lround(fabs(v_east));
     ns_speed = (int32_t)lround(fabs(v_north));
+
+    if ((ew_speed <= 1022) && (ns_speed <= 1022))
+    {
+        subtype = 1U;
+        resolution_kt = 1.0;
+    }
+    else
+    {
+        subtype = 2U;
+        resolution_kt = 4.0;
+        ew_speed = (int32_t)lround(fabs(v_east) / resolution_kt);
+        ns_speed = (int32_t)lround(fabs(v_north) / resolution_kt);
+    }
 
     if ((ew_speed > 1022) || (ns_speed > 1022))
     {
@@ -604,7 +727,7 @@ enc_status_t adsb_encode_velocity(const adsb_velocity_t *msg, uint8_t frame[ADSB
     frame_set_bits(frame, 8U, 24U, msg->icao & ADSB_ICAO_MAX);
 
     frame_set_bits(frame, 32U, 5U, 19U);   /* Type code 19: airborne velocity */
-    frame_set_bits(frame, 37U, 3U, 1U);    /* Subtype 1: ground speed */
+    frame_set_bits(frame, 37U, 3U, subtype);  /* Subtype 1: subsonic, 2: supersonic */
     frame_set_bits(frame, 40U, 1U, 0U);    /* Intent change flag */
     frame_set_bits(frame, 41U, 1U, 0U);    /* IFR capability / reserved */
     frame_set_bits(frame, 42U, 3U, 0U);    /* NACv unknown */

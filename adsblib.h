@@ -94,6 +94,31 @@ typedef struct
 } adsb_position_t;
 
 /* ============================================================
+ * Surface Position
+ * ============================================================ */
+
+typedef struct
+{
+    uint32_t icao;
+
+    double latitude_deg;
+    double longitude_deg;
+
+    /* Ground speed in knots (>= 0). The surface position message encodes
+     * speed with a non-linear resolution (as fine as 0.125 kt at low
+     * speed, as coarse as 5 kt approaching 175 kt); values >= 175 kt are
+     * encoded as the message's open-ended "175 kt or more" code. */
+    double ground_speed_kt;
+
+    /* Ground track in degrees [0, 360), quantized to steps of 360/128
+     * degrees (~2.8125 deg) by the message format. */
+    double ground_track_deg;
+
+    cpr_format_t cpr_format;
+
+} adsb_surface_position_t;
+
+/* ============================================================
  * Airborne Velocity
  * ============================================================ */
 
@@ -101,6 +126,10 @@ typedef struct
 {
     uint32_t icao;
 
+    /* Ground speed in knots (>= 0). Encoded as subtype 1 (subsonic,
+     * 1 kt/LSB) when both velocity components fit within +/-1022 kt;
+     * subtype 2 (supersonic, 4 kt/LSB, up to +/-4088 kt per component)
+     * is selected automatically otherwise. */
     double ground_speed_kt;
 
     double track_deg;
@@ -130,7 +159,18 @@ enc_status_t adsb_encode_position(
 );
 
 /**
+ * Encode DF17 Surface Position message (Type Code 8).
+ */
+enc_status_t adsb_encode_surface_position(
+    const adsb_surface_position_t *msg,
+    uint8_t frame[ADSB_FRAME_BYTES]
+);
+
+/**
  * Encode DF17 Airborne Velocity message.
+ *
+ * Automatically selects subtype 1 (subsonic) or subtype 2 (supersonic,
+ * 4 kt/LSB) based on the encoded ground speed. See adsb_velocity_t.
  */
 enc_status_t adsb_encode_velocity(
     const adsb_velocity_t *msg,

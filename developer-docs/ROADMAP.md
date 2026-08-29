@@ -25,16 +25,19 @@ Today adsblib encodes 3 of the DF17 message families (identification,
 airborne position, airborne velocity). "Encoder" is currently an
 overstatement relative to the DF17 spec. Close that gap:
 
-- [ ] Surface position (Type Codes 5–8).
-- [ ] Supersonic airborne velocity subtype (current implementation
-      assumes subsonic velocity encoding resolution).
+- [x] Surface position (Type Codes 5–8). Implemented as
+      `adsb_encode_surface_position()` (fixed TC 8; NIC selection not yet
+      exposed, matching `adsb_encode_position()`'s existing TC 11 default).
+- [x] Supersonic airborne velocity subtype. `adsb_encode_velocity()` now
+      selects subtype 1 (subsonic, 1 kt/LSB) or subtype 2 (supersonic,
+      4 kt/LSB) automatically, per velocity component.
 - [ ] Aircraft status / emergency & priority status (Type Code 28).
 - [ ] Target state and status (Type Code 29).
 - [ ] Aircraft operational status (Type Code 31).
-- [ ] Extend `validation/encoder_validation.ipynb` (or its unit-test
-      successor from `JOSS_ROADMAP.md` Fase 1) with pyModeS cross-checks
-      for every new message type — no message type ships without an
-      independent-decoder round-trip check.
+- [x] Extended `validation/encoder_validation.ipynb` with pyModeS
+      cross-checks for both new message types (TEST 7, TEST 8) — same
+      "validate against an independent decoder" bar as the existing
+      tests. Still needed for TC 28/29/31 once implemented.
 
 **Why this order:** it's the cheapest milestone (same encode-only pattern
 as existing code, no new architectural concerns) and it's what makes
