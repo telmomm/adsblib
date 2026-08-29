@@ -19,7 +19,7 @@ matplotlib-inline==0.2.2
 nest-asyncio2==1.7.2
 numpy==2.4.6
 packaging==26.2
-pandas==3.0.3
+pandas==3.0.5
 parso==0.8.7
 pexpect==4.9.0
 pillow==12.2.0
