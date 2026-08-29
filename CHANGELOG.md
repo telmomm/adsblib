@@ -22,6 +22,9 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
   automatically whenever a component exceeds subtype 1's ±1022 kt range.
   Cross-checked against pyModeS in `validation/encoder_validation.ipynb`
   (TEST 8).
+- `.github/dependabot.yml`: automated weekly update PRs for GitHub Actions
+  (`.github/workflows/`) and the pinned validation notebook dependencies
+  (`validation/requirements.txt`).
 
 ### Changed
 - Moved `adsblib_roadmap_JOSS.md` to `developer-docs/JOSS_ROADMAP.md` to
