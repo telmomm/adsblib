@@ -2,6 +2,7 @@
 
 [![Documentation Status](https://img.shields.io/website?label=Documentation%20Status&url=https%3A%2F%2Ftelmomm.github.io%2Fadsblib%2F)](https://telmomm.github.io/adsblib/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22059849.svg)](https://doi.org/10.5281/zenodo.22059849)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=telmomm_adsblib&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=telmomm_adsblib)
 
 **adsblib** is a portable, deterministic C99 library for **encoding** ADS-B Out
 DF17 (Extended Squitter) messages — aircraft identification, airborne
