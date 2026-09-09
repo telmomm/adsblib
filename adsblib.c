@@ -181,8 +181,6 @@ static uint32_t encode_movement(double speed_kt)
     static const uint32_t bin_lb_code[6] = { 2U, 9U, 13U, 39U, 94U, 109U };
     static const double bin_lb_kt[6]     = { 0.125, 1.0, 2.0, 15.0, 70.0, 100.0 };
     static const double bin_step_kt[6]   = { 0.125, 0.25, 0.5, 1.0, 2.0, 5.0 };
-    int i;
-
     if (speed_kt < 0.125)
     {
         return 1U;  /* Aircraft stopped */
@@ -193,7 +191,7 @@ static uint32_t encode_movement(double speed_kt)
         return 124U;  /* 175 kt or more (open-ended) */
     }
 
-    for (i = 5; i >= 0; --i)
+    for (int i = 5; i >= 0; --i)
     {
         if (speed_kt >= bin_lb_kt[i])
         {
@@ -736,7 +734,6 @@ enc_status_t adsb_encode_velocity(const adsb_velocity_t *msg, uint8_t frame[ADSB
     double track_rad;
     double v_east;
     double v_north;
-    double resolution_kt;
     uint32_t subtype;
     int32_t ew_speed;
     int32_t ns_speed;
@@ -785,14 +782,12 @@ enc_status_t adsb_encode_velocity(const adsb_velocity_t *msg, uint8_t frame[ADSB
     if ((ew_speed <= 1022) && (ns_speed <= 1022))
     {
         subtype = 1U;
-        resolution_kt = 1.0;
     }
     else
     {
         subtype = 2U;
-        resolution_kt = 4.0;
-        ew_speed = (int32_t)lround(fabs(v_east) / resolution_kt);
-        ns_speed = (int32_t)lround(fabs(v_north) / resolution_kt);
+        ew_speed = (int32_t)lround(fabs(v_east) / 4.0);
+        ns_speed = (int32_t)lround(fabs(v_north) / 4.0);
     }
 
     if ((ew_speed > 1022) || (ns_speed > 1022))

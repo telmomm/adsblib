@@ -227,7 +227,12 @@ def test_surface_position(library: ctypes.CDLL) -> None:
             _, frame_hex = encode(library, "adsb_encode_surface_position", message)
             movement = payload_bits(frame_hex, 5, 7)
             decoded_speed = movement_reference_speed(movement)
-            expected_speed = 0.0 if speed < 0.125 else 175.0 if speed >= 175.0 else speed
+            if speed < 0.125:
+                expected_speed = 0.0
+            elif speed >= 175.0:
+                expected_speed = 175.0
+            else:
+                expected_speed = speed
             assert decoded_speed is not None
             assert abs(decoded_speed - expected_speed) <= 6.0
             decoded_track = payload_bits(frame_hex, 13, 7) * 360.0 / 128.0

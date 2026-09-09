@@ -16,9 +16,7 @@
 static uint32_t frame_get_bits(const uint8_t frame[ADSB_FRAME_BYTES], uint32_t start_bit, uint32_t num_bits)
 {
     uint32_t value = 0U;
-    uint32_t bit_index;
-
-    for (bit_index = 0U; bit_index < num_bits; ++bit_index)
+    for (uint32_t bit_index = 0U; bit_index < num_bits; ++bit_index)
     {
         uint32_t absolute_bit = start_bit + bit_index;
         uint32_t byte_index = absolute_bit / 8U;
