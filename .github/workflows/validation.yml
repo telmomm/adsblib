@@ -1,0 +1,76 @@
+name: Validation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "adsblib.c"
+      - "adsblib.h"
+      - "validation/**"
+      - ".github/workflows/validation.yml"
+  pull_request:
+    paths:
+      - "adsblib.c"
+      - "adsblib.h"
+      - "validation/**"
+      - ".github/workflows/validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  c-unit-tests:
+    name: C unit tests (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build and run C unit tests
+        run: |
+          cc -std=c99 -Wall -Wextra -Werror \
+            validation/test_encoder.c adsblib.c -lm \
+            -o validation/test_encoder
+          ./validation/test_encoder
+
+  python-integration:
+    name: pyModeS integration (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: validation/requirements.txt
+
+      - name: Install integration dependencies
+        run: python -m pip install -r validation/requirements-ci.txt
+
+      - name: Build shared library
+        shell: bash
+        run: |
+          if [[ "$RUNNER_OS" == "macOS" ]]; then
+            cc -std=c99 -Wall -Wextra -Werror -dynamiclib \
+              -o adsblib.dylib adsblib.c -lm
+          else
+            cc -std=c99 -Wall -Wextra -Werror -fPIC -shared \
+              -o adsblib.so adsblib.c -lm
+          fi
+
+      - name: Run pyModeS integration validation
+        run: python validation/validate_with_pymodes.py

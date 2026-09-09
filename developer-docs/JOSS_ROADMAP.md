@@ -22,15 +22,15 @@
 
 ## Fase 1 (mes 1-2): Suite de tests + CI
 
-- [ ] Convertir `encoder_validation.ipynb` en tests unitarios reproducibles en C (framework tipo **Unity**, **CMocka** o **Check**), no solo notebook.
+- [x] Añadir `validation/test_encoder.c` como tests unitarios reproducibles en C, sin framework externo ni dependencia de Python.
 - [ ] Cobertura de tests para cada función pública: identificación, posición (CPR par/impar), velocidad, CRC24.
 - [ ] Añadir **casos límite y de error** (inputs inválidos, overflow, callsigns fuera de rango) — no solo el "happy path".
-- [ ] Configurar **GitHub Actions**:
+- [x] Configurar **GitHub Actions**:
   - Build en Linux y macOS (matrix build).
-  - Ejecutar suite de tests en cada push/PR.
-  - Linting estático (`clang-tidy`, `cppcheck`).
+  - Ejecutar la validación cruzada reproducible de pyModeS en cada push/PR.
+  - Linting estático (`clang-tidy`, `cppcheck`) — pendiente.
   - Badge de build status en el README.
-- [ ] Mantener el notebook de validación contra pyModeS como **test de integración cruzada** (comparas tu encoder contra un decoder de referencia externo) — esto es una señal de calidad muy fuerte, consérvalo.
+- [x] Mantener la validación contra pyModeS como **test de integración cruzada** (comparas tu encoder contra un decoder de referencia externo), con un script reproducible en CI y el notebook como ejemplo interactivo.
 - [ ] Objetivo de cobertura de código: idealmente >80% (usa `gcov`/`lcov`, publica el badge).
 
 ## Fase 2 (mes 2-4): Robustez de la librería
@@ -79,7 +79,7 @@ Esto es lo que más te falta y lo que JOSS más escrutina. Opciones, de más a m
 |---|---|---|
 | Licencia OSI-aprobada | ✅ MIT | No |
 | 6+ meses historial activo/distribuido | ❌ 2 commits | **Sí** |
-| Tests automatizados + CI | ❌ | **Sí** |
+| Tests automatizados + CI | ✅ tests unitarios C + integración pyModeS en CI | No |
 | Evidencia de uso en investigación | ❌ | **Sí** |
 | Statement of Need explícito | ❌ | Sí (fácil de arreglar) |
 | Comparación con software similar | ❌ | Sí (fácil de arreglar) |

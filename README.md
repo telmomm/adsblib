@@ -60,7 +60,9 @@ pyModeS's decoder (see [Validation](#validation)).
 | --- | --- |
 | [`adsblib.h`](adsblib.h) | Public library API |
 | [`adsblib.c`](adsblib.c) | Implementation |
+| [`validation/test_encoder.c`](validation/test_encoder.c) | Independent C unit tests |
 | [`validation/encoder_validation.ipynb`](validation/encoder_validation.ipynb) | Validation notebook (CRC, callsign, CPR, altitude, velocity, stress tests) |
+| [`validation/validate_with_pymodes.py`](validation/validate_with_pymodes.py) | CI-ready pyModeS integration validation |
 | [`validation/requirements.txt`](validation/requirements.txt) | Python dependencies for the validation notebook |
 | [`Doxyfile`](Doxyfile) | Doxygen configuration used to build the API docs |
 | [`developer-docs/`](developer-docs/) | Mission/scope, architecture, capability roadmap, and design decisions |
@@ -192,15 +194,35 @@ notebook covers:
 - Stress tests
 - Surface position (movement field + ground track)
 - Velocity, supersonic subtype
+- Aircraft status / emergency and priority status (Type Code 28)
+- Target state and status (Type Code 29)
+- Aircraft operational status (Type Code 31)
+
+The independent C unit tests are the quickest local check and require no
+Python or external packages:
+
+```bash
+cc -std=c99 -Wall -Wextra -Werror validation/test_encoder.c adsblib.c -lm -o /tmp/adsblib-test
+/tmp/adsblib-test
+```
+
+They run in GitHub Actions on every push to `main` and every pull request,
+on both Linux and macOS. They cover the public encoders, frame utilities,
+CRC generation/verification, field quantization, and invalid-input status
+codes.
+
+The cross-decoder integration validation remains in the notebook:
 
 ```bash
 pip install -r validation/requirements.txt
 jupyter notebook validation/encoder_validation.ipynb
 ```
 
-Unit tests with CI are planned — see
-[`developer-docs/JOSS_ROADMAP.md`](developer-docs/JOSS_ROADMAP.md) for
-status.
+The CI entry point is the headless script
+[`validation/validate_with_pymodes.py`](validation/validate_with_pymodes.py),
+which uses only the minimal dependencies in
+`validation/requirements-ci.txt`. The notebook remains as an interactive,
+more extensive example of the same cross-decoder validation.
 
 ## Roadmap and design
 

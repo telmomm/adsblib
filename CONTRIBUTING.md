@@ -34,22 +34,39 @@ ls -lh adsblib.dylib adsblib.so
 
 ## Validation
 
+The independent C unit tests are the quickest local check and do not require
+Python or external packages:
+
+```bash
+cc -std=c99 -Wall -Wextra -Werror validation/test_encoder.c adsblib.c -lm -o /tmp/adsblib-test
+/tmp/adsblib-test
+```
+
 Encoder correctness is validated through
 [`validation/encoder_validation.ipynb`](validation/encoder_validation.ipynb), which
 cross-checks adsblib's output against [pyModeS](https://github.com/junzis/pyModeS) — CRC,
 callsign, CPR, altitude, velocity (subsonic and supersonic), surface position, and stress
 tests.
 
+The CI-ready integration command is the script version of this validation:
+
+```bash
+pip install -r validation/requirements-ci.txt
+python validation/validate_with_pymodes.py
+```
+
+The notebook remains available as an interactive example with plots and
+expanded exploratory output.
+
 The notebook loads adsblib through `ctypes`, so **you must build the shared library before
-running it**, and it must be built *into the `validation/` directory* (the notebook looks for
-`adsblib.dylib`/`adsblib.so` next to itself, not at the repo root):
+running it**. It looks in the current directory and then the repository root:
 
 ```bash
 # macOS
-cc -std=c99 -Wall -Wextra -Werror -dynamiclib -o validation/adsblib.dylib adsblib.c -lm
+cc -std=c99 -Wall -Wextra -Werror -dynamiclib -o adsblib.dylib adsblib.c -lm
 
 # Linux
-cc -std=c99 -Wall -Wextra -Werror -fPIC -shared -o validation/adsblib.so adsblib.c -lm
+cc -std=c99 -Wall -Wextra -Werror -fPIC -shared -o adsblib.so adsblib.c -lm
 
 python3 -m venv validation/.venv
 source validation/.venv/bin/activate   # Windows: validation\.venv\Scripts\activate
@@ -63,8 +80,7 @@ Then run all cells (Run All / Restart & Run All). Notes:
   the shared library once per process; re-running "Run All" without restarting the kernel can
   silently keep testing the previous build. Use *Kernel → Restart & Run All*, not just
   *Run All*, whenever the library changed.
-- The built `.dylib`/`.so` in `validation/` is a local artifact (already covered by
-  `.gitignore`) — don't commit it.
+- The built `.dylib`/`.so` is a local artifact (already covered by `.gitignore`) — don't commit it.
 - If you'd rather run it headlessly instead of opening Jupyter (e.g. to sanity-check from a
   terminal or a script), `nbclient` executes the notebook end-to-end and writes the outputs
   back into the `.ipynb`:
