@@ -28,7 +28,14 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Doxygen
-        run: sudo apt-get update && sudo apt-get install -y doxygen
+        run: |
+          # The hosted runner may include Google's Chrome repository. Its
+          # rotating index can fail apt-get update independently of Doxygen.
+          sudo find /etc/apt/sources.list.d -maxdepth 1 -type f \
+            \( -iname '*google*' -o -iname '*chrome*' \) -delete
+          sudo rm -f /var/lib/apt/lists/*google* /var/lib/apt/lists/*chrome*
+          sudo apt-get update
+          sudo apt-get install -y doxygen
 
       - name: Generate documentation
         run: doxygen Doxyfile
