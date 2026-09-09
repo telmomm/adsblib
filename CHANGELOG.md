@@ -7,6 +7,8 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-09-09
+
 ### Added
 - `adsb_encode_operational_status()`: DF17 Aircraft Operational Status
   (Type Code 31 / BDS 6,5), with version- and subtype-specific fields kept
@@ -33,10 +35,20 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 - `.github/dependabot.yml`: automated weekly update PRs for GitHub Actions
   (`.github/workflows/`) and the pinned validation notebook dependencies
   (`validation/requirements.txt`).
+- `validation/test_encoder.c`: standalone C unit tests for the public API,
+  including Type Codes 28, 29, and 31.
+- `validation/validate_with_pymodes.py`: reproducible pyModeS integration
+  validation used by CI.
+- `.github/workflows/validation.yml`: Linux/macOS C unit and pyModeS
+  integration validation jobs.
+- `validation/requirements-ci.lock`: hash-locked Python dependencies for CI.
 
 ### Changed
 - Moved `adsblib_roadmap_JOSS.md` to `developer-docs/JOSS_ROADMAP.md` to
   live alongside the rest of the developer documentation.
+- Separated fast C unit tests from the pyModeS cross-decoder integration
+  validation; the notebook remains as an interactive example.
+- Added CI dependency locking with verified package hashes.
 
 ## [0.1.0] - 2026-08-22
 

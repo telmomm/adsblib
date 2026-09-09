@@ -47,7 +47,7 @@ static int test_frame_utilities(void)
     adsb_frame_clear(cleared);
     CHECK(frame_get_bits(cleared, 0U, ADSB_FRAME_BITS) == 0U);
 
-    CHECK(strcmp(adsb_version_string(), "0.1.0") == 0);
+    CHECK(strcmp(adsb_version_string(), "0.2.0") == 0);
     return 0;
 }
 

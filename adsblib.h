@@ -13,7 +13,7 @@ extern "C" {
  * ============================================================ */
 
 #define ADSBLIB_VERSION_MAJOR  0
-#define ADSBLIB_VERSION_MINOR  1
+#define ADSBLIB_VERSION_MINOR  2
 #define ADSBLIB_VERSION_PATCH  0
 
 /**
