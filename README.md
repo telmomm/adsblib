@@ -221,7 +221,7 @@ jupyter notebook validation/encoder_validation.ipynb
 The CI entry point is the headless script
 [`validation/validate_with_pymodes.py`](validation/validate_with_pymodes.py),
 which uses only the minimal dependencies in
-`validation/requirements-ci.txt`. The notebook remains as an interactive,
+`validation/requirements-ci.lock`. The notebook remains as an interactive,
 more extensive example of the same cross-decoder validation.
 
 ## Roadmap and design

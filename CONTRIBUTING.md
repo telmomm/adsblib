@@ -51,7 +51,7 @@ tests.
 The CI-ready integration command is the script version of this validation:
 
 ```bash
-pip install -r validation/requirements-ci.txt
+pip install --require-hashes -r validation/requirements-ci.lock
 python validation/validate_with_pymodes.py
 ```
 
