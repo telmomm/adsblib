@@ -48,6 +48,15 @@ typedef enum
     ENC_INVALID_SPEED,
     ENC_INVALID_TRACK,
     ENC_INVALID_VERTICAL_RATE,
+    ENC_INVALID_EMERGENCY_STATE,
+    ENC_INVALID_MODE_A_CODE,
+    ENC_INVALID_SELECTED_ALTITUDE,
+    ENC_INVALID_BARO_PRESSURE,
+    ENC_INVALID_NAC_P,
+    ENC_INVALID_SIL,
+    ENC_INVALID_HEADING,
+    ENC_INVALID_OPERATIONAL_SUBTYPE,
+    ENC_INVALID_ADSB_VERSION,
 
     ENC_CPR_ERROR,
     ENC_INTERNAL_ERROR
@@ -139,6 +148,97 @@ typedef struct
 } adsb_velocity_t;
 
 /* ============================================================
+ * Emergency / Priority Status
+ * ============================================================ */
+
+typedef enum
+{
+    ADSB_EMERGENCY_NONE = 0,
+    ADSB_EMERGENCY_GENERAL,
+    ADSB_EMERGENCY_LIFEGUARD,
+    ADSB_EMERGENCY_MINIMUM_FUEL,
+    ADSB_EMERGENCY_NO_COMMUNICATIONS,
+    ADSB_EMERGENCY_UNLAWFUL_INTERFERENCE,
+    ADSB_EMERGENCY_DOWNED_AIRCRAFT
+
+} adsb_emergency_state_t;
+
+typedef struct
+{
+    uint32_t icao;
+
+    adsb_emergency_state_t emergency_state;
+
+    /* Four-digit Mode A code, represented as an octal value (0000..7777). */
+    uint16_t mode_a_code;
+
+} adsb_emergency_t;
+
+/* ============================================================
+ * Target State and Status
+ * ============================================================ */
+
+typedef enum
+{
+    ADSB_ALTITUDE_SOURCE_MCP = 0,
+    ADSB_ALTITUDE_SOURCE_FMS = 1
+
+} adsb_altitude_source_t;
+
+typedef struct
+{
+    uint32_t icao;
+
+    /* -1 means not available; otherwise encoded at 32 ft resolution. */
+    int32_t selected_altitude_ft;
+    adsb_altitude_source_t selected_altitude_source;
+
+    /* -1.0 means not available; otherwise encoded at 0.8 mbar resolution. */
+    double barometric_pressure_mbar;
+
+    bool selected_heading_valid;
+    double selected_heading_deg;
+
+    uint8_t nac_p;
+    bool nic_baro;
+    uint8_t sil;
+
+    bool mode_status;
+    bool autopilot_engaged;
+    bool vnav_mode;
+    bool altitude_hold_mode;
+    bool approach_mode;
+    bool tcas_operational;
+    bool lnav_mode;
+
+} adsb_target_state_t;
+
+/* ============================================================
+ * Aircraft Operational Status
+ * ============================================================ */
+
+typedef struct
+{
+    uint32_t icao;
+
+    /* Subtype 0 is airborne; subtype 1 is surface for ADS-B v1/v2. */
+    uint8_t subtype;
+
+    /* Version- and subtype-specific BDS 6,5 bit regions, kept raw. */
+    uint16_t capability_class;
+    uint16_t operational_mode;
+
+    uint8_t adsb_version;
+    bool nic_supplement_a;
+    uint8_t nac_p;
+    uint8_t sil;
+    bool nic_baro;
+    bool heading_reference_magnetic;
+    bool sil_supplement;
+
+} adsb_operational_status_t;
+
+/* ============================================================
  * Public Encoding Functions
  * ============================================================ */
 
@@ -174,6 +274,32 @@ enc_status_t adsb_encode_surface_position(
  */
 enc_status_t adsb_encode_velocity(
     const adsb_velocity_t *msg,
+    uint8_t frame[ADSB_FRAME_BYTES]
+);
+
+/**
+ * Encode DF17 Aircraft Status / Emergency and Priority Status message
+ * (Type Code 28, subtype 1).
+ */
+enc_status_t adsb_encode_emergency(
+    const adsb_emergency_t *msg,
+    uint8_t frame[ADSB_FRAME_BYTES]
+);
+
+/**
+ * Encode DF17 Target State and Status message (Type Code 29, subtype 1).
+ */
+enc_status_t adsb_encode_target_state(
+    const adsb_target_state_t *msg,
+    uint8_t frame[ADSB_FRAME_BYTES]
+);
+
+/**
+ * Encode DF17 Aircraft Operational Status message
+ * (Type Code 31, BDS 6,5).
+ */
+enc_status_t adsb_encode_operational_status(
+    const adsb_operational_status_t *msg,
     uint8_t frame[ADSB_FRAME_BYTES]
 );
 

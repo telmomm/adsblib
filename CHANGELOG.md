@@ -8,6 +8,14 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 ## [Unreleased]
 
 ### Added
+- `adsb_encode_operational_status()`: DF17 Aircraft Operational Status
+  (Type Code 31 / BDS 6,5), with version- and subtype-specific fields kept
+  as raw capability and operational mode bit regions.
+- `adsb_encode_target_state()`: DF17 Target State and Status (Type Code 29,
+  subtype 1), including selected altitude, barometric pressure, heading,
+  navigation accuracy, and autopilot mode flags.
+- `adsb_encode_emergency()`: DF17 Aircraft Status / Emergency and Priority
+  Status (Type Code 28, subtype 1), including Mode A/Gillham encoding.
 - `developer-docs/`: mission/vision/scope, architecture (current and
   target module layout), a capability roadmap (`ROADMAP.md`) covering
   full DF17 message-type coverage, RF/IQ signal synthesis, and scenario

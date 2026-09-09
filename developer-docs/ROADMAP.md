@@ -31,13 +31,16 @@ overstatement relative to the DF17 spec. Close that gap:
 - [x] Supersonic airborne velocity subtype. `adsb_encode_velocity()` now
       selects subtype 1 (subsonic, 1 kt/LSB) or subtype 2 (supersonic,
       4 kt/LSB) automatically, per velocity component.
-- [ ] Aircraft status / emergency & priority status (Type Code 28).
-- [ ] Target state and status (Type Code 29).
-- [ ] Aircraft operational status (Type Code 31).
+- [x] Aircraft status / emergency & priority status (Type Code 28), via
+      `adsb_encode_emergency()` (subtype 1 with Mode A/Gillham encoding).
+- [x] Target state and status (Type Code 29), via
+      `adsb_encode_target_state()` (subtype 1 / BDS 6,2).
+- [x] Aircraft operational status (Type Code 31), via
+      `adsb_encode_operational_status()` (BDS 6,5).
 - [x] Extended `validation/encoder_validation.ipynb` with pyModeS
-      cross-checks for both new message types (TEST 7, TEST 8) — same
+      cross-checks for the implemented message types (TEST 7–11) — same
       "validate against an independent decoder" bar as the existing
-      tests. Still needed for TC 28/29/31 once implemented.
+      tests.
 
 **Why this order:** it's the cheapest milestone (same encode-only pattern
 as existing code, no new architectural concerns) and it's what makes

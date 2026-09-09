@@ -44,6 +44,9 @@ pyModeS's decoder (see [Validation](#validation)).
 ## Features
 
 - Aircraft Identification encoding (Type Codes 1–4)
+- Aircraft Status / Emergency and Priority Status encoding (Type Code 28)
+- Target State and Status encoding (Type Code 29)
+- Aircraft Operational Status encoding (Type Code 31)
 - Airborne Position encoding with even/odd CPR
 - Surface Position encoding (Type Code 8) with movement/ground-track fields
 - Airborne Velocity encoding (Type Code 19), subsonic and supersonic
@@ -128,6 +131,9 @@ allocates memory.
 | `adsb_encode_position` | Encode a DF17 Airborne Position message (even/odd CPR) |
 | `adsb_encode_surface_position` | Encode a DF17 Surface Position message (movement + ground track) |
 | `adsb_encode_velocity` | Encode a DF17 Airborne Velocity message (subsonic or supersonic) |
+| `adsb_encode_emergency` | Encode a DF17 Aircraft Status / Emergency and Priority Status message |
+| `adsb_encode_target_state` | Encode a DF17 Target State and Status message |
+| `adsb_encode_operational_status` | Encode a DF17 Aircraft Operational Status message |
 | `adsb_crc24` | Compute Mode-S CRC24 over the first 88 bits of a frame |
 | `adsb_apply_crc` | Insert CRC parity into a frame |
 | `adsb_verify_crc` | Verify a frame's CRC |

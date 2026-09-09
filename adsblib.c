@@ -75,6 +75,101 @@ static bool is_valid_vertical_rate(int32_t vr_fpm)
     return (vr_fpm >= -32640) && (vr_fpm <= 32640);
 }
 
+static bool is_valid_emergency_state(adsb_emergency_state_t state)
+{
+    return (state >= ADSB_EMERGENCY_NONE) &&
+           (state <= ADSB_EMERGENCY_DOWNED_AIRCRAFT);
+}
+
+static bool is_valid_mode_a_code(uint16_t mode_a_code)
+{
+    return mode_a_code <= 07777U;
+}
+
+static bool is_valid_altitude_source(adsb_altitude_source_t source)
+{
+    return (source == ADSB_ALTITUDE_SOURCE_MCP) ||
+           (source == ADSB_ALTITUDE_SOURCE_FMS);
+}
+
+static enc_status_t encode_target_altitude(int32_t altitude_ft, uint32_t *altitude_field)
+{
+    long raw;
+
+    if (altitude_field == NULL)
+    {
+        return ENC_INVALID_SELECTED_ALTITUDE;
+    }
+    if (altitude_ft == -1)
+    {
+        *altitude_field = 0U;
+        return ENC_OK;
+    }
+    if ((altitude_ft < 0) || (altitude_ft > 65472))
+    {
+        return ENC_INVALID_SELECTED_ALTITUDE;
+    }
+
+    raw = lround((double)altitude_ft / 32.0) + 1L;
+    if ((raw < 1L) || (raw > 2047L))
+    {
+        return ENC_INVALID_SELECTED_ALTITUDE;
+    }
+
+    *altitude_field = (uint32_t)raw;
+    return ENC_OK;
+}
+
+static enc_status_t encode_barometric_pressure(double pressure_mbar, uint32_t *pressure_field)
+{
+    long raw;
+
+    if (pressure_field == NULL)
+    {
+        return ENC_INVALID_BARO_PRESSURE;
+    }
+    if (pressure_mbar == -1.0)
+    {
+        *pressure_field = 0U;
+        return ENC_OK;
+    }
+    if (!isfinite(pressure_mbar) || (pressure_mbar < 800.0) || (pressure_mbar > 1208.0))
+    {
+        return ENC_INVALID_BARO_PRESSURE;
+    }
+
+    raw = lround((pressure_mbar - 800.0) / 0.8) + 1L;
+    if ((raw < 1L) || (raw > 511L))
+    {
+        return ENC_INVALID_BARO_PRESSURE;
+    }
+
+    *pressure_field = (uint32_t)raw;
+    return ENC_OK;
+}
+
+static uint32_t encode_mode_a_code(uint16_t mode_a_code)
+{
+    uint32_t a = (mode_a_code >> 9U) & 0x7U;
+    uint32_t b = (mode_a_code >> 6U) & 0x7U;
+    uint32_t c = (mode_a_code >> 3U) & 0x7U;
+    uint32_t d = mode_a_code & 0x7U;
+
+    /* Gillham bit order: C1 A1 C2 A2 C4 A4 X B1 D1 B2 D2 B4 D4. */
+    return ((a & 4U) << 5U) |
+           ((a & 2U) << 8U) |
+           ((a & 1U) << 11U) |
+           ((b & 4U) >> 1U) |
+           ((b & 2U) << 2U) |
+           ((b & 1U) << 5U) |
+           ((c & 4U) << 6U) |
+           ((c & 2U) << 9U) |
+           ((c & 1U) << 12U) |
+           ((d & 4U) >> 2U) |
+           ((d & 2U) >> 1U) |
+           ((d & 1U) << 4U);
+}
+
 /*
  * Encode a ground speed (kt) into the 7-bit surface-position movement
  * field. The field is non-linear: 6 bins of increasing step size, plus
@@ -741,6 +836,177 @@ enc_status_t adsb_encode_velocity(const adsb_velocity_t *msg, uint8_t frame[ADSB
     frame_set_bits(frame, 78U, 2U, 0U);    /* Reserved */
     frame_set_bits(frame, 80U, 1U, 0U);    /* GNSS/baro diff sign */
     frame_set_bits(frame, 81U, 7U, 0U);    /* GNSS/baro diff unavailable */
+
+    adsb_apply_crc(frame);
+
+    return ENC_OK;
+}
+
+enc_status_t adsb_encode_emergency(const adsb_emergency_t *msg, uint8_t frame[ADSB_FRAME_BYTES])
+{
+    uint32_t mode_a_field;
+
+    if ((msg == NULL) || (frame == NULL))
+    {
+        return ENC_INVALID_ARGUMENT;
+    }
+
+    if (!is_valid_icao(msg->icao))
+    {
+        return ENC_INVALID_ICAO;
+    }
+    if (!is_valid_emergency_state(msg->emergency_state))
+    {
+        return ENC_INVALID_EMERGENCY_STATE;
+    }
+    if (!is_valid_mode_a_code(msg->mode_a_code))
+    {
+        return ENC_INVALID_MODE_A_CODE;
+    }
+
+    mode_a_field = encode_mode_a_code(msg->mode_a_code);
+
+    adsb_frame_clear(frame);
+
+    frame_set_bits(frame, 0U, 5U, ADSB_DF17);
+    frame_set_bits(frame, 5U, 3U, ADSB_CA);
+    frame_set_bits(frame, 8U, 24U, msg->icao & ADSB_ICAO_MAX);
+
+    frame_set_bits(frame, 32U, 5U, 28U);  /* Type code 28 */
+    frame_set_bits(frame, 37U, 3U, 1U);   /* Subtype 1 */
+    frame_set_bits(frame, 40U, 3U, (uint32_t)msg->emergency_state);
+    frame_set_bits(frame, 43U, 13U, mode_a_field & 0x1FFFU);
+    frame_set_bits(frame, 56U, 32U, 0U);  /* Reserved */
+
+    adsb_apply_crc(frame);
+
+    return ENC_OK;
+}
+
+enc_status_t adsb_encode_target_state(const adsb_target_state_t *msg, uint8_t frame[ADSB_FRAME_BYTES])
+{
+    uint32_t altitude_field;
+    uint32_t pressure_field;
+    uint32_t heading_field = 0U;
+    enc_status_t st;
+
+    if ((msg == NULL) || (frame == NULL))
+    {
+        return ENC_INVALID_ARGUMENT;
+    }
+    if (!is_valid_icao(msg->icao))
+    {
+        return ENC_INVALID_ICAO;
+    }
+    if (!is_valid_altitude_source(msg->selected_altitude_source))
+    {
+        return ENC_INVALID_ARGUMENT;
+    }
+    st = encode_target_altitude(msg->selected_altitude_ft, &altitude_field);
+    if (st != ENC_OK)
+    {
+        return st;
+    }
+    st = encode_barometric_pressure(msg->barometric_pressure_mbar, &pressure_field);
+    if (st != ENC_OK)
+    {
+        return st;
+    }
+    if (msg->nac_p > 15U)
+    {
+        return ENC_INVALID_NAC_P;
+    }
+    if (msg->sil > 3U)
+    {
+        return ENC_INVALID_SIL;
+    }
+    if (msg->selected_heading_valid)
+    {
+        if (!is_valid_track(msg->selected_heading_deg))
+        {
+            return ENC_INVALID_HEADING;
+        }
+        heading_field = (uint32_t)lround(msg->selected_heading_deg * (512.0 / 360.0)) & 0x1FFU;
+    }
+
+    adsb_frame_clear(frame);
+
+    frame_set_bits(frame, 0U, 5U, ADSB_DF17);
+    frame_set_bits(frame, 5U, 3U, ADSB_CA);
+    frame_set_bits(frame, 8U, 24U, msg->icao & ADSB_ICAO_MAX);
+
+    frame_set_bits(frame, 32U, 5U, 29U);  /* Type code 29 */
+    frame_set_bits(frame, 37U, 2U, 1U);   /* Subtype 1 */
+    frame_set_bits(frame, 39U, 1U, 0U);   /* SIL supplement, reserved */
+    frame_set_bits(frame, 40U, 1U, (uint32_t)msg->selected_altitude_source);
+    frame_set_bits(frame, 41U, 11U, altitude_field);
+    frame_set_bits(frame, 52U, 9U, pressure_field);
+    frame_set_bits(frame, 61U, 1U, msg->selected_heading_valid ? 1U : 0U);
+    frame_set_bits(frame, 62U, 9U, heading_field);
+    frame_set_bits(frame, 71U, 4U, msg->nac_p);
+    frame_set_bits(frame, 75U, 1U, msg->nic_baro ? 1U : 0U);
+    frame_set_bits(frame, 76U, 2U, msg->sil);
+    frame_set_bits(frame, 78U, 1U, msg->mode_status ? 1U : 0U);
+    frame_set_bits(frame, 79U, 1U, msg->mode_status && msg->autopilot_engaged ? 1U : 0U);
+    frame_set_bits(frame, 80U, 1U, msg->mode_status && msg->vnav_mode ? 1U : 0U);
+    frame_set_bits(frame, 81U, 1U, msg->mode_status && msg->altitude_hold_mode ? 1U : 0U);
+    frame_set_bits(frame, 82U, 1U, 0U);   /* IMF / ADS-R, reserved */
+    frame_set_bits(frame, 83U, 1U, msg->mode_status && msg->approach_mode ? 1U : 0U);
+    frame_set_bits(frame, 84U, 1U, msg->tcas_operational ? 1U : 0U);
+    frame_set_bits(frame, 85U, 1U, msg->mode_status && msg->lnav_mode ? 1U : 0U);
+    frame_set_bits(frame, 86U, 2U, 0U);   /* Reserved */
+
+    adsb_apply_crc(frame);
+
+    return ENC_OK;
+}
+
+enc_status_t adsb_encode_operational_status(const adsb_operational_status_t *msg, uint8_t frame[ADSB_FRAME_BYTES])
+{
+    if ((msg == NULL) || (frame == NULL))
+    {
+        return ENC_INVALID_ARGUMENT;
+    }
+    if (!is_valid_icao(msg->icao))
+    {
+        return ENC_INVALID_ICAO;
+    }
+    if (msg->subtype > 1U)
+    {
+        return ENC_INVALID_OPERATIONAL_SUBTYPE;
+    }
+    if (msg->adsb_version > 7U)
+    {
+        return ENC_INVALID_ADSB_VERSION;
+    }
+    if (msg->nac_p > 15U)
+    {
+        return ENC_INVALID_NAC_P;
+    }
+    if (msg->sil > 3U)
+    {
+        return ENC_INVALID_SIL;
+    }
+
+    adsb_frame_clear(frame);
+
+    frame_set_bits(frame, 0U, 5U, ADSB_DF17);
+    frame_set_bits(frame, 5U, 3U, ADSB_CA);
+    frame_set_bits(frame, 8U, 24U, msg->icao & ADSB_ICAO_MAX);
+
+    frame_set_bits(frame, 32U, 5U, 31U);  /* Type code 31 */
+    frame_set_bits(frame, 37U, 3U, msg->subtype);
+    frame_set_bits(frame, 40U, 16U, msg->capability_class);
+    frame_set_bits(frame, 56U, 16U, msg->operational_mode);
+    frame_set_bits(frame, 72U, 3U, msg->adsb_version);
+    frame_set_bits(frame, 75U, 1U, msg->nic_supplement_a ? 1U : 0U);
+    frame_set_bits(frame, 76U, 4U, msg->nac_p);
+    frame_set_bits(frame, 80U, 2U, 0U);  /* GVA / reserved */
+    frame_set_bits(frame, 82U, 2U, msg->sil);
+    frame_set_bits(frame, 84U, 1U, msg->nic_baro ? 1U : 0U);
+    frame_set_bits(frame, 85U, 1U, msg->heading_reference_magnetic ? 1U : 0U);
+    frame_set_bits(frame, 86U, 1U, msg->sil_supplement ? 1U : 0U);
+    frame_set_bits(frame, 87U, 1U, 0U);  /* Reserved */
 
     adsb_apply_crc(frame);
 
