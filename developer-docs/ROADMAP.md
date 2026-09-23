@@ -55,28 +55,23 @@ decode. See [`ARCHITECTURE.md`](ARCHITECTURE.md#target-layout) for the
 module boundary and [`decisions/0005-optional-modules-boundary.md`](decisions/0005-optional-modules-boundary.md)
 for why this lives outside the core.
 
-- [ ] Define the modulation model: 1090ES uses PPM (pulse position
-      modulation) at 1 Mbit/s with a fixed preamble; settle the exact
-      sample representation (real-valued envelope vs. complex IQ) based
-      on target consumers (SDR TX chains typically want complex IQ).
-- [ ] `adsb_signal_sample_count()` — given a sample rate, return the
+- [x] Define the modulation model. Settled in
+      [`decisions/0007-signal-modulation-model.md`](decisions/0007-signal-modulation-model.md):
+      rectangular PPM pulses as complex baseband CF32 (interleaved float
+      I/Q), at sample rates that are positive multiples of 2 MHz.
+- [x] `adsb_signal_sample_count()` — given a sample rate, return the
       number of samples a modulated frame will need, so the *caller*
       allocates (keeps the module itself allocation-free).
 - [ ] `adsb_signal_modulate()` — DF17 frame + sample rate + caller buffer
       -> modulated samples.
-- [ ] Validate modulated output by demodulating it back (either with a
-      minimal internal demodulator used only for self-test, or by
-      round-tripping through an external tool such as `dump1090` in a
-      test harness) and confirming it decodes to the original frame.
+- [ ] Validate modulated output with a test-only demodulator in
+      `validation/test_signal.c` (not library code, per
+      [`decisions/0003-encoder-only-core.md`](decisions/0003-encoder-only-core.md)).
+- [ ] Cross-check modulated output against an independent Mode S
+      receiver (`--ifile` input, 2 MHz demodulator) in CI.
 - [ ] Document target sample formats/rates and at least one worked
       example of feeding output to a real SDR TX path or a receiver's
-      test input.
-
-**Open design question to resolve before implementation:** whether
-"validate by demodulating" requires adsblib to grow an internal decoder.
-If so, that decoder must stay scoped to *self-verification of adsblib's
-own output* — see [`decisions/0003-encoder-only-core.md`](decisions/0003-encoder-only-core.md)
-for why it should not become a general-purpose public decoding API.
+      test input (including CF32 → CS8/CU8 conversion).
 
 ## M3 — Scenario / trajectory generation (`adsblib_scenario`)
 

@@ -34,11 +34,11 @@ As the [roadmap](ROADMAP.md) is executed, new capabilities are added as
 ```
 adsblib/
 ├── adsblib.h / adsblib.c          Core encoder (unchanged guarantees)
-├── adsblib_signal.h / .c          [planned] PPM/Manchester modulation:
-│                                   DF17 frame -> IQ sample buffer at a
-│                                   configurable sample rate. Depends on
-│                                   the core; may use floating-point
-│                                   sample buffers supplied by the caller.
+├── adsblib_signal.h / .c          [in progress] 1090ES PPM modulation:
+│                                   DF17 frame -> CF32 IQ sample buffer at
+│                                   a multiple of 2 MHz. Depends on the
+│                                   core; the caller supplies the buffer.
+│                                   See decisions/0007.
 ├── adsblib_scenario.h / .c        [planned] Multi-frame scenario
 │                                   generation: aircraft state evolving
 │                                   over time -> a sequence of correctly
