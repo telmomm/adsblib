@@ -6,12 +6,16 @@ on:
     paths:
       - "adsblib.c"
       - "adsblib.h"
+      - "adsblib_signal.c"
+      - "adsblib_signal.h"
       - "validation/**"
       - ".github/workflows/validation.yml"
   pull_request:
     paths:
       - "adsblib.c"
       - "adsblib.h"
+      - "adsblib_signal.c"
+      - "adsblib_signal.h"
       - "validation/**"
       - ".github/workflows/validation.yml"
   workflow_dispatch:
@@ -38,6 +42,13 @@ jobs:
             validation/test_encoder.c adsblib.c -lm \
             -o validation/test_encoder
           ./validation/test_encoder
+
+      - name: Build and run signal module unit tests
+        run: |
+          cc -std=c99 -Wall -Wextra -Werror \
+            validation/test_signal.c adsblib_signal.c adsblib.c -lm \
+            -o validation/test_signal
+          ./validation/test_signal
 
   python-integration:
     name: pyModeS integration (${{ matrix.os }})

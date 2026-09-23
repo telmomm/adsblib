@@ -40,6 +40,10 @@ Python or external packages:
 ```bash
 cc -std=c99 -Wall -Wextra -Werror validation/test_encoder.c adsblib.c -lm -o /tmp/adsblib-test
 /tmp/adsblib-test
+
+# Optional signal synthesis module (adsblib_signal)
+cc -std=c99 -Wall -Wextra -Werror validation/test_signal.c adsblib_signal.c adsblib.c -lm -o /tmp/adsblib-signal-test
+/tmp/adsblib-signal-test
 ```
 
 Encoder correctness is validated through

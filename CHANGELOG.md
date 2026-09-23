@@ -7,6 +7,16 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 ## [Unreleased]
 
+### Added
+- `adsblib_signal.h`/`.c`: new optional signal synthesis module (M2).
+  It currently provides `adsb_signal_sample_count()`, which sizes the
+  caller-allocated CF32 IQ buffer for one modulated DF17 frame, plus the
+  1090ES waveform constants. Unit tests are in `validation/test_signal.c`
+  and run in CI.
+- ADR `0007-signal-modulation-model.md`: modulation model (rectangular
+  PPM, complex baseband CF32), supported sample rates (multiples of
+  2 MHz), and the validation strategy for the signal module.
+
 ## [0.2.0] - 2026-09-09
 
 ### Added
